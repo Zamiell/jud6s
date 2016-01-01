@@ -1,0 +1,39 @@
+<AnimatedActor>
+	<Info CreatedBy="" CreatedOn="06.06.2014 22:24:15" Version="1" Fps="107844072"/>
+	<Content>
+		<Spritesheets>
+			<Spritesheet Path="GiantBook_010_Bible.png" Id="0"/>
+		</Spritesheets>
+		<Layers>
+			<Layer Name="" Id="0" SpritesheetId="0"/>
+		</Layers>
+		<Nulls/>
+		<Events/>
+	</Content>
+	<Animations DefaultAnimation="Idle">
+		<Animation Name="Idle" FrameNum="0" Loop="true">
+			<RootAnimation>
+			</RootAnimation>
+			<LayerAnimations>
+			</LayerAnimations>
+			<NullAnimations/>
+			<Triggers/>
+		</Animation>
+		<Animation Name="Appear" FrameNum="0" Loop="false">
+			<RootAnimation>
+			</RootAnimation>
+			<LayerAnimations>
+			</LayerAnimations>
+			<NullAnimations/>
+			<Triggers/>
+		</Animation>
+		<Animation Name="Shake" FrameNum="0" Loop="false">
+			<RootAnimation Delay="0">
+			</RootAnimation>
+			<LayerAnimations>
+			</LayerAnimations>
+			<NullAnimations/>
+			<Triggers/>
+		</Animation>
+	</Animations>
+</AnimatedActor>

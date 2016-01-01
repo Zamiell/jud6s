@@ -1,0 +1,24 @@
+<AnimatedActor>
+	<Info CreatedBy="" CreatedOn="05.06.2014 01:16:31" Version="1" Fps="30"/>
+	<Content>
+		<Spritesheets>
+			<Spritesheet Path="GiantBook_013_HeartPiece.png" Id="0"/>
+		</Spritesheets>
+		<Layers>
+			<Layer Name="" Id="0" SpritesheetId="0"/>
+			<Layer Name="" Id="1" SpritesheetId="0"/>
+		</Layers>
+		<Nulls/>
+		<Events/>
+	</Content>
+	<Animations DefaultAnimation="Appear">
+		<Animation Name="Appear" FrameNum="0" Loop="false">
+			<RootAnimation>
+			</RootAnimation>
+			<LayerAnimations>
+			</LayerAnimations>
+			<NullAnimations/>
+			<Triggers/>
+		</Animation>
+	</Animations>
+</AnimatedActor>
