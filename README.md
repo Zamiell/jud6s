@@ -328,7 +328,7 @@ The removed rooms are as follows:
 * Chest: #42
 
 
-
+<br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
 #440 in caves/catacombs
