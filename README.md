@@ -42,6 +42,7 @@ To go back to an un-modded game, delete everything in the folder except for the 
 * All characters start with the D6 (except for Eve and Eden, as it isn't possible).
 * The Devil Rooms and Angel Rooms without pedestal items in them have been removed.
 * Judas starts with half of a red heart and half of a soul heart.
+* Judas starts with a bomb instead of 3 coins.
 * Cutscene/animation updates from the [Speed Mod](https://raw.githubusercontent.com/Zamiell/speed-mod) have been included.
 * More room variety: all rooms in the game will now appear on both easy and hard mode. Additionally, all non-special rooms are now equally likely to occur.
 * 4 golden chests will now spawn at the beginning of the Dark Room (instead of red chests).
@@ -98,7 +99,7 @@ The changed rooms are as follows:
 
 ### Double Champion Fix
 
-Some rooms have Monstros, Gurdy Jr.'s, or Cages that spawn near an entrance. If the double champion version spawns, the will be touched while the room is loading and automatically take damage. This bug is fixed by moving the enemies closer to the center of the room.
+Some rooms have Monstros, Gurdy Jr.'s, or Cages that spawn near an entrance. If the double champion version spawns, they will be touched while the room is loading and automatically take damage. This bug is fixed by moving the enemies closer to the center of the room.
 
 The changed rooms are as follows:
 * Chest: #43, #69 (Monstro)
@@ -107,6 +108,8 @@ The changed rooms are as follows:
 - move 1 square so that its 2 up and 2 right (gurdy jr.)
 * Chest: #34 (Cage)
 - Move 1 space inwards
+* The Dark Room: #14
+- move
 
 
 
@@ -121,6 +124,17 @@ The changed rooms are as follows:
 * Chest: #53, #72, #84
 - move 1 space inwards
 - search for more fistula rooms
+
+
+
+### Boom Fly Fix
+
+There is a 2x2 room in the Caves & Catacombs with a Boom Fly next to the entrance. If the player is Guppy and has a sufficient number of unused blue flies, the flies will kill the Boom Fly while the room is loading and the player will automatically take damage. This bug is fixed by moving the Boom Fly closer to the center of the room.
+
+The changed rooms are as follows:
+* Caves: #440
+* Catacombs: #440
+
 
 
 ### Begotten Fix
@@ -162,10 +176,38 @@ The changed rooms are as follows:
 
 ### Narrow Krampus Removal
 
-Which not technically unavoidable, in a narrow room, Krampus is much more likely to hit the player with an unavoidable spinning Brimstone attack.
+While not technically unavoidable, in a narrow room, Krampus is much more likely to hit the player with an unavoidable spinning Brimstone attack.
+
+The deleted rooms are as follows:
+* #2306
+* #2305
+
+
+
+### Narrow War Removal
+
+While not technically unavoidable, in a narrow room, it is near-impossible to dodge the charge attack of the second phase while at base movement speed.
 
 The deleted room is as follows:
-* #2306
+* #4036
+
+
+
+### Narrow The Gate Removal
+
+While not technically unavoidable, in a narrow room, there is not enough time to react to the red champion's attack patterns.
+
+The deleted room is as follows:
+* #5043
+
+
+### Narrow Angel Rooms
+
+While not technically unavoidable, they are near-impossible to do safely on a Dr. Fetus build.
+
+The deleted rooms are as follows:
+* Angel Room: #9
+* Cathedral: #286, #291
 
 
 
@@ -240,8 +282,10 @@ Upon entering certain rooms with TNT barrels, there is a small chance that they 
 
 The changed room is as follows:
 * Treasure Room: #13
+* Pride Mini-Boss Room: #2065
 * Basement: #748
 * Cellar: #748
+
 
 
 ### Narrow Red Poop Room Fix
@@ -296,7 +340,7 @@ The changed rooms are as follows:
 
 
 
-# Pin, Frail, and Scolex Fix
+### Pin, Frail, and Scolex Fix
 
 On Pin, Frail, and Scolex fights, there is an invisible hitbox during the beginning of the fight. On some rooms, this is near the entrance. This is fixed by moving the spawn to the center of the room.
 
@@ -314,6 +358,24 @@ The changed rooms are as follows:
 
 
 
+### Maggot Room Fix
+
+On the room filled with pits in the Caves, Maggots are unavoidable damage if they decide to path towards you at base damage. Furthermore, a Dr. Fetus build has no options with which to dodge the first bomb. This is fixed by moving the Maggots slightly towards the center of the room.
+
+The changed room is as follows:
+* Caves: #6
+
+
+
+### Sack Fix
+
+If a Sack is near an entrance and it spawns as the white champion version, the player will be touched while the room is loading and automatically take damage. This bug is fixed by moving the Sacks closer to the center of the room.
+
+The changed room is as follows:
+* Cellar: #236
+
+
+
 ### Empty Room Removal
 
 Several rooms in the game are completely empty of any objects at all.
@@ -327,21 +389,6 @@ The removed rooms are as follows:
 * Cathedral: #57, #89
 * Chest: #42
 
-
-<br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-
-#440 in caves/catacombs
-
-- iksar wanted to search for boom flies rooms in caves/catacombs
-- search for chargers in caves
-
-- search for mulligan rooms on the caves
-- search for troll bombs rooms on all floors?
-- change scolex spawn point to center of the room to get rid of unavoidable hitbox
-- narrow boss room vs. War where you take guaranteed damage when he does his charge attack.
-- cage room on the dark room
-- 1x1 Basement room with wall shooter at the bottom, egg sack on the left (Seed is GANQ PRE3, go up, right)
 
 
 ## Rooms That Were Deliberately Not Changed
