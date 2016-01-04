@@ -15,7 +15,7 @@ This is the mod used in several [Balls of Steel](http://www.ballsofsteel.tv/) we
 ## Version History
 
 * *1.3* - January 4th, 2016 - Updated the mod for Afterbirth and added some other goodies. Also moved the documentation from the Medium blog to GitHub.
-* *1.2* - July 13th, 2105 - Judas now starts with half of a soul heart in addition to his 1 red heart container. Made modifications to some buggy rooms.
+* *1.2* - July 13th, 2105 - Added half a soul heart to Judas. Made modifications to some buggy rooms.
 * *1.1* - July 1st, 2015 - The initial public release. The first weekly was played on this version.
 
 
@@ -23,6 +23,7 @@ This is the mod used in several [Balls of Steel](http://www.ballsofsteel.tv/) we
 ## Installation & Uninstallation
 
 Copy all of the files to: `C:\Program Files (x86)\Steam\steamapps\common\The Binding of Isaac Rebirth\resources\`
+
 To go back to an un-modded game, delete everything in the folder except for the "packed" directory.
 
 
@@ -41,12 +42,12 @@ To go back to an un-modded game, delete everything in the folder except for the 
 
 * All characters start with the D6 (except for Eve, Eden, and Keeper, as it isn't possible).
 * The Devil Rooms and Angel Rooms without pedestal items in them have been removed.
-* Judas starts with a bomb instead of 3 coins.
+* Judas starts with half a soul heart in addition to his 1 red heart container (so that he can consistently take a devil deal).
+* Judas starts with a bomb instead of 3 coins (so that he can get into the Treasure Room pedestal surrounded by rocks).
 * Cutscene/animation updates from the [Speed Mod](https://raw.githubusercontent.com/Zamiell/speed-mod) have been included.
 * More room variety: all rooms in the game will now appear on both easy and hard mode. Additionally, all non-special rooms are now equally likely to occur.
-* 4 golden chests will now spawn at the beginning of the Dark Room (instead of red chests).
-* The charge animations when using Brimstone, Monstro's Lung, Cursed Eye, and Chocolate Milk with some transformations has been fixed.
-* Some rooms with unavoidable damage or bugs have been fixed.
+* The charge animations when using Brimstone, Monstro's Lung, Cursed Eye, and Chocolate Milk with some transformations (such as Leviathan) has been fixed.
+* Many rooms with unavoidable damage or bugs have been fixed.
 
 ### Extra Changes in "Seeded Mode"
 * All characters start with The Compass.
@@ -54,6 +55,7 @@ To go back to an un-modded game, delete everything in the folder except for the 
 * Pandora's Box is removed from all item pools.
 
 ### Extra Changes for "Dark Room Mode"
+* 4 golden chests will now spawn at the beginning of the Dark Room (instead of red chests).
 * We Need To Go Deeper! is removed from all item pools.
 
 
