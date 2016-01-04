@@ -2,23 +2,23 @@
 
 [Download the latest version here.](https://github.com/Zamiell/jud6s/releases)
 
+<br /><br />
 
-
-## What is it?
+## What Is It?
 
 This is a racing mod for *The Binding of Isaac: Afterbirth* that stays very close to the original game while slightly tweaking it to be more fair for racing.
 
 This is the mod used in several [Balls of Steel](http://www.ballsofsteel.tv/) weekly tournaments, hosted by [Diabetech](http://www.twitch.tv/diabetech).
 
-
+<br /><br />
 
 ## Version History
 
-* *1.3* - January 4th, 2016 - Updated the mod for Afterbirth and added some other goodies. Also moved the documentation from the Medium blog to GitHub.
+* *1.3* - January 4th, 2016 - Updated the mod for Afterbirth and added some other goodies. Also moved the documentation from the Medium blog to GitHub. This update took me around 30 hours of research, testing, implementation, and documentation.
 * *1.2* - July 13th, 2105 - Added half a soul heart to Judas. Made modifications to some buggy rooms.
 * *1.1* - July 1st, 2015 - The initial public release. The first weekly was played on this version.
 
-
+<br /><br />
 
 ## Installation & Uninstallation
 
@@ -26,7 +26,7 @@ Copy all of the files to: `C:\Program Files (x86)\Steam\steamapps\common\The Bin
 
 To go back to an un-modded game, delete everything in the folder except for the "packed" directory.
 
-
+<br /><br />
 
 ## Ruleset
 
@@ -36,14 +36,14 @@ To go back to an un-modded game, delete everything in the folder except for the 
 * The mod is meant to be played on a "1001%" save file (which is a save file that has everything in the game unlocked). If don't already have one, you can [download one from Speedrun.com](http://www.speedrun.com/saves/fully_unlocked_afterbirth_save_k5imn.zip).
 * The mod is meant to be used to race to defeating Blue Baby at the end of the Chest.
 
-
+<br /><br />
 
 ## Mod Changes
 
 * All characters start with the D6 (except for Eve, Eden, and Keeper, as it isn't possible).
 * The Devil Rooms and Angel Rooms without pedestal items in them have been removed.
 * Judas starts with half a soul heart in addition to his 1 red heart container (so that he can consistently take a devil deal).
-* Judas starts with a bomb instead of 3 coins (so that he can get into the Treasure Room pedestal surrounded by rocks).
+* Judas starts with a bomb instead of 3 coins (so that he can get the Treasure Room pedestal surrounded by rocks).
 * Cutscene/animation updates from the [Speed Mod](https://raw.githubusercontent.com/Zamiell/speed-mod) have been included.
 * More room variety: all rooms in the game will now appear on both easy and hard mode. Additionally, all non-special rooms are now equally likely to occur.
 * The charge animations when using Brimstone, Monstro's Lung, Cursed Eye, and Chocolate Milk with some transformations (such as Leviathan) has been fixed.
@@ -58,26 +58,26 @@ To go back to an un-modded game, delete everything in the folder except for the 
 * 4 golden chests will now spawn at the beginning of the Dark Room (instead of red chests).
 * We Need To Go Deeper! is removed from all item pools.
 
-
+<br /><br />
 
 ## Shoutouts
 
-* A huge thanks to [Chronometrics](http://www.twitch.tv/chronometrics) for making and continuing to support Basement Renovator.
-* Thanks to all of the racers, I've gathered feedback from, including [Hyphen-ated](http://www.twitch.tv/hyphen_ated), [Cyber_1](http://www.twitch.tv/cyber_1), [Ou_J](http://www.twitch.tv/ou_j), [HauntedQuest](http://www.twitch.tv/hauntedquest), and [Dea1h](http://www.twitch.tv/dea1h).
+* A huge thanks to [Chronometrics](http://www.twitch.tv/chronometrics) for making and continuing to support [Basement Renovator](https://github.com/Tempus/Basement-Renovator).
+* Thanks to all of the racers who have given me feedback, including [Hyphen-ated](http://www.twitch.tv/hyphen_ated), [Cyber_1](http://www.twitch.tv/cyber_1), [Ou_J](http://www.twitch.tv/ou_j), [HauntedQuest](http://www.twitch.tv/hauntedquest), and [Dea1h](http://www.twitch.tv/dea1h).
 
-
+<br /><br />
 
 ## Feedback
 
-The changes in this mod are not set in stone. You can discuss the mod with me by contacting me [on Twitch](http://www.twitch.tv/zamiell).
+The changes in this mod are not set in stone. You can discuss the mod with me by contacting me [on Twitch](http://www.twitch.tv/zamiell) or in the [#isaac SpeedRunsLive IRC channel](http://www.speedrunslive.com/channel/).
 
-
+<br /><br />
 
 ## Documentation of Exact Room Changes
 
 The technical details of the mod are listed here for those who truly care to know all of the specifics.
 
-
+<br /><br />
 
 ### Devil Room Buff
 
@@ -91,7 +91,7 @@ The changed rooms are as follows:
 The new room is as follows:
 * #16 (1 item, horizontal narrow room)
 
-
+<br /><br />
 
 ### Angel Room Buff
 
@@ -102,7 +102,7 @@ The deleted rooms are as follows:
 * #4 (2 eternal hearts)
 * #3 (3 soul hearts)
 
-
+<br /><br />
 
 ### Dople & Evil Twin Fix
 
@@ -114,7 +114,7 @@ The changed rooms are as follows:
 * Sheol: #19-#24, #42, #56-#57, #61, #166, #181, #188, #196
 * Dark Room: #272
 
-
+<br /><br />
 
 ### Double Champion Fix
 
@@ -127,7 +127,7 @@ The changed rooms are as follows:
 * Chest: #34 (Cage)
 * The Dark Room: #14, #34 (Cage / Monstro)
 
-
+<br /><br />
 
 ### Champion Fistula Fix
 
@@ -138,7 +138,7 @@ The changed rooms are as follows:
 * Utero #333
 * Chest: #53, #72, #84
 
-
+<br /><br />
 
 ### Boom Fly Fix
 
@@ -148,7 +148,7 @@ The changed rooms are as follows:
 * Caves: #243, #281, #440, #518, #589, #601, #684, #730
 * Catacombs: #440, #518, #589, #684, #730
 
-
+<br /><br />
 
 ### Begotten Fix
 
@@ -158,7 +158,7 @@ The changed rooms is as follows:
 * Depths: #316
 * Necropolis - #316
 
-
+<br /><br />
 
 ### Clustered Gaping Maws Fix
 
@@ -169,7 +169,7 @@ The changed rooms are as follows:
 * Womb: #424
 * Utero: #424
 
-
+<br /><br />
 
 ### Mulligan Fix
 
@@ -181,7 +181,7 @@ The changed rooms are as follows:
 * Caves: #548
 * Catacombs: #548
 
-
+<br /><br />
 
 ### Narrow Krampus Removal
 
@@ -191,7 +191,7 @@ The deleted rooms are as follows:
 * #2306
 * #2305
 
-
+<br /><br />
 
 ### Narrow War Removal
 
@@ -200,7 +200,7 @@ While not technically unavoidable, in a narrow room, it is near-impossible to do
 The deleted room is as follows:
 * #4036
 
-
+<br /><br />
 
 ### Narrow The Gate Removal
 
@@ -209,6 +209,7 @@ While not technically unavoidable, in a narrow room, there is not enough time to
 The deleted room is as follows:
 * #5043
 
+<br /><br />
 
 ### Narrow Angel Rooms
 
@@ -220,7 +221,7 @@ The deleted room is as follows:
 The changed rooms are as follows:
 * Cathedral: #286, #291
 
-
+<br /><br />
 
 ### Narrow Boss Room Door Fix
 
@@ -231,7 +232,7 @@ The changed rooms are as follows:
 * #5026 (Dingle)
 * #5145 (Gurglings)
 
-
+<br /><br />
 
 ### Split Blastocyst Fix
 
@@ -240,7 +241,7 @@ When entering from the top or bottom door of the boss room with the already-spli
 The changed room is as follows:
 * #2042 (Blastocyst)
 
-
+<br /><br />
 
 ### Monstro II & Sucker Fix
 
@@ -249,7 +250,7 @@ When entering from the top or bottom door of the Monstro II boss room with the f
 The changed room is as follows:
 * #1067
 
-
+<br /><br />
 
 ### Carrion Queen Fix
 
@@ -260,7 +261,7 @@ The changed rooms are as follows:
 * #3272
 * #3273
 
-
+<br /><br />
 
 ### Pin, Frail, and Scolex Fix
 
@@ -278,6 +279,7 @@ The changed rooms are as follows:
 * #1073 (Scolex)
 * #1074 (Scolex)
 
+<br /><br />
 
 ### Loki, Lokii, and Death Devil Room Fix
 
@@ -288,7 +290,7 @@ The changed rooms are as follows:
 * #3311 (Lokii)
 * #4041 (Death)
 
-
+<br /><br />
 
 ### Gurdy Maneuverability Fix
 
@@ -297,8 +299,7 @@ In the Gurdy room filled with pits, the player is forced to take the boss item i
 The changed rooms are as follows:
 * #1066 (Gurdy)
 
-
-
+<br /><br />
 
 ### Magician Card Fix
 
@@ -310,7 +311,7 @@ The changed rooms are as follows:
 * Womb: #687
 * Utero: #687
 
-
+<br /><br />
 
 ### TNT Room Fix
 
@@ -322,7 +323,7 @@ The changed room is as follows:
 * Basement: #748
 * Cellar: #748
 
-
+<br /><br />
 
 ### Narrow Red Poop Room Fix
 
@@ -331,7 +332,7 @@ The narrow red poop room in The Chest unavoidable damage on Dr. Fetus builds. Th
 The changed room is as follows:
 * The Chest: #289
 
-
+<br /><br />
 
 ### Rage Creep & Round Worm Room Fix
 
@@ -341,7 +342,7 @@ The changed rooms are as follows:
 * Womb: #202
 * Utero: #202
 
-
+<br /><br />
 
 ### Troll Bomb Room Removal
 
@@ -353,7 +354,7 @@ The removed rooms are as follows:
 * Depths: #699
 * Necropolis: #699
 
-
+<br /><br />
 
 ### 2x2 Black Bony Fix
 
@@ -363,7 +364,7 @@ The changed rooms are as follows:
 * Depths: #731
 * Necropolis: #731
 
-
+<br /><br />
 
 ### Maggot Room Fix
 
@@ -372,7 +373,7 @@ On the room filled with pits in the Caves, at base damage, Maggots are unavoidab
 The changed room is as follows:
 * Caves: #6
 
-
+<br /><br />
 
 ### Sack Fix
 
@@ -381,7 +382,7 @@ If a Sack is near an entrance and it spawns as the white champion version, the p
 The changed room is as follows:
 * Cellar: #236
 
-
+<br /><br />
 
 ### Empty Room Removal
 
@@ -396,7 +397,7 @@ The removed rooms are as follows:
 * Cathedral: #57, #89
 * Chest: #42
 
-
+<br /><br />
 
 ## Rooms That Were Deliberately Not Changed
 
