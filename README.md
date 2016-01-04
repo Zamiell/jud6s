@@ -14,7 +14,7 @@ This is the mod used in several [Balls of Steel](http://www.ballsofsteel.tv/) we
 
 ## Version History
 
-* *1.3* - January 4th, 2016 - Updated the mod for Afterbirth and added some other goodies. Also moved the documentation from the Medium blog to GitHub. This update took me around 30 hours of research, testing, implementation, and documentation.
+* *1.3* - January 4th, 2016 - Updated the mod for Afterbirth and added some other goodies. Also moved the documentation from the Medium blog to GitHub. This update took me around 30 hours of research, verification, implementation, and documentation.
 * *1.2* - July 13th, 2105 - Added half a soul heart to Judas. Made modifications to some buggy rooms.
 * *1.1* - July 1st, 2015 - The initial public release. The first weekly was played on this version.
 
@@ -22,7 +22,7 @@ This is the mod used in several [Balls of Steel](http://www.ballsofsteel.tv/) we
 
 ## Installation & Uninstallation
 
-Copy all of the files to: `C:\Program Files (x86)\Steam\steamapps\common\The Binding of Isaac Rebirth\resources\`
+Go into the directory that corresponds with the ruleset you want to play and copy all of the files to: `C:\Program Files (x86)\Steam\steamapps\common\The Binding of Isaac Rebirth\resources\`
 
 To go back to an un-modded game, delete everything in the folder except for the "packed" directory.
 
@@ -49,10 +49,14 @@ To go back to an un-modded game, delete everything in the folder except for the 
 * The charge animations when using Brimstone, Monstro's Lung, Cursed Eye, and Chocolate Milk with some transformations (such as Leviathan) has been fixed.
 * Many rooms with unavoidable damage or bugs have been fixed.
 
+<br />
+
 ### Extra Changes in "Seeded Mode"
 * All characters start with The Compass.
 * Angel statues are removed and replaced with Key Piece 1.
 * Pandora's Box is removed from all item pools.
+
+<br />
 
 ### Extra Changes for "Dark Room Mode"
 * 4 golden chests will now spawn at the beginning of the Dark Room (instead of red chests).
@@ -283,7 +287,7 @@ The changed rooms are as follows:
 
 ### Loki, Lokii, and Death Devil Room Fix
 
-If the player is out of bombs and a Devil Room spawns on the top of the Loki or Loki II room filled with rocks, they will not be able to access it. If the Devil Room spawns on the bottom, the player will be forced to take the boss item in order to see the deal. This is also the case for the Death room filled with pits. This bug is fixed by deleting the rocks/pits respectively.
+If the player is out of bombs and a Devil Room spawns on the top of the Loki or Loki II room filled with rocks, they will not be able to access it. If the Devil Room spawns on the bottom, the player will be forced to take the boss item in order to see the deal. This is also the case for the Death room filled with pits. This bug is fixed by moving/deleting the rocks/pits respectively.
 
 The changed rooms are as follows:
 * #2031 (Loki)
@@ -407,3 +411,13 @@ The removed rooms are as follows:
 * Dark Room #287 - This is a room with 3 mega troll bombs and an Imp. If you stand completely still, the troll bombs will not damage you.
 * Mama Gurdy - In Afterbirth, you have more time to dodge the spikes before the hitbox appears.
 * Daddy Long Legs - In Afterbirth, the multiple stomp attack no longer damages you before the animation begins.
+
+<br /><br />
+
+## Things To Do
+
+- DD crash on Womb
+- wall spiders mod in depths bugged
+- tiny haunt room from the chest
+- remove iframes from the the invincible dudes that have skulls protecting their faces
+- check boom fly narrow strip room for symmetric patch
