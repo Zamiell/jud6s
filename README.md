@@ -14,7 +14,7 @@ This is the mod used in several [Balls of Steel](http://www.ballsofsteel.tv/) we
 
 ## Version History
 
-* *1.3* - January 1st, 2016 - Updated the mod for Afterbirth.
+* *1.3* - January 4th, 2016 - Updated the mod for Afterbirth and added some other goodies. Also moved the documentation from the Medium blog to GitHub.
 * *1.2* - July 13th, 2105 - Judas now starts with half of a soul heart in addition to his 1 red heart container. Made modifications to some buggy rooms.
 * *1.1* - July 1st, 2015 - The initial public release. The first weekly was played on this version.
 
@@ -39,13 +39,13 @@ To go back to an un-modded game, delete everything in the folder except for the 
 
 ## Mod Changes
 
-* All characters start with the D6 (except for Eve and Eden, as it isn't possible).
+* All characters start with the D6 (except for Eve, Eden, and Keeper, as it isn't possible).
 * The Devil Rooms and Angel Rooms without pedestal items in them have been removed.
-* Judas starts with half of a red heart and half of a soul heart.
 * Judas starts with a bomb instead of 3 coins.
 * Cutscene/animation updates from the [Speed Mod](https://raw.githubusercontent.com/Zamiell/speed-mod) have been included.
 * More room variety: all rooms in the game will now appear on both easy and hard mode. Additionally, all non-special rooms are now equally likely to occur.
 * 4 golden chests will now spawn at the beginning of the Dark Room (instead of red chests).
+* The charge animations when using Brimstone, Monstro's Lung, Cursed Eye, and Chocolate Milk with some transformations has been fixed.
 * Some rooms with unavoidable damage or bugs have been fixed.
 
 ### Extra Changes in "Seeded Mode"
@@ -54,16 +54,33 @@ To go back to an un-modded game, delete everything in the folder except for the 
 * Pandora's Box is removed from all item pools.
 
 ### Extra Changes for "Dark Room Mode"
-* We Need To Go Deeper is removed from all item pools.
+* We Need To Go Deeper! is removed from all item pools.
+
+
+
+## Shoutouts
+
+* A huge thanks to [Chronometrics](http://www.twitch.tv/chronometrics) for making and continuing to support Basement Renovator.
+* Thanks to all of the racers, I've gathered feedback from, including [Hyphen-ated](http://www.twitch.tv/hyphen_ated), [Cyber_1](http://www.twitch.tv/cyber_1), [Ou_J](http://www.twitch.tv/ou_j), [HauntedQuest](http://www.twitch.tv/hauntedquest), and [Dea1h](http://www.twitch.tv/dea1h).
+
+
+
+## Feedback
+
+The changes in this mod are not set in stone. You can discuss the mod with me by contacting me [on Twitch](http://www.twitch.tv/zamiell).
 
 
 
 ## Documentation of Exact Room Changes
 
+The technical details of the mod are listed here for those who truly care to know all of the specifics.
+
+
+
 ### Devil Room Buff
 
 * No-item Devil Rooms have been changed to have 1 item. This affects balance in a non-trivial way. Without getting into too much detail, the pros outweigh the cons; a no-item devil deal is disproportionately punishing to a player who has played flawlessly for the entire floor. Furthermore, the overall power increase of a Devil Room becomes more consistent.
-* Devil Rooms have been slightly tweaked to have exits on all sides. Otherwise, this messes up strategic decision making, since the expected item pedestal amount changes.
+* Devil Rooms have been slightly tweaked to have exits on all sides. Otherwise, expected item pedestal amount would change depending on the entrance location.
 
 The changed rooms are as follows:
 * #14 (2 black hearts and 1 Imp)
@@ -90,10 +107,10 @@ The deleted rooms are as follows:
 When holding down the tear fire button and entering a room with a Dople or Evil Twin, the player is hit with an unavoidable tear. This bug is fixed by changing all the spawn points of the enemies to be near the corner of the room. Once the room is loaded, the enemy will snap back to where they are supposed to be, but the initial buggy tear will not be in line with the player.
 
 The changed rooms are as follows:
-* Womb: #56-#62, #114-#118, #259-#261, #289, #301
-* Utero: #56-#62, #114-#117, #259-#261, #289, #301
+* Womb: #56-#62, #114-#118, #259-#261, #289, #301, #598, #605, #625, #646, #661 
+* Utero: #56-#62, #114-#117, #259-#261, #289, #301, #598, #605, #624, #646, #661
 * Sheol: #19-#24, #42, #56-#57, #61, #166, #181, #188, #196
-(needs search to find others, first find if evil twin is a subset of dople in the search)
+* Dark Room: #272
 
 
 
@@ -102,14 +119,11 @@ The changed rooms are as follows:
 Some rooms have Monstros, Gurdy Jr.'s, or Cages that spawn near an entrance. If the double champion version spawns, they will be touched while the room is loading and automatically take damage. This bug is fixed by moving the enemies closer to the center of the room.
 
 The changed rooms are as follows:
+* Sheol: #212 (Cage)
 * Chest: #43, #69 (Monstro)
-- move 1 square so that its 2 up and 2 right 
 * Chest: #14, #56 (Gurdy Jr.)
-- move 1 square so that its 2 up and 2 right (gurdy jr.)
 * Chest: #34 (Cage)
-- Move 1 space inwards
-* The Dark Room: #14
-- move
+* The Dark Room: #14, #34 (Cage / Monstro)
 
 
 
@@ -120,20 +134,17 @@ Some rooms have Fistulas that spawn near an entrance. If the player is Guppy and
 The changed rooms are as follows:
 * Womb: #333
 * Utero #333
-- move 1 space inwards
 * Chest: #53, #72, #84
-- move 1 space inwards
-- search for more fistula rooms
 
 
 
 ### Boom Fly Fix
 
-There is a 2x2 room in the Caves & Catacombs with a Boom Fly next to the entrance. If the player is Guppy and has a sufficient number of unused blue flies, the flies will kill the Boom Fly while the room is loading and the player will automatically take damage. This bug is fixed by moving the Boom Fly closer to the center of the room.
+Some rooms have Boom Flies next to the entrance. If the player is Guppy and has a sufficient number of unused blue flies, the flies will kill the Boom Fly while the room is loading and the player will automatically take damage. This bug is fixed by moving the Boom Fly closer to the center of the room.
 
 The changed rooms are as follows:
-* Caves: #440
-* Catacombs: #440
+* Caves: #243, #281, #440, #518, #589, #601, #684, #730
+* Catacombs: #440, #518, #589, #684, #730
 
 
 
@@ -167,10 +178,6 @@ The changed rooms are as follows:
 * Cellar: #129, #130, #359
 * Caves: #548
 * Catacombs: #548
-- Move 1 space inwards (Mulligans)
-- Move to center (Mulligans)
-- Move 1 diagonal space so that they are all aligned
-- Move 1 diagonal space so that are not in a row
 
 
 
@@ -205,8 +212,10 @@ The deleted room is as follows:
 
 While not technically unavoidable, they are near-impossible to do safely on a Dr. Fetus build.
 
-The deleted rooms are as follows:
+The deleted room is as follows:
 * Angel Room: #9
+
+The changed rooms are as follows:
 * Cathedral: #286, #291
 
 
@@ -217,11 +226,8 @@ It is not possible for Devil Room doors to spawn on boss rooms that only have on
 
 The changed rooms are as follows:
 * #2065 (Fistula)
-- move fistula to the middle and make top door appear
 * #5026 (Dingle)
-- move poop to middle
 * #5145 (Gurglings)
-- move to center
 
 
 
@@ -241,6 +247,34 @@ When entering from the top or bottom door of the Monstro II boss room with the f
 The changed room is as follows:
 * #1067
 
+
+
+### Carrion Queen Fix
+
+In some rooms, Carrion Queen spawns very close to an entrance. This is fixed by moving her slightly closer to the center of the room.
+
+The changed rooms are as follows:
+* #3270
+* #3272
+* #3273
+
+
+
+### Pin, Frail, and Scolex Fix
+
+On Pin, Frail, and Scolex fights, there is an invisible hitbox during the beginning of the fight. On some rooms, this is near the entrance. This is fixed by moving the spawn to the center of the room.
+
+The changed rooms are as follows:
+* #3370 (Pin)
+* #3371 (Pin)
+* #3372 (Pin)
+* #3374 (Pin)
+* #3376 (Pin)
+* #3388 (Frail)
+* #1070 (Scolex)
+* #1071 (Scolex)
+* #1073 (Scolex)
+* #1074 (Scolex)
 
 
 ### Loki, Lokii, and Death Devil Room Fix
@@ -321,7 +355,7 @@ The removed rooms are as follows:
 
 ### 2x2 Black Bony Fix
 
-In the 2x2 Depths / Necropolis room with 8 Black Bonies and pots, the enemies have been spaced out so that they do not automatically become stuck.
+In the 2x2 Depths / Necropolis room with Black Bony x8 and pots, the enemies have been spaced out so that they do not automatically become stuck.
 
 The changed rooms are as follows:
 * Depths: #731
@@ -329,38 +363,9 @@ The changed rooms are as follows:
 
 
 
-### Carrion Queen Fix
-
-In some rooms, Carrion Queen spawns very close to an entrance. This is fixed by moving her slightly close to the center of the room.
-
-The changed rooms are as follows:
-* #3270
-* #3272
-* #3273
-
-
-
-### Pin, Frail, and Scolex Fix
-
-On Pin, Frail, and Scolex fights, there is an invisible hitbox during the beginning of the fight. On some rooms, this is near the entrance. This is fixed by moving the spawn to the center of the room.
-
-The changed rooms are as follows:
-* #3370 (Pin)
-* #3371 (Pin)
-* #3372 (Pin)
-* #3374 (Pin)
-* #3376 (Pin)
-* #3388 (Frail)
-* #1070 (Scolex)
-* #1071 (Scolex)
-* #1073 (Scolex)
-* #1074 (Scolex)
-
-
-
 ### Maggot Room Fix
 
-On the room filled with pits in the Caves, Maggots are unavoidable damage if they decide to path towards you at base damage. Furthermore, a Dr. Fetus build has no options with which to dodge the first bomb. This is fixed by moving the Maggots slightly towards the center of the room.
+On the room filled with pits in the Caves, at base damage, Maggots are unavoidable if they decide to path towards you. Furthermore, a Dr. Fetus build has no options with which to dodge the first bomb. This is fixed by moving the Maggots slightly towards the center of the room.
 
 The changed room is as follows:
 * Caves: #6
@@ -392,8 +397,9 @@ The removed rooms are as follows:
 
 
 ## Rooms That Were Deliberately Not Changed
+
 * Basement #174 - There is a TNT barrel to the left/right of the top/bottom entrances. However, on a knife build, if you are playing correctly, you should be pointing it towards the center of the room upon entering.
-* Cellar #766 - This is a room with 3 mega troll bombs, but if you stand completely still, they will generally not damage you.
+* Cellar #766 - This is a room with 3 mega troll bombs, but if you stand completely still, they will not damage you.
 * Womb/Utero #147 - This is a room with 3 Nerve Endings next to the entrance. If you have Ipecac, it is possible to use a tear on the wall to safely kill a Nerve Ending. Alternatively, you can safely use a bomb.
 * Dark Room #287 - This is a room with 3 mega troll bombs and an Imp. If you stand completely still, the troll bombs will not damage you.
 * Mama Gurdy - In Afterbirth, you have more time to dodge the spikes before the hitbox appears.
