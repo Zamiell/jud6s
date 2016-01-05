@@ -2,7 +2,7 @@
 
 [Download the latest version here.](https://github.com/Zamiell/jud6s/releases)
 
-<br /><br />
+<br />
 
 ## What Is It?
 
@@ -10,7 +10,7 @@ This is a racing mod for *The Binding of Isaac: Afterbirth* that stays very clos
 
 This is the mod used in several [Balls of Steel](http://www.ballsofsteel.tv/) weekly tournaments, hosted by [Diabetech](http://www.twitch.tv/diabetech).
 
-<br /><br />
+<br />
 
 ## Version History
 
@@ -18,7 +18,7 @@ This is the mod used in several [Balls of Steel](http://www.ballsofsteel.tv/) we
 * *1.2* - July 13th, 2105 - Added half a soul heart to Judas. Made modifications to some buggy rooms.
 * *1.1* - July 1st, 2015 - The initial public release. The first weekly was played on this version.
 
-<br /><br />
+<br />
 
 ## Installation & Uninstallation
 
@@ -26,7 +26,7 @@ Go into the directory that corresponds with the ruleset you want to play and cop
 
 To go back to an un-modded game, delete everything in the folder except for the "packed" directory.
 
-<br /><br />
+<br />
 
 ## Ruleset
 
@@ -36,7 +36,7 @@ To go back to an un-modded game, delete everything in the folder except for the 
 * The mod is meant to be played on a "1001%" save file (which is a save file that has everything in the game unlocked). If don't already have one, you can [download one from Speedrun.com](http://www.speedrun.com/saves/fully_unlocked_afterbirth_save_k5imn.zip).
 * The mod is meant to be used to race to defeating Blue Baby at the end of the Chest.
 
-<br /><br />
+<br />
 
 ## Mod Changes
 
@@ -46,42 +46,38 @@ To go back to an un-modded game, delete everything in the folder except for the 
 * Judas starts with a bomb instead of 3 coins (so that he can get the Treasure Room pedestal surrounded by rocks).
 * Cutscene/animation updates from the [Speed Mod](https://raw.githubusercontent.com/Zamiell/speed-mod) have been included.
 * More room variety: all rooms in the game will now appear on both easy and hard mode. Additionally, all non-special rooms are now equally likely to occur.
-* The charge animations when using Brimstone, Monstro's Lung, Cursed Eye, and Chocolate Milk with some transformations (such as Leviathan) has been fixed.
+* The charge animations when using Maw of the Void, Cursed Eye, Chocolate Milk, Monstro's Lung, and Brimstone with some transformations (such as Leviathan) has been fixed.
 * Many rooms with unavoidable damage or bugs have been fixed.
 
-<br />
-
-### Extra Changes in "Seeded Mode"
+#### Extra Changes in "Seeded Mode"
 * All characters start with The Compass.
 * Angel statues are removed and replaced with Key Piece 1.
 * Pandora's Box is removed from all item pools.
 
-<br />
-
-### Extra Changes for "Dark Room Mode"
+#### Extra Changes for "Dark Room Mode"
 * 4 golden chests will now spawn at the beginning of the Dark Room (instead of red chests).
 * We Need To Go Deeper! is removed from all item pools.
 
-<br /><br />
+<br />
 
 ## Shoutouts
 
 * A huge thanks to [Chronometrics](http://www.twitch.tv/chronometrics) for making and continuing to support [Basement Renovator](https://github.com/Tempus/Basement-Renovator).
 * Thanks to all of the racers who have given me feedback, including [Hyphen-ated](http://www.twitch.tv/hyphen_ated), [Cyber_1](http://www.twitch.tv/cyber_1), [Ou_J](http://www.twitch.tv/ou_j), [HauntedQuest](http://www.twitch.tv/hauntedquest), and [Dea1h](http://www.twitch.tv/dea1h).
 
-<br /><br />
+<br />
 
 ## Feedback
 
 The changes in this mod are not set in stone. You can discuss the mod with me by contacting me [on Twitch](http://www.twitch.tv/zamiell) or in the [#isaac SpeedRunsLive IRC channel](http://www.speedrunslive.com/channel/).
 
-<br /><br />
+<br />
 
 ## Documentation of Exact Room Changes
 
 The technical details of the mod are listed here for those who truly care to know all of the specifics.
 
-<br /><br />
+<br />
 
 ### Devil Room Buff
 
@@ -89,13 +85,11 @@ The technical details of the mod are listed here for those who truly care to kno
 * Devil Rooms have been slightly tweaked to have exits on all sides. Otherwise, expected item pedestal amount would change depending on the entrance location.
 
 The changed rooms are as follows:
-* #14 (2 black hearts and 1 Imp)
 * #5 (red chest chests)
+* #14 (2 black hearts and 1 Imp)
+* #15 (1 item, narrow)
 
-The new room is as follows:
-* #16 (1 item, horizontal narrow room)
-
-<br /><br />
+<br />
 
 ### Angel Room Buff
 
@@ -106,7 +100,7 @@ The deleted rooms are as follows:
 * #4 (2 eternal hearts)
 * #3 (3 soul hearts)
 
-<br /><br />
+<br />
 
 ### Dople & Evil Twin Fix
 
@@ -118,9 +112,9 @@ The changed rooms are as follows:
 * Sheol: #19-#24, #42, #56-#57, #61, #166, #181, #188, #196
 * Dark Room: #272
 
-<br /><br />
+<br />
 
-### Double Champion Fix
+### Double Boss Champion Fix
 
 Some rooms have Monstros, Gurdy Jr.'s, or Cages that spawn near an entrance. If the double champion version spawns, they will be touched while the room is loading and automatically take damage. This bug is fixed by moving the enemies closer to the center of the room.
 
@@ -131,28 +125,56 @@ The changed rooms are as follows:
 * Chest: #34 (Cage)
 * The Dark Room: #14, #34 (Cage / Monstro)
 
-<br /><br />
+<br />
 
-### Champion Fistula Fix
+### Exploding Enemies Fix
 
-Some rooms have Fistulas that spawn near an entrance. If the player is Guppy and has a sufficient number of unused blue flies and the Fistula spawns as the champion Boom Fly version, the flies will kill the Fistula while the room is loading and the player will automatically take damage. This bug is fixed by moving the Fistulas closer to the center of the room.
-
-The changed rooms are as follows:
-* Womb: #333
-* Utero #333
-* Chest: #53, #72, #84
-
-<br /><br />
-
-### Boom Fly Fix
-
-Some rooms have Boom Flies next to the entrance. If the player is Guppy and has a sufficient number of unused blue flies, the flies will kill the Boom Fly while the room is loading and the player will automatically take damage. This bug is fixed by moving the Boom Fly closer to the center of the room.
+Some rooms have exploding enemies that spawn near an entrance. If the player has a sufficient number of unused blue flies, the flies will kill the enemy while the room is loading and the player will automatically take damage. This bug is fixed by moving the enemy closer to the center of the room.
 
 The changed rooms are as follows:
-* Caves: #243, #281, #440, #518, #589, #601, #684, #730
-* Catacombs: #440, #518, #589, #684, #730
+* Basement: #129, #130, #359 (Mulligan)
+* Cellar: #129, #130, #359 (Mulligan)
+* Caves: #46, #50, #440, #518 (Boom Fly)
+* Caves: #141 (Clotty)
+* Caves: #548 (Mulligan)
+* Catacombs: #46, #440, #518 (Boom Fly)
+* Catacombs: #548 (Mulligan)
+* Depths: #11 (Boom Fly)
+* Womb: #333 (Fistula)
+* Utero #333 (Fistula)
+* Cathedral: #30 (Kamikaze Leech)
+* Sheol: #30 (Kamikaze Leech)
+* Chest: #53, #72, #84 (Fistula)
+* Dark Room: #272 (Kamikaze Leech)
 
-<br /><br />
+<br />
+
+### Exploding Entities Fix
+
+Some rooms have TNT bomb rocks or TNT barrels that spawn near an entrance. Upon loading the room, there is a small chance that they will explode. If this occurs, the player will take unavoidable damage. This bug is fixed by replacing or removing the barrels in question.
+
+The changed room is as follows:
+
+* Treasure Room: #13
+* The Haunt: #5014
+* Mega Fatty: #5053
+* Pride Mini-Boss Room: #2065
+* Basement: #748
+* Cellar: #748
+
+<br />
+
+### Fly Champion Fix
+
+Certain enemies spawn near a door. If they spawn as the white fly champion version, the player will be touched while the room is loading and automatically take damage. This bug is fixed by moving them closer to the center of the room.
+
+The changed rooms are as follows:
+* Cellar: #236 (Sack)
+* Womb: #182, #471, #508, #733 (Gurglings)
+* Utero: #182, #471, #733 (Gurglings)
+* Chest: #35, #87, #301 (Gurglings)
+
+<br />
 
 ### Begotten Fix
 
@@ -162,7 +184,7 @@ The changed rooms is as follows:
 * Depths: #316
 * Necropolis - #316
 
-<br /><br />
+<br />
 
 ### Clustered Gaping Maws Fix
 
@@ -173,19 +195,7 @@ The changed rooms are as follows:
 * Womb: #424
 * Utero: #424
 
-<br /><br />
-
-### Mulligan Fix
-
-Some rooms have Mulligans that spawn near an entrance. If they explode, the player is hit with unavoidable damage. Alternatively, the Mulligan is too close for the player to reasonably dodge the exploding tear. This bug is fixed by moving the Mulligans closer to the center of the room.
-
-The changed rooms are as follows:
-* Basement: #129, #130, #359
-* Cellar: #129, #130, #359
-* Caves: #548
-* Catacombs: #548
-
-<br /><br />
+<br />
 
 ### Narrow Krampus Removal
 
@@ -195,7 +205,7 @@ The deleted rooms are as follows:
 * #2306
 * #2305
 
-<br /><br />
+<br />
 
 ### Narrow War Removal
 
@@ -204,7 +214,7 @@ While not technically unavoidable, in a narrow room, it is near-impossible to do
 The deleted room is as follows:
 * #4036
 
-<br /><br />
+<br />
 
 ### Narrow The Gate Removal
 
@@ -213,7 +223,16 @@ While not technically unavoidable, in a narrow room, there is not enough time to
 The deleted room is as follows:
 * #5043
 
-<br /><br />
+<br />
+
+### Narrow The Haunt Removal
+
+This room was never actually tested by the developers and results in a softlock if the player is unlucky enough to walk into it.
+
+The deleted room is as follows:
+* Chest: #258
+
+<br />
 
 ### Narrow Angel Rooms
 
@@ -225,7 +244,7 @@ The deleted room is as follows:
 The changed rooms are as follows:
 * Cathedral: #286, #291
 
-<br /><br />
+<br />
 
 ### Narrow Boss Room Door Fix
 
@@ -236,16 +255,16 @@ The changed rooms are as follows:
 * #5026 (Dingle)
 * #5145 (Gurglings)
 
-<br /><br />
+<br />
 
 ### Split Blastocyst Fix
 
 When entering from the top or bottom door of the boss room with the already-split Blastocyst, the player is not given enough time to reasonably dodge the first attack. Two rocks are placed to alleviate this.
 
 The changed room is as follows:
-* #2042 (Blastocyst)
+* #2042
 
-<br /><br />
+<br />
 
 ### Monstro II & Sucker Fix
 
@@ -254,7 +273,7 @@ When entering from the top or bottom door of the Monstro II boss room with the f
 The changed room is as follows:
 * #1067
 
-<br /><br />
+<br />
 
 ### Carrion Queen Fix
 
@@ -265,7 +284,7 @@ The changed rooms are as follows:
 * #3272
 * #3273
 
-<br /><br />
+<br />
 
 ### Pin, Frail, and Scolex Fix
 
@@ -283,7 +302,7 @@ The changed rooms are as follows:
 * #1073 (Scolex)
 * #1074 (Scolex)
 
-<br /><br />
+<br />
 
 ### Loki, Lokii, and Death Devil Room Fix
 
@@ -294,7 +313,7 @@ The changed rooms are as follows:
 * #3311 (Lokii)
 * #4041 (Death)
 
-<br /><br />
+<br />
 
 ### Gurdy Maneuverability Fix
 
@@ -303,7 +322,7 @@ In the Gurdy room filled with pits, the player is forced to take the boss item i
 The changed rooms are as follows:
 * #1066 (Gurdy)
 
-<br /><br />
+<br />
 
 ### Magician Card Fix
 
@@ -315,19 +334,7 @@ The changed rooms are as follows:
 * Womb: #687
 * Utero: #687
 
-<br /><br />
-
-### TNT Room Fix
-
-Upon entering certain rooms with TNT barrels, there is a small chance that they will explode. If this occurs with a barrel next to an entrance, the player will take unavoidable damage. This bug is fixed by replacing or removing the barrels in question.
-
-The changed room is as follows:
-* Treasure Room: #13
-* Pride Mini-Boss Room: #2065
-* Basement: #748
-* Cellar: #748
-
-<br /><br />
+<br />
 
 ### Narrow Red Poop Room Fix
 
@@ -336,7 +343,7 @@ The narrow red poop room in The Chest unavoidable damage on Dr. Fetus builds. Th
 The changed room is as follows:
 * The Chest: #289
 
-<br /><br />
+<br />
 
 ### Rage Creep & Round Worm Room Fix
 
@@ -346,7 +353,7 @@ The changed rooms are as follows:
 * Womb: #202
 * Utero: #202
 
-<br /><br />
+<br />
 
 ### Troll Bomb Room Removal
 
@@ -358,7 +365,7 @@ The removed rooms are as follows:
 * Depths: #699
 * Necropolis: #699
 
-<br /><br />
+<br />
 
 ### 2x2 Black Bony Fix
 
@@ -368,7 +375,7 @@ The changed rooms are as follows:
 * Depths: #731
 * Necropolis: #731
 
-<br /><br />
+<br />
 
 ### Maggot Room Fix
 
@@ -377,16 +384,7 @@ On the room filled with pits in the Caves, at base damage, Maggots are unavoidab
 The changed room is as follows:
 * Caves: #6
 
-<br /><br />
-
-### Sack Fix
-
-If a Sack is near an entrance and it spawns as the white champion version, the player will be touched while the room is loading and automatically take damage. This bug is fixed by moving the Sacks closer to the center of the room.
-
-The changed room is as follows:
-* Cellar: #236
-
-<br /><br />
+<br />
 
 ### Empty Room Removal
 
@@ -401,23 +399,17 @@ The removed rooms are as follows:
 * Cathedral: #57, #89
 * Chest: #42
 
-<br /><br />
+<br />
 
 ## Rooms That Were Deliberately Not Changed
 
-* Basement #174 - There is a TNT barrel to the left/right of the top/bottom entrances. However, on a knife build, if you are playing correctly, you should be pointing it towards the center of the room upon entering.
+Basement #274 - There is a TNT barrel to the left/right of the top/bottom entrances. However, on a knife build, if you are playing correctly, you should be pointing it towards the center of the room upon entering.
 * Cellar #766 - This is a room with 3 mega troll bombs, but if you stand completely still, they will not damage you.
 * Womb/Utero #147 - This is a room with 3 Nerve Endings next to the entrance. If you have Ipecac, it is possible to use a tear on the wall to safely kill a Nerve Ending. Alternatively, you can safely use a bomb.
 * Dark Room #287 - This is a room with 3 mega troll bombs and an Imp. If you stand completely still, the troll bombs will not damage you.
 * Mama Gurdy - In Afterbirth, you have more time to dodge the spikes before the hitbox appears.
 * Daddy Long Legs - In Afterbirth, the multiple stomp attack no longer damages you before the animation begins.
 
-<br /><br />
+<br />
 
-## Things To Do
-
-- DD crash on Womb
-- wall spiders mod in depths bugged
-- tiny haunt room from the chest
-- remove iframes from the the invincible dudes that have skulls protecting their faces
-- check boom fly narrow strip room for symmetric patch
+- see if i can remove the negative somehow
