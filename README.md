@@ -1,11 +1,11 @@
-# The Jud6s Mod v1.5
+# The Jud6s Mod v1.6
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
 
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.5/jud6s.v1.5.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.6/jud6s.v1.6.zip)
 
 <br />
 
@@ -19,6 +19,7 @@ This has been used in several [Balls of Steel](http://www.ballsofsteel.tv/) week
 
 ## Version History
 
+* *1.6* - January 6th, 2016 - Reverted the "room variety" change. Fixed the Pooters in Basement/Cellar room #811.
 * *1.5* - January 6th, 2016 - Added a More Options mode. Reverted the "giantbook" animation removal (black heart, Betrayal, and so forth). Changed the Treasure Room with two pedestals and spikes. Reverted the changes to The Haunt room #5014 and Mega Fatty room #5053.
 * *1.4* - January 5th, 2016 - Fixed a bug with certain rooms incorrectly being set to 1000 weight.
 * *1.3* - January 5th, 2016 - Updated the mod for Afterbirth and added some other goodies. Also moved the documentation from the Medium blog to GitHub. This update took me around 30 hours of research, verification, implementation, and documentation.
@@ -53,9 +54,6 @@ To go back to an un-modded game, delete everything in the folder except for the 
   * Judas starts with the D6. (All other characters also start with the D6, except for Eve, Eden, and Keeper, as it isn't possible.)
   * Judas starts with half a soul heart in addition to his 1 red heart container (so that he can consistently take a devil deal).
   * Judas starts with a bomb instead of 3 coins (so that he can get Treasure Room pedestal items surrounded by rocks).
-* More room variety:
-  * All rooms in the game will now appear on both easy and hard mode.
-  * All non-special rooms are now equally likely to occur.
 * The Devil Rooms and Angel Rooms without item pedestals in them have been removed.
 * Charge animations with with transformations now work.
 * All cutscenes have been removed.
@@ -107,6 +105,8 @@ The technical details of the mod are listed here for those who truly care to kno
 
 The changed rooms are as follows:
 * #5 (red chest chests)
+* #11 (2 items and 2 Nulls)
+* #13 (1 item and Mom's Hand)
 * #14 (2 black hearts and 1 Imp)
 * #15 (1 item, narrow)
 
@@ -128,7 +128,7 @@ The deleted rooms are as follows:
 When holding down the tear fire button and entering a room with a Dople or Evil Twin, the player is hit with an unavoidable tear. This bug is fixed by changing all the spawn points of the enemies to be near the corner of the room. Once the room is loaded, the enemy will snap back to where they are supposed to be, but the initial buggy tear will not be in line with the player.
 
 The changed rooms are as follows:
-* Womb: #56-#62, #114-#118, #259-#261, #289, #301, #598, #605, #625, #646, #661 
+* Womb: #56-#62, #114-#118, #259-#261, #289, #301, #598, #605, #624, #646, #661 
 * Utero: #56-#62, #114-#117, #259-#261, #289, #301, #598, #605, #624, #646, #661
 * Sheol: #19-#24, #42, #56-#57, #61, #166, #181, #188, #196
 * Dark Room: #272
@@ -220,8 +220,8 @@ The changed rooms are as follows:
 While not technically unavoidable, in a narrow room, Krampus is much more likely to hit the player with an unavoidable spinning Brimstone attack.
 
 The deleted rooms are as follows:
-* #2306
 * #2305
+* #2306
 
 <br />
 
@@ -450,7 +450,8 @@ The removed rooms are as follows:
 
 ### Misc. Fixes
 
-* Depths: #416 - The room was made symmetrical.
+* Caves: #416 - The room was made symmetrical.
+* Basement & Cellar: #811 - The Pooters were moved away from the rocks so that they are less likely to get stuck.
 
 <br />
 
