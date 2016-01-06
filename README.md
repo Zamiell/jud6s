@@ -1,6 +1,6 @@
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.4/jud6s.v1.4.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.5/jud6s.v1.5.zip)
 
 <br />
 
@@ -14,6 +14,7 @@ This is the mod used in several [Balls of Steel](http://www.ballsofsteel.tv/) we
 
 ## Version History
 
+* *1.5* - January 6th, 2016 - Added a More Options mode. Reverted the "giantbook" animation removal (black heart, Betrayal, and so forth). Changed the Treasure Room with two pedestals and spikes. Reverted the changes to The Haunt room #5014 and Mega Fatty room #5053.
 * *1.4* - January 5th, 2016 - Fixed a bug with certain rooms incorrectly being set to 1000 weight.
 * *1.3* - January 5th, 2016 - Updated the mod for Afterbirth and added some other goodies. Also moved the documentation from the Medium blog to GitHub. This update took me around 30 hours of research, verification, implementation, and documentation.
 * *1.2* - July 13th, 2105 - Added half a soul heart to Judas. Made modifications to some buggy rooms.
@@ -44,14 +45,17 @@ To go back to an un-modded game, delete everything in the folder except for the 
 * All characters start with the D6 (except for Eve, Eden, and Keeper, as it isn't possible).
 * The Devil Rooms and Angel Rooms without pedestal items in them have been removed.
 * Judas starts with half a soul heart in addition to his 1 red heart container (so that he can consistently take a devil deal).
-* Judas starts with a bomb instead of 3 coins (so that he can get the Treasure Room pedestal surrounded by rocks).
-* Cutscene/animation updates from the [Speed Mod](https://raw.githubusercontent.com/Zamiell/speed-mod) have been included.
+* Judas starts with a bomb instead of 3 coins (so that he can get Treasure Room pedestal items surrounded by rocks).
+* Cutscene/animation updates from the [Speed Mod](https://raw.githubusercontent.com/Zamiell/speed-mod) have been included (with the exception of the "giantbook" animation removal).
 * More room variety: all rooms in the game will now appear on both easy and hard mode. Additionally, all non-special rooms are now equally likely to occur.
 * The charge animations when using Maw of the Void, Cursed Eye, Chocolate Milk, Monstro's Lung, and Brimstone with some transformations (such as Leviathan) has been fixed.
 * Many rooms with unavoidable damage or bugs have been fixed.
 
+#### Extra Changes in "More Options Mode"
+* All characters start with More Options in addition to their other items.
+
 #### Extra Changes in "Seeded Mode"
-* All characters start with The Compass.
+* All characters start with The Compass in addition to their other items.
 * Angel statues are removed and replaced with Key Piece 1.
 * Pandora's Box is removed from all item pools.
 
@@ -117,7 +121,7 @@ The changed rooms are as follows:
 
 ### Double Boss Champion Fix
 
-Some rooms have Monstros, Gurdy Jr.'s, or Cages that spawn near an entrance. If the double champion version spawns, they will be touched while the room is loading and automatically take damage. This bug is fixed by moving the enemies closer to the center of the room.
+Some rooms have Monstros, Gurdy Jr.'s, or Cages that spawn near an entrance. If the double champion version spawns, the player will be touched while the room is loading and automatically take damage. This bug is fixed by moving the enemies closer to the center of the room.
 
 The changed rooms are as follows:
 * Sheol: #212 (Cage)
@@ -150,16 +154,13 @@ The changed rooms are as follows:
 
 <br />
 
-### Exploding Entities Fix
+### TNT Barrel Fix
 
-Some rooms have TNT bomb rocks or TNT barrels that spawn near an entrance. Upon loading the room, there is a small chance that they will explode. If this occurs, the player will take unavoidable damage. This bug is fixed by replacing or removing the barrels in question.
+One Treasure Room has TNT barrels that spawn near the entrance. Upon loading the room, there is a small chance that they will explode. If this occurs, the player will take unavoidable damage. Additionally, a basement/cellar room has TNT barrels that will immediately explode if the player is holding Mom's Knife. These rooms have been fixed by replacing or removing the barrels in question.
 
 The changed room is as follows:
 
 * Treasure Room: #13
-* The Haunt: #5014
-* Mega Fatty: #5053
-* Pride Mini-Boss Room: #2065
 * Basement: #748
 * Cellar: #748
 
@@ -232,6 +233,15 @@ This room was never actually tested by the developers and results in a softlock 
 
 The deleted room is as follows:
 * Chest: #258
+
+<br />
+
+### Narrow Pride Fix
+
+While not technically unavoidable, the TNT barrels make the fight very RNG-based. They have been removed to make the room more fair.
+
+The changed room is as follows:
+* #2065
 
 <br />
 
@@ -387,6 +397,15 @@ The changed room is as follows:
 
 <br />
 
+### Treasure Room Fix for Judas
+
+The treasure room with two pedestals and spikes has been slightly tweaked so that Judas can use a bomb to get the item without spending a soul heart.
+
+The changed room is as follows:
+* Treasure Room: #21
+
+<br />
+
 ### Empty Room Removal
 
 Several rooms in the game are completely empty of any objects at all.
@@ -402,6 +421,23 @@ The removed rooms are as follows:
 
 <br />
 
+### Out of Bounds Fix
+
+* Rooms with entities out of bounds have been placed in bounds. This doesn't affect gameplay in any way.
+
+* Caves: #203, #363, #406, #427, #429
+* Catacombs: #363, #406, #427, #429
+* Depths: #430, #455, #463
+* Necropolis: #430, #455
+
+<br />
+
+### Misc. Fixes
+
+* Depths: #416 - The room was made symmetrical.
+
+<br />
+
 ## Rooms That Were Deliberately Not Changed
 
 Basement #274 - There is a TNT barrel to the left/right of the top/bottom entrances. However, on a knife build, if you are playing correctly, you should be pointing it towards the center of the room upon entering.
@@ -410,7 +446,3 @@ Basement #274 - There is a TNT barrel to the left/right of the top/bottom entran
 * Dark Room #287 - This is a room with 3 mega troll bombs and an Imp. If you stand completely still, the troll bombs will not damage you.
 * Mama Gurdy - In Afterbirth, you have more time to dodge the spikes before the hitbox appears.
 * Daddy Long Legs - In Afterbirth, the multiple stomp attack no longer damages you before the animation begins.
-
-<br />
-
-- see if i can remove the negative somehow
