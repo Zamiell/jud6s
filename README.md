@@ -11,9 +11,9 @@
 
 ## What Is It?
 
-This is a racing mod for *The Binding of Isaac: Afterbirth* that stays very close to the original game while slightly tweaking it to be more fair for racing.
+This is a mod that stays very close to the original game while slightly tweaking it to be more fair for racing.
 
-This is the mod used in several [Balls of Steel](http://www.ballsofsteel.tv/) weekly tournaments, hosted by [Diabetech](http://www.twitch.tv/diabetech).
+This has been used in several [Balls of Steel](http://www.ballsofsteel.tv/) weekly tournaments hosted by [Diabetech](http://www.twitch.tv/diabetech).
 
 <br />
 
