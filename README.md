@@ -57,14 +57,14 @@ To go back to an un-modded game, delete everything in the folder except for the 
   * All rooms in the game will now appear on both easy and hard mode.
   * All non-special rooms are now equally likely to occur.
 * The Devil Rooms and Angel Rooms without item pedestals in them have been removed.
-* The charge animations when using Maw of the Void, Cursed Eye, Chocolate Milk, Monstro's Lung, and Brimstone with some transformations (such as Leviathan) has been fixed.
+* Charge animations with with transformations now work.
 * All cutscenes have been removed.
 * Some useless animations have been removed:
   * the fetal position animation at the beginning of every floor
   * the jumping in the hole to the next floor animation
   * the beam of light animation when going to the Cathedral
   * the chest entering animation when going to The Chest or beating the game
-* Sets boss death animations that are longer than 1 frame to 1 frame (except for Krampus, Uriel, and Gabriel).
+* Boss death animations that are longer than 1 frame are set to 1 frame (except for Krampus, Uriel, and Gabriel).
 * Many rooms with unavoidable damage or bugs have been fixed.
 
 #### Extra Changes in "More Options Mode"
@@ -415,7 +415,7 @@ The changed room is as follows:
 
 ### Treasure Room Fix for Judas
 
-The treasure room with two pedestals and spikes has been slightly tweaked so that Judas can use a bomb to get the item without spending a soul heart.
+The Treasure Room with two pedestals and spikes has been slightly tweaked so that Judas can use a bomb to get the item without spending a soul heart.
 
 The changed room is as follows:
 * Treasure Room: #21
