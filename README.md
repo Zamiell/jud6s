@@ -29,7 +29,9 @@ This has been used in several [Balls of Steel](http://www.ballsofsteel.tv/) week
 
 ## Installation & Uninstallation
 
-Go into the directory that corresponds with the ruleset you want to play and copy all of the files to: `C:\Program Files (x86)\Steam\steamapps\common\The Binding of Isaac Rebirth\resources\`
+Go into the directory that corresponds with the ruleset you want to play and copy all of the files to:
+
+`C:\Program Files (x86)\Steam\steamapps\common\The Binding of Isaac Rebirth\resources\`
 
 To go back to an un-modded game, delete everything in the folder except for the "packed" directory.
 
