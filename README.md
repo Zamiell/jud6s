@@ -1,6 +1,6 @@
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.3/jud6s.v1.3.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.4/jud6s.v1.4.zip)
 
 <br />
 
@@ -14,6 +14,7 @@ This is the mod used in several [Balls of Steel](http://www.ballsofsteel.tv/) we
 
 ## Version History
 
+* *1.4* - January 5th, 2016 - Fixed a bug with certain rooms incorrectly being set to 1000 weight.
 * *1.3* - January 5th, 2016 - Updated the mod for Afterbirth and added some other goodies. Also moved the documentation from the Medium blog to GitHub. This update took me around 30 hours of research, verification, implementation, and documentation.
 * *1.2* - July 13th, 2105 - Added half a soul heart to Judas. Made modifications to some buggy rooms.
 * *1.1* - July 1st, 2015 - The initial public release. The first weekly was played on this version.
