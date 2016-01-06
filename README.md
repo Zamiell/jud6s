@@ -29,7 +29,7 @@ This has been used in several [Balls of Steel](http://www.ballsofsteel.tv/) week
 
 ## Installation & Uninstallation
 
-Go into the directory that corresponds with the ruleset you want to play and copy all of the files to:
+There is a directory for each of the 5 modes. Go into the directory that corresponds with the ruleset that you want to play and then copy all of the files to:
 
 `C:\Program Files (x86)\Steam\steamapps\common\The Binding of Isaac Rebirth\resources\`
 
