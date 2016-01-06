@@ -14,7 +14,7 @@ This is the mod used in several [Balls of Steel](http://www.ballsofsteel.tv/) we
 
 ## Version History
 
-* *1.3* - January ?, 2016 - Updated the mod for Afterbirth and added some other goodies. Also moved the documentation from the Medium blog to GitHub. This update took me around 30 hours of research, verification, implementation, and documentation.
+* *1.3* - January 5th, 2016 - Updated the mod for Afterbirth and added some other goodies. Also moved the documentation from the Medium blog to GitHub. This update took me around 30 hours of research, verification, implementation, and documentation.
 * *1.2* - July 13th, 2105 - Added half a soul heart to Judas. Made modifications to some buggy rooms.
 * *1.1* - July 1st, 2015 - The initial public release. The first weekly was played on this version.
 
