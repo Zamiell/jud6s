@@ -1,11 +1,7 @@
 # The Jud6s Mod v1.5
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
-<br />
-
----
-
-<br />
+<br /><br />
 
 ## Download
 
