@@ -1,3 +1,12 @@
+# The Jud6s Mod v1.5
+##### A racing mod for The Binding of Isaac: Afterbirth
+
+<br />
+
+---
+
+<br />
+
 ## Download
 
 [Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.5/jud6s.v1.5.zip)
@@ -440,7 +449,7 @@ The removed rooms are as follows:
 
 ## Rooms That Were Deliberately Not Changed
 
-Basement #274 - There is a TNT barrel to the left/right of the top/bottom entrances. However, on a knife build, if you are playing correctly, you should be pointing it towards the center of the room upon entering.
+* Basement #274 - There is a TNT barrel to the left/right of the top/bottom entrances. However, on a knife build, if you are playing correctly, you should be pointing it towards the center of the room upon entering.
 * Cellar #766 - This is a room with 3 mega troll bombs, but if you stand completely still, they will not damage you.
 * Womb/Utero #147 - This is a room with 3 Nerve Endings next to the entrance. If you have Ipecac, it is possible to use a tear on the wall to safely kill a Nerve Ending. Alternatively, you can safely use a bomb.
 * Dark Room #287 - This is a room with 3 mega troll bombs and an Imp. If you stand completely still, the troll bombs will not damage you.
