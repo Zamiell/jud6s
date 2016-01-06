@@ -47,13 +47,22 @@ To go back to an un-modded game, delete everything in the folder except for the 
 
 ## Mod Changes
 
-* All characters start with the D6 (except for Eve, Eden, and Keeper, as it isn't possible).
-* The Devil Rooms and Angel Rooms without pedestal items in them have been removed.
-* Judas starts with half a soul heart in addition to his 1 red heart container (so that he can consistently take a devil deal).
-* Judas starts with a bomb instead of 3 coins (so that he can get Treasure Room pedestal items surrounded by rocks).
-* Cutscene/animation updates from the [Speed Mod](https://raw.githubusercontent.com/Zamiell/speed-mod) have been included (with the exception of the "giantbook" animation removal).
-* More room variety: all rooms in the game will now appear on both easy and hard mode. Additionally, all non-special rooms are now equally likely to occur.
+* Judas has been tweaked:
+  * Judas starts with the D6. (All other characters also start with the D6, except for Eve, Eden, and Keeper, as it isn't possible.)
+  * Judas starts with half a soul heart in addition to his 1 red heart container (so that he can consistently take a devil deal).
+  * Judas starts with a bomb instead of 3 coins (so that he can get Treasure Room pedestal items surrounded by rocks).
+* More room variety:
+  * All rooms in the game will now appear on both easy and hard mode.
+  * All non-special rooms are now equally likely to occur.
+* The Devil Rooms and Angel Rooms without item pedestals in them have been removed.
 * The charge animations when using Maw of the Void, Cursed Eye, Chocolate Milk, Monstro's Lung, and Brimstone with some transformations (such as Leviathan) has been fixed.
+* All cutscenes have been removed.
+* Some useless animations have been removed:
+  * the fetal position animation at the beginning of every floor
+  * the jumping in the hole to the next floor animation
+  * the beam of light animation when going to the Cathedral
+  * the chest entering animation when going to The Chest or beating the game
+* Sets boss death animations that are longer than 1 frame to 1 frame (except for Krampus, Uriel, and Gabriel).
 * Many rooms with unavoidable damage or bugs have been fixed.
 
 #### Extra Changes in "More Options Mode"
