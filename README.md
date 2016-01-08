@@ -19,7 +19,7 @@ This has been used in several [Balls of Steel](http://www.ballsofsteel.tv/) week
 
 ## Version History
 
-* *1.8* - Unreleased - Made the installation script better; just edit line 4 if you don't have Isaac installed in the normal location.
+* *1.8* - Unreleased - Made the installation script better; just edit line 4 if you don't have Afterbirth installed in the normal location.
 * *1.7* - January 7th, 2016 - Added a helpful installer script and a shortcut to the Afterbirth resources directory. Added Uriel or Gabriel to every Angel Room on seeded mode. Deleted the double Forsaken room in the Chest. Changed the room in the Depths with the two Leapers and two Pokeys to be more reasonable. Fixed the bomb puzzle room in the Depths/Necropolis. Fixed the room in the Caves with the Hive that was spawning too close to the top entrance. Made a Hive room in the Caves symmetrical.
 * *1.6* - January 6th, 2016 - Reverted the "room variety" change. Fixed the L-shaped room with the Pooters in the Basement/Cellar.
 * *1.5* - January 6th, 2016 - Added a More Options mode. Reverted the "giantbook" animation removal (black heart, Betrayal, and so forth). Changed the Treasure Room with two pedestals and spikes. Reverted the changes to The Haunt room and Mega Fatty room with TNT barrels.
