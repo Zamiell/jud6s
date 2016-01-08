@@ -1,11 +1,11 @@
-# The Jud6s Mod v1.6
+# The Jud6s Mod v1.7
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
 
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.6/jud6s.v1.6.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.7/jud6s.v1.7.zip)
 
 <br />
 
@@ -19,8 +19,9 @@ This has been used in several [Balls of Steel](http://www.ballsofsteel.tv/) week
 
 ## Version History
 
-* *1.6* - January 6th, 2016 - Reverted the "room variety" change. Fixed the Pooters in Basement/Cellar room #811.
-* *1.5* - January 6th, 2016 - Added a More Options mode. Reverted the "giantbook" animation removal (black heart, Betrayal, and so forth). Changed the Treasure Room with two pedestals and spikes. Reverted the changes to The Haunt room #5014 and Mega Fatty room #5053.
+* *1.7* - Janurary 7th, 2016 - Added Uriel or Gabriel to every Angel Room on seeded mode. Fixed the double Forsaken room in the Chest. Fixed the room in the Depths with two Leapers and two Pokeys. Fixed the bomb puzzle room in the Depths/Necropolis. Fixed a room with the Hive in the Caves that was spawning too close to the top entrance. Made a Hive room in the Caves symmetrical.
+* *1.6* - January 6th, 2016 - Reverted the "room variety" change. Fixed the L-shaped room with the Pooters in the Basement/Cellar.
+* *1.5* - January 6th, 2016 - Added a More Options mode. Reverted the "giantbook" animation removal (black heart, Betrayal, and so forth). Changed the Treasure Room with two pedestals and spikes. Reverted the changes to The Haunt room and Mega Fatty room with TNT barrels.
 * *1.4* - January 5th, 2016 - Fixed a bug with certain rooms incorrectly being set to 1000 weight.
 * *1.3* - January 5th, 2016 - Updated the mod for Afterbirth and added some other goodies. Also moved the documentation from the Medium blog to GitHub. This update took me around 30 hours of research, verification, implementation, and documentation.
 * *1.2* - July 13th, 2105 - Added half a soul heart to Judas. Made modifications to some buggy rooms.
@@ -55,7 +56,7 @@ To go back to an un-modded game, delete everything in the folder except for the 
   * Judas starts with half a soul heart in addition to his 1 red heart container (so that he can consistently take a devil deal).
   * Judas starts with a bomb instead of 3 coins (so that he can get Treasure Room pedestal items surrounded by rocks).
 * The Devil Rooms and Angel Rooms without item pedestals in them have been removed.
-* Charge animations with with transformations now work.
+* Charge animations with transformations now work.
 * All cutscenes have been removed.
 * Some useless animations have been removed:
   * the fetal position animation at the beginning of every floor
@@ -70,7 +71,7 @@ To go back to an un-modded game, delete everything in the folder except for the 
 
 #### Extra Changes in "Seeded Mode"
 * All characters start with The Compass in addition to their other items.
-* Angel statues are removed and replaced with Key Piece 1.
+* Angel statues are replaced with either Uriel or Gabriel. Key Piece 1 has been placed in each Angel Room.
 * Pandora's Box is removed from all item pools.
 
 #### Extra Changes for "Dark Room Mode"
@@ -148,18 +149,29 @@ The changed rooms are as follows:
 
 <br />
 
+### Double Forsaken Fix
+
+If one Forsaken does a Brimstone attack in a clockwise direction and the other Forsaken does a Brimstone attack in a counter-clockwise direction, it is impossible to dodge.
+
+The deleted room is as follows:
+* Chest: #296
+
+<br />
+
 ### Exploding Enemies Fix
 
 Some rooms have exploding enemies that spawn near an entrance. If the player has a sufficient number of unused blue flies, the flies will kill the enemy while the room is loading and the player will automatically take damage. This bug is fixed by moving the enemy closer to the center of the room.
 
 The changed rooms are as follows:
 * Basement: #129, #130, #359 (Mulligan)
-* Cellar: #129, #130, #359 (Mulligan)
+* Cellar: #129, #130 (Mulligoon)
+* Cellar: #359 (Mulligan)
 * Caves: #46, #50, #440, #518 (Boom Fly)
 * Caves: #141 (Clotty)
-* Caves: #548 (Mulligan)
+* Caves: #553 (Hive)
+* Caves: #548 (Drowned Hive)
 * Catacombs: #46, #440, #518 (Boom Fly)
-* Catacombs: #548 (Mulligan)
+* Catacombs: #548 (Drowned Hive)
 * Depths: #11 (Boom Fly)
 * Womb: #333 (Fistula)
 * Utero #333 (Fistula)
@@ -413,6 +425,25 @@ The changed room is as follows:
 
 <br />
 
+### Leaper & Pokey Room Fix
+
+On the room with the two Leapers and two Pokeys, certain attack patterns can lead to unavoidable damage. The room has been made slightly more spacious to account for this.
+
+The changed room is as follows:
+* Depths: #110
+
+<br />
+
+### Bomb Puzzle Room Fix
+
+On the room with the bomb drops at each of the four entrances, the random bomb drops were replaced with a set bomb drop to prevent troll bombs from spawning. Also, several key rocks were changed to pots to prevent them from spawning as spikes in the Dank Depths. Finally, a rock was also removed to prevent a sock-lock if the player enters from the left side.
+
+The changed room is as follows:
+* Depths: #41
+* Necropolis: #41
+
+<br />
+
 ### Treasure Room Fix for Judas
 
 The Treasure Room with two pedestals and spikes has been slightly tweaked so that Judas can use a bomb to get the item without spending a soul heart.
@@ -450,6 +481,7 @@ The removed rooms are as follows:
 
 ### Misc. Fixes
 
+* Caves: #120 - The room was made symmetrical.
 * Caves: #416 - The room was made symmetrical.
 * Basement & Cellar: #811 - The Pooters were moved away from the rocks so that they are less likely to get stuck.
 
