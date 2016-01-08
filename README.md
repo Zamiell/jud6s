@@ -31,7 +31,9 @@ This has been used in several [Balls of Steel](http://www.ballsofsteel.tv/) week
 
 ## Installation & Uninstallation
 
-There is a directory for each of the 5 modes. Go into the directory that corresponds with the ruleset that you want to play and then copy all of the files to:
+Double click on the "RUN THIS TO INSTALL" script. It will take care of everything for you. (This script can also be used to uninstall the mod.)
+
+If the script fails, you can manually install the mod by going into the subdirectory that corresponds with the ruleset that you want to play and then copying all of the files to:
 
 `C:\Program Files (x86)\Steam\steamapps\common\The Binding of Isaac Rebirth\resources\`
 
