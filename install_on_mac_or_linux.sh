@@ -1,17 +1,14 @@
 #!/bin/sh
 
-# This is the variable to set if you want to use another directory than the
-# default one !
+# Set this variable if you do not use the default Afterbirth resources directory
 user_defined_resources_path=""
 
-
-# Don't edit below this please ;)
-
+# Script variables
 detected_path=""
 user_choice=""
 
 autodetect_resources() {
-    # Attempt to autodetect the resource folder if the user didn't specify one
+    # Attempt to auto-detect the resource folder if the user didn't specify one
     if [ ! -z "$user_defined_resources_path" ]; then
         echo "Using user-defined path to resources."
         detected_path=$user_defined_resources_path
@@ -118,8 +115,7 @@ remove_all_mods() {
     fi
 }
 
-# Warning, this function does no check at all, please ensure input are validated
-# before executing it.
+# Warning, this function does no check at all, please ensure input are validated before executing it.
 # First parameter should be a ruleset ID
 install_ruleset() {
     echo "Removing all mods before installing"
