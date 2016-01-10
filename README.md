@@ -32,6 +32,8 @@ This has been used in several [Balls of Steel](http://www.ballsofsteel.tv/) week
 
 ## Installation & Uninstallation
 
+### Windows
+
 Double click on the "RUN THIS TO INSTALL" script. It will take care of everything for you. (This script can also be used to uninstall the mod.)
 
 If the script fails, you can manually install the mod by going into the subdirectory that corresponds with the ruleset that you want to play and then copying all of the files to:
@@ -39,6 +41,15 @@ If the script fails, you can manually install the mod by going into the subdirec
 `C:\Program Files (x86)\Steam\steamapps\common\The Binding of Isaac Rebirth\resources\`
 
 To go back to an un-modded game, delete everything in the folder except for the "packed" directory.
+
+
+### Linux and Mac
+
+Run the `install_on_linux_or_mac.sh` script from this directory.
+It should automatically detect your system and your `resources` folder location, and take care of installing/uninstalling a mod for you.
+The script will prompt for confirmation before deleting anything.
+
+If the script fails please read the error message and act accordingly, or manually copy the mod of your choice to your `resources` folder location.
 
 <br />
 
