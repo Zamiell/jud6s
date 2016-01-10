@@ -1,11 +1,11 @@
-# The Jud6s Mod v1.7
+# The Jud6s Mod v1.8
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
 
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.7/jud6s.v1.7.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.8/jud6s.v1.8.zip)
 
 <br />
 
@@ -19,7 +19,7 @@ This has been used in several [Balls of Steel](http://www.ballsofsteel.tv/) week
 
 ## Version History
 
-* *1.8* - Unreleased - Made the installation script better; just edit line 4 if you don't have Afterbirth installed in the normal location.
+* *1.8* - January 10th, 2016 - Made the installation script better; just edit line 4 if you don't have Afterbirth installed in the normal location. Deleted the double troll bomb room in the Basement/Cellar. Deleted the narrow Fallen rooms on The Chest / Dark Room. Deleted the Triple Adversary room in the Dark Room. Deleted the narrow Forsaken room on the Dark Room. Deleted the narrow Teratoma rooms on the Dark Room. Fixed a Kamikaze Leech room in the Dark Room. Fixed the High Priestess card room in the Dark Room.
 * *1.7* - January 7th, 2016 - Added a helpful installer script and a shortcut to the Afterbirth resources directory. Added Uriel or Gabriel to every Angel Room on seeded mode. Deleted the double Forsaken room in the Chest. Changed the room in the Depths with the two Leapers and two Pokeys to be more reasonable. Fixed the bomb puzzle room in the Depths/Necropolis. Fixed the room in the Caves with the Hive that was spawning too close to the top entrance. Made a Hive room in the Caves symmetrical.
 * *1.6* - January 6th, 2016 - Reverted the "room variety" change. Fixed the L-shaped room with the Pooters in the Basement/Cellar.
 * *1.5* - January 6th, 2016 - Added a More Options mode. Reverted the "giantbook" animation removal (black heart, Betrayal, and so forth). Changed the Treasure Room with two pedestals and spikes. Reverted the changes to The Haunt room and Mega Fatty room with TNT barrels.
@@ -36,7 +36,7 @@ This has been used in several [Balls of Steel](http://www.ballsofsteel.tv/) week
 
 Double click on the "RUN THIS TO INSTALL" script. It will take care of everything for you. (This script can also be used to uninstall the mod.)
 
-If the script fails, you can manually install the mod by going into the subdirectory that corresponds with the ruleset that you want to play and then copying all of the files to:
+Alternatively, you can manually install the mod by going into the subdirectory that corresponds with the ruleset that you want to play and then copying all of the files to:
 
 `C:\Program Files (x86)\Steam\steamapps\common\The Binding of Isaac Rebirth\resources\`
 
@@ -192,7 +192,7 @@ The changed rooms are as follows:
 * Cathedral: #30 (Kamikaze Leech)
 * Sheol: #30 (Kamikaze Leech)
 * Chest: #53, #72, #84 (Fistula)
-* Dark Room: #272 (Kamikaze Leech)
+* Dark Room: #238, #272 (Kamikaze Leech)
 
 <br />
 
@@ -241,6 +241,15 @@ The changed rooms are as follows:
 
 <br />
 
+### Triple Adversary Removal
+
+While not technically unavoidable, the random nature of the boss movement combined with off-screen Brimstone attacks makes for a very unfair room.
+
+The deleted room is as follows:
+* Dark Room: #78
+
+<br />
+
 ### Narrow Krampus Removal
 
 While not technically unavoidable, in a narrow room, Krampus is much more likely to hit the player with an unavoidable spinning Brimstone attack.
@@ -275,6 +284,34 @@ This room was never actually tested by the developers and results in a softlock 
 
 The deleted room is as follows:
 * Chest: #258
+
+<br />
+
+### Narrow The Fallen Removal
+
+While not technically unavoidable, in a narrow room, it is near-impossible on an Ipecac build to avoid his attacks.
+
+The deleted rooms are as follows:
+* Chest: #275
+* Dark Room: #256, #275
+
+<br />
+
+### Narrow Teratoma Removal
+
+While not technically unavoidable, in a narrow room, it is near-impossible on an Ipecac build to avoid taking damage.
+
+The deleted rooms are as follows:
+* Dark Room: #255, #274
+
+<br />
+
+### Narrow Forsaken Removal
+
+While not technically unavoidable, in a narrow room, The Forsaken is much more likely to hit the player with an unavoidable spinning Brimstone attack.
+
+The deleted room is as follows:
+* Dark Room: #263
 
 <br />
 
@@ -377,15 +414,16 @@ The changed rooms are as follows:
 
 <br />
 
-### Magician Card Fix
+### Card Room Fix
 
-The rooms with a bugged Magician card are fixed to be a random card.
+The rooms with a bugged Magician / High Priestess card are fixed to be a random card.
 
 The changed rooms are as follows:
 * Depths: #286
 * Necropolis: #286
 * Womb: #687
 * Utero: #687
+* Dark Room: #291
 
 <br />
 
@@ -413,8 +451,8 @@ The changed rooms are as follows:
 For certain rooms with troll bombs, there is no consistent strategy to navigate this room without taking damage.
 
 The removed rooms are as follows:
-* Basement: #752
-* Cellar: #752
+* Basement: #752, #767
+* Cellar: #752, #767
 * Depths: #699
 * Necropolis: #699
 
