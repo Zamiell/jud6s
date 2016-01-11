@@ -1,11 +1,11 @@
-# The Jud6s Mod v1.8
+# The Jud6s Mod v1.9
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
 
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.8/jud6s.v1.8.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.9/jud6s.v1.9.zip)
 
 <br />
 
@@ -19,6 +19,7 @@ This has been used in several [Balls of Steel](http://www.ballsofsteel.tv/) week
 
 ## Version History
 
+* *1.9* - January 11th, 2016 - Fixed the Gate boss room with no side entrances. Deleted the narrow Mega Maw room.
 * *1.8* - January 10th, 2016 - Made the installation script better; just edit line 4 if you don't have Afterbirth installed in the normal location. Added a separate installation script for Mac/Linux. Deleted the double troll bomb room in the Basement/Cellar. Deleted the narrow Fallen rooms on The Chest / Dark Room. Deleted the Triple Adversary room in the Dark Room. Deleted the narrow Forsaken room on the Dark Room. Deleted the narrow Teratoma rooms on the Dark Room. Fixed a Kamikaze Leech room in the Dark Room. Fixed the High Priestess card room in the Dark Room.
 * *1.7* - January 7th, 2016 - Added a helpful installer script and a shortcut to the Afterbirth resources directory. Added Uriel or Gabriel to every Angel Room on seeded mode. Deleted the double Forsaken room in the Chest. Changed the room in the Depths with the two Leapers and two Pokeys to be more reasonable. Fixed the bomb puzzle room in the Depths/Necropolis. Fixed the room in the Caves with the Hive that was spawning too close to the top entrance. Made a Hive room in the Caves symmetrical.
 * *1.6* - January 6th, 2016 - Reverted the "room variety" change. Fixed the L-shaped room with the Pooters in the Basement/Cellar.
@@ -268,10 +269,17 @@ The deleted room is as follows:
 
 ### Narrow The Gate Removal
 
-While not technically unavoidable, in a narrow room, there is not enough time to react to the red champion's attack patterns.
+While not technically unavoidable, in a narrow room, there is not enough time to react to the attack patterns, especially of champion versions of the boss.
 
 The deleted room is as follows:
 * #5043
+
+### Narrow Mega Maw Removal
+
+While not technically unavoidable, in a narrow room, there is not enough time to react to the attack patterns, especially of champion versions of the boss.
+
+The deleted room is as follows:
+* #5035
 
 <br />
 
@@ -333,7 +341,7 @@ The changed rooms are as follows:
 
 <br />
 
-### Narrow Boss Room Door Fix
+### Boss Room Door Fix
 
 It is not possible for Devil Room doors to spawn on boss rooms that only have one entrance. For this reason, several rooms were adjusted to allow for at least two entrances.
 
@@ -341,6 +349,8 @@ The changed rooms are as follows:
 * #2065 (Fistula)
 * #5026 (Dingle)
 * #5145 (Gurglings)
+* #5035 (Mega Maw)
+* #5044 (The Gate)
 
 <br />
 
