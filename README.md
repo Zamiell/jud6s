@@ -32,7 +32,7 @@ This has been used in several [Balls of Steel](http://www.ballsofsteel.tv/) week
 
 ## Installation & Uninstallation
 
-### Windows
+#### Windows
 
 Double click on the "RUN THIS TO INSTALL" script. It will take care of everything for you. (This script can also be used to uninstall the mod.)
 
@@ -42,7 +42,7 @@ Alternatively, you can manually install the mod by going into the subdirectory t
 
 To go back to an un-modded game, delete everything in the folder except for the "packed" directory.
 
-### Mac & Linux
+#### Mac & Linux
 
 Run the `install_on_mac_or_linux.sh` script from this directory. It should automatically detect your system and your `resources` folder location. The script will prompt for confirmation before deleting anything.
 
