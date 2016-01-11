@@ -42,14 +42,11 @@ Alternatively, you can manually install the mod by going into the subdirectory t
 
 To go back to an un-modded game, delete everything in the folder except for the "packed" directory.
 
+### Mac & Linux
 
-### Linux and Mac
+Run the `install_on_mac_or_linux.sh` script from this directory. It should automatically detect your system and your `resources` folder location. The script will prompt for confirmation before deleting anything.
 
-Run the `install_on_linux_or_mac.sh` script from this directory.
-It should automatically detect your system and your `resources` folder location, and take care of installing/uninstalling a mod for you.
-The script will prompt for confirmation before deleting anything.
-
-If the script fails please read the error message and act accordingly, or manually copy the mod of your choice to your `resources` folder location.
+Alternatively, you can manually install the mod by going into the subdirectory that corresponds with the ruleset that you want to play and then copying all of the files to the `resources` folder.
 
 <br />
 
