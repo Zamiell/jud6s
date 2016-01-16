@@ -1,11 +1,11 @@
-# The Jud6s Mod v1.11
+# The Jud6s Mod v1.12
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
 
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.11/jud6s.v1.11.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.12/jud6s.v1.12.zip)
 
 <br />
 
@@ -19,6 +19,7 @@ This has been used in several [Balls of Steel](http://www.ballsofsteel.tv/) week
 
 ## Version History
 
+* *1.12* - January 16th - Deleted the Basement/Cellar L-shaped Pooter room.
 * *1.11* - January 15th - Deleted the Chest narrow double Headless Horseman room. Deleted the Chest narrow Mega Maw room. Deleted the Chest narrow Gurdy Jr. room. Deleted the Chest double Monstro rooms. Deleted the Chest quad Monstro room. Fixed the Cathedral narrow Floating Knight room. Fixed the Womb/Utero 2x2 room with Suckers in the corners. Moved some Adversaries to be closer to the middle of the room. Changed the Polaroid and Cathedral beam graphics to be more obnoxious on the Dark Room mode.
 * *1.10* - January 11th, 2016 - Added RatRacing's start room graphic. Changed the text on the character select screen for Judas. Added graphics to help from players accidentally taking the Polaroid or going to the Cathedral on the Dark Room mode.
 * *1.9* - January 11th, 2016 - Fixed the Gate boss room with no side entrances. Deleted the narrow Mega Maw room.
@@ -446,6 +447,14 @@ On the room with the two Leapers and two Pokeys, certain attack patterns can lea
 The changed room is as follows:
 * Depths: #110
 
+### Pooter Fix
+
+On the L-shaped Pooter room in the Basement/Cellar, the Pooters get stuck in the rocks. 
+
+The deleted room is as follows:
+* Basement: #811
+* Cellar: #811
+
 <br />
 
 ### Bomb Puzzle Room Fix
@@ -497,7 +506,6 @@ The removed rooms are as follows:
 
 * Caves: #120 - The room was made symmetrical.
 * Caves: #416 - The room was made symmetrical.
-* Basement & Cellar: #811 - The Pooters were moved away from the rocks so that they are less likely to get stuck.
 
 <br />
 
