@@ -19,7 +19,7 @@ This has been used in several [Balls of Steel](http://www.ballsofsteel.tv/) week
 
 ## Version History
 
-* *1.11* - Unreleased - Changed the Polaroid and Cathedral beam graphics to be more obnoxious on the Dark Room mode.
+* *1.11* - January 15th - Deleted the Chest narrow double Headless Horseman room. Deleted the Chest narrow Mega Maw room. Deleted the Chest narrow Gurdy Jr. room. Deleted the Chest double Monstro rooms. Deleted the Chest quad Monstro room. Fixed the Cathedral narrow Floating Knight room. Fixed the Womb/Utero 2x2 room with Suckers in the corners. Moved some Adversaries to be closer to the middle of the room. Changed the Polaroid and Cathedral beam graphics to be more obnoxious on the Dark Room mode.
 * *1.10* - January 11th, 2016 - Added RatRacing's start room graphic. Changed the text on the character select screen for Judas. Added graphics to help from players accidentally taking the Polaroid or going to the Cathedral on the Dark Room mode.
 * *1.9* - January 11th, 2016 - Fixed the Gate boss room with no side entrances. Deleted the narrow Mega Maw room.
 * *1.8* - January 10th, 2016 - Made the installation script better; just edit line 4 if you don't have Afterbirth installed in the normal location. Added a separate installation script for Mac/Linux. Deleted the double troll bomb room in the Basement/Cellar. Deleted the narrow Fallen rooms on The Chest / Dark Room. Deleted the Triple Adversary room in the Dark Room. Deleted the narrow Forsaken room on the Dark Room. Deleted the narrow Teratoma rooms on the Dark Room. Fixed a Kamikaze Leech room in the Dark Room. Fixed the High Priestess card room in the Dark Room.
@@ -188,8 +188,11 @@ The changed rooms are as follows:
 * Catacombs: #548 (Drowned Hive)
 * Depths: #11 (Boom Fly)
 * Womb: #333 (Fistula)
+* Womb: #410 (Sucker)
 * Utero #333 (Fistula)
+* Utero #410 (Sucker)
 * Cathedral: #30 (Kamikaze Leech)
+* Cathedral: #272 (Floating Knight)
 * Sheol: #30 (Kamikaze Leech)
 * Chest: #53, #72, #84 (Fistula)
 * Dark Room: #238, #272 (Kamikaze Leech)
@@ -250,75 +253,37 @@ The deleted room is as follows:
 
 <br />
 
-### Narrow Krampus Removal
+### Adversary Fix
 
-While not technically unavoidable, in a narrow room, Krampus is much more likely to hit the player with an unavoidable spinning Brimstone attack.
+If two Adversaries get close to a wall, the Brimstone attack can be unavoidable. This is mitigated by moving the Adversaries closer to the middle of the room.
 
-The deleted rooms are as follows:
-* #2305
-* #2306
+The changed rooms are as follows:
+* Chest: #41
+* Dark Room: #7, #50
 
-<br />
+### Unfair Narrow Room Removal
 
-### Narrow War Removal
-
-While not technically unavoidable, in a narrow room, it is near-impossible to dodge the charge attack of the second phase while at base movement speed.
-
-The deleted room is as follows:
-* #4036
-
-<br />
-
-### Narrow The Gate Removal
-
-While not technically unavoidable, in a narrow room, there is not enough time to react to the attack patterns, especially of champion versions of the boss.
-
-The deleted room is as follows:
-* #5043
-
-### Narrow Mega Maw Removal
-
-While not technically unavoidable, in a narrow room, there is not enough time to react to the attack patterns, especially of champion versions of the boss.
-
-The deleted room is as follows:
-* #5035
-
-<br />
-
-### Narrow The Haunt Removal
-
-This room was never actually tested by the developers and results in a softlock if the player is unlucky enough to walk into it.
-
-The deleted room is as follows:
-* Chest: #258
-
-<br />
-
-### Narrow The Fallen Removal
-
-While not technically unavoidable, in a narrow room, it is near-impossible on an Ipecac build to avoid his attacks.
+While not technically unavoidable, many narrow rooms have near-impossible attack patterns.
 
 The deleted rooms are as follows:
-* Chest: #275
-* Dark Room: #256, #275
-
-<br />
-
-### Narrow Teratoma Removal
-
-While not technically unavoidable, in a narrow room, it is near-impossible on an Ipecac build to avoid taking damage.
-
-The deleted rooms are as follows:
-* Dark Room: #255, #274
-
-<br />
-
-### Narrow Forsaken Removal
-
-While not technically unavoidable, in a narrow room, The Forsaken is much more likely to hit the player with an unavoidable spinning Brimstone attack.
-
-The deleted room is as follows:
-* Dark Room: #263
+* Angel Room: #9
+* Boss: #2305 (Krampus)
+* Boss: #2306 (Krampus)
+* Boss: #4036 (War)
+* Boss: #5035 (Mega Maw)
+* Boss: #5043 (The Gate)
+* Cathedral: #286 (Uriel)
+* Cathedral: #291 (Gabriel)
+* Chest: #258 (The Haunt)
+* Chest: #262 (Headless Horseman Head x2)
+* Chest: #269 (Mega Maw)
+* Chest: #264, #273 (Monstro x2)
+* Chest: #275 (The Fallen)
+* Chest: #283 (Gurdy Jr.)
+* Chest: #309 (Monstro x4)
+* Dark Room: #255, #274 (Teratoma)
+* Dark Room: #256, #275 (The Fallen)
+* Dark Room: #263 (The Forsaken)
 
 <br />
 
@@ -328,18 +293,6 @@ While not technically unavoidable, the TNT barrels make the fight very RNG-based
 
 The changed room is as follows:
 * #2065
-
-<br />
-
-### Narrow Angel Rooms
-
-While not technically unavoidable, they are near-impossible to do safely on a Dr. Fetus build.
-
-The deleted room is as follows:
-* Angel Room: #9
-
-The changed rooms are as follows:
-* Cathedral: #286, #291
 
 <br />
 
@@ -554,5 +507,6 @@ The removed rooms are as follows:
 * Cellar #766 - This is a room with 3 mega troll bombs, but if you stand completely still, they will not damage you.
 * Womb/Utero #147 - This is a room with 3 Nerve Endings next to the entrance. If you have Ipecac, it is possible to use a tear on the wall to safely kill a Nerve Ending. Alternatively, you can safely use a bomb.
 * Dark Room #287 - This is a room with 3 mega troll bombs and an Imp. If you stand completely still, the troll bombs will not damage you.
+* Chest #39 - This is a room with 2 Mega Maws. Even with the champion version, there is enough time to react to the patterns.
 * Mama Gurdy - In Afterbirth, you have more time to dodge the spikes before the hitbox appears.
 * Daddy Long Legs - In Afterbirth, the multiple stomp attack no longer damages you before the animation begins.
