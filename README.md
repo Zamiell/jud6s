@@ -264,7 +264,7 @@ The changed rooms are as follows:
 
 ### Unfair Narrow Room Removal
 
-While not technically unavoidable, many narrow rooms have near-impossible attack patterns.
+While not technically unavoidable, many narrow rooms have near-impossible attack patterns, especially on Dr. Fetus builds.
 
 The deleted rooms are as follows:
 * Angel Room: #9
@@ -446,6 +446,8 @@ On the room with the two Leapers and two Pokeys, certain attack patterns can lea
 
 The changed room is as follows:
 * Depths: #110
+
+<br />
 
 ### Pooter Fix
 
