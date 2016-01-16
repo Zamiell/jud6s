@@ -19,7 +19,7 @@ This has been used in several [Balls of Steel](http://www.ballsofsteel.tv/) week
 
 ## Version History
 
-* *1.12* - January 16th - Deleted the Basement/Cellar L-shaped Pooter room.
+* *1.12* - January 16th - Deleted a Basement/Cellar L-shaped Pooter room. Changed some Basement rooms to fix the Pooter soft-lock.
 * *1.11* - January 15th - Deleted the Chest narrow double Headless Horseman room. Deleted the Chest narrow Mega Maw room. Deleted the Chest narrow Gurdy Jr. room. Deleted the Chest double Monstro rooms. Deleted the Chest quad Monstro room. Fixed the Cathedral narrow Floating Knight room. Fixed the Womb/Utero 2x2 room with Suckers in the corners. Moved some Adversaries to be closer to the middle of the room. Changed the Polaroid and Cathedral beam graphics to be more obnoxious on the Dark Room mode.
 * *1.10* - January 11th, 2016 - Added RatRacing's start room graphic. Changed the text on the character select screen for Judas. Added graphics to help from players accidentally taking the Polaroid or going to the Cathedral on the Dark Room mode.
 * *1.9* - January 11th, 2016 - Fixed the Gate boss room with no side entrances. Deleted the narrow Mega Maw room.
@@ -451,11 +451,14 @@ The changed room is as follows:
 
 ### Pooter Fix
 
-On the L-shaped Pooter room in the Basement/Cellar, the Pooters get stuck in the rocks. 
+On certain rooms in the Basement/Cellar, some Pooters get stuck in rock, causing a soft lock.
 
 The deleted room is as follows:
 * Basement: #811
 * Cellar: #811
+
+The changed room is as follows:
+* Basement: #135, #391, #534, #747
 
 <br />
 
