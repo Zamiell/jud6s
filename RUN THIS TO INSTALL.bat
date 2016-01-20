@@ -1,7 +1,43 @@
+@setlocal enableextensions enabledelayedexpansion
 @echo off
 
-rem Set this equal to where your Afterbirth resources folder is
-set ResourcesFolder=C:\Program Files (x86)\Steam\SteamApps\common\The Binding of Isaac Rebirth\resources
+rem If the script is failing, set the below line equal to where your Isaac "resources" folder is
+set ResourcesFolder=
+
+if not "%ResourcesFolder%"=="" goto ResourceFolderIsSet
+
+set ResSubFolder=\SteamApps\common\The Binding of Isaac Rebirth\resources
+set RegistrySteam="HKCU\Software\Valve\Steam"
+set RegistrySteamPath="SteamPath"
+set SteamPath=
+
+rem Check to see if Steam is installed
+reg query %RegistrySteam% /V %RegistrySteamPath% > nul || (
+	echo ERROR: Steam does not appear to be installed, which means that I can't find the
+	echo        path to your Isaac "resources" directory. Exiting...
+	pause
+	exit /B
+)
+
+rem Query Steam's install path
+for /f "tokens=2,*" %%a in ('reg query %RegistrySteam% /V %RegistrySteamPath% ^| findstr %RegistrySteamPath%') do (
+	set SteamPath=%%~fb
+)
+
+rem Search the resource directory from Steam's install and the library paths
+if exist "%SteamPath%%ResSubFolder%" (
+	set ResourcesFolder="%SteamPath%%ResSubFolder%"
+) else (
+	for /f "tokens=1,*" %%a in ('type "%SteamPath%\config\config.vdf" ^| findstr BaseInstallFolder_ ') do (
+		if exist "%%~fb%ResSubFolder%" (
+			set ResourcesFolder="%%~fb%ResSubFolder%"
+		)
+	)
+)
+
+set ResourcesFolder=!ResourcesFolder:~1,-1!
+
+:ResourceFolderIsSet
 
 rem Check to see if we can find the resources folder
 if not exist "%ResourcesFolder%" (
@@ -9,7 +45,7 @@ if not exist "%ResourcesFolder%" (
 	echo ERROR: I could not find the Afterbirth resources folder at:
 	echo "%ResourcesFolder%"
 	echo.
-	echo Edit this file with Notepad and fix the path of the folder on line 4.
+	echo Edit this file with Notepad and put the path of the folder on line 5.
 	echo Or, just install the mod manually by copying contents of the directory
 	echo with the ruleset that you want to play into the Afterbirth resources folder.
 	echo.
@@ -51,16 +87,16 @@ pause
 exit /B
 
 rem Start the installation
-:start 
+:start
 
 rem Delete all files
 for %%i in ("%ResourcesFolder%\*") do (
-	del /Q "%%i"
+	del /Q "%%~fi"
 )
 
 rem Delete all directories except for the resources one
 for /D %%i in ("%ResourcesFolder%\*") do (
-	if "%%~nxi" NEQ "packed" rd /S /Q "%%i"
+	if "%%~nxi" NEQ "packed" rd /S /Q "%%~fi"
 )
 
 rem Copy the files over (the /S flag is to include folders and the /Q flag is to make it be quiet)
