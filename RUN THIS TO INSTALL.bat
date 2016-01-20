@@ -1,37 +1,7 @@
 @echo off
 
-rem Set this equal to where your Afterbirth resources folder is, in case everything else fails
-set ResourcesFolder=
-
-if not "%ResourcesFolder%"=="" goto ResourceFolderIsSet
-
-set ResSubFolder=\SteamApps\common\The Binding of Isaac Rebirth\resources
-set RegistrySteam="HKCU\Software\Valve\Steam"
-set RegistrySteamPath=SteamPath
-set SteamPath=
-
-rem Check if Steam is actually installed
-reg query %RegistrySteam% /V %RegistrySteamPath% > nul || (
-	echo Steam not installed, exiting.
-	pause
-	exit /B
-)
-
-rem Query Steam's install path
-for /f "tokens=2,*" %%a in ('reg query %RegistrySteam% /V %RegistrySteamPath% ^| findstr %RegistrySteamPath%') do (
-    set SteamPath=%%b
-)
-
-rem Search the resource directory from Steam's install and the library paths
-if not exist "%SteamPath%%ResSubFolder%" (
-	for /f "tokens=1,*" %%a in ('type "%SteamPath%\\config\\config.vdf" ^| findstr BaseInstallFolder_ ') do (
-		if exist "%%b%ResSubFolder%" (set ResourcesFolder=%%~b%ResSubFolder%)
-	)
-) else (
-	set ResourcesFolder=%SteamPath%%ResSubFolder%
-)
-
-:ResourceFolderIsSet
+rem Set this equal to where your Afterbirth resources folder is
+set ResourcesFolder=C:\Program Files (x86)\Steam\SteamApps\common\The Binding of Isaac Rebirth\resources
 
 rem Check to see if we can find the resources folder
 if not exist "%ResourcesFolder%" (
@@ -85,12 +55,12 @@ rem Start the installation
 
 rem Delete all files
 for %%i in ("%ResourcesFolder%\*") do (
-	del /Q "%%~fi"
+	del /Q "%%i"
 )
 
 rem Delete all directories except for the resources one
 for /D %%i in ("%ResourcesFolder%\*") do (
-	if "%%~nxi" NEQ "packed" rd /S /Q "%%~fi"
+	if "%%~nxi" NEQ "packed" rd /S /Q "%%i"
 )
 
 rem Copy the files over (the /S flag is to include folders and the /Q flag is to make it be quiet)
