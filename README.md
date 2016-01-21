@@ -1,11 +1,11 @@
-# The Jud6s Mod v1.12
+# The Jud6s Mod v1.13
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
 
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.12/jud6s.v1.12.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.13/jud6s.v1.13.zip)
 
 <br />
 
@@ -19,6 +19,7 @@ This has been used in several [Balls of Steel](http://www.ballsofsteel.tv/) week
 
 ## Version History
 
+* *1.13* - January 21st - Fixed a 2x1 Chest room by moving the Blastocysts slightly away from the doors.
 * *1.12* - January 16th - Deleted a Basement/Cellar L-shaped Pooter room. Changed some Basement rooms to fix the Pooter soft-lock.
 * *1.11* - January 15th - Deleted the Chest narrow double Headless Horseman room. Deleted the Chest narrow Mega Maw room. Deleted the Chest narrow Gurdy Jr. room. Deleted the Chest double Monstro rooms. Deleted the Chest quad Monstro room. Fixed the Cathedral narrow Floating Knight room. Fixed the Womb/Utero 2x2 room with Suckers in the corners. Moved some Adversaries to be closer to the middle of the room. Changed the Polaroid and Cathedral beam graphics to be more obnoxious on the Dark Room mode.
 * *1.10* - January 11th, 2016 - Added RatRacing's start room graphic. Changed the text on the character select screen for Judas. Added graphics to help from players accidentally taking the Polaroid or going to the Cathedral on the Dark Room mode.
@@ -228,7 +229,7 @@ The changed rooms are as follows:
 
 If a player enters from the bottom door of the 2x1 Depths / Necropolis room with the single Begotten, they will automatically take damage. It seems clear that Edmund intended for there to only be a top door in room, so the room has been changed in that manner to fix this bug.
 
-The changed rooms is as follows:
+The changed rooms are as follows:
 * Depths: #316
 * Necropolis - #316
 
@@ -262,6 +263,8 @@ The changed rooms are as follows:
 * Chest: #41
 * Dark Room: #7, #50
 
+<br />
+
 ### Unfair Narrow Room Removal
 
 While not technically unavoidable, many narrow rooms have near-impossible attack patterns, especially on Dr. Fetus builds.
@@ -290,7 +293,7 @@ The deleted rooms are as follows:
 
 ### Narrow Pride Fix
 
-While not technically unavoidable, the TNT barrels make the fight very RNG-based. They have been removed to make the room more fair.
+While not guaranteed, certain bomb spawns cause unavoidable damage in combination with the TNT barrels. The barrels have been removed to fix this.
 
 The changed room is as follows:
 * #2065
@@ -299,7 +302,7 @@ The changed room is as follows:
 
 ### Boss Room Door Fix
 
-It is not possible for Devil Room doors to spawn on boss rooms that only have one entrance. For this reason, several rooms were adjusted to allow for at least two entrances.
+It is not possible for Devil Room doors to spawn on boss rooms that only have one entrance. For this reason, several rooms were adjusted to allow for two entrances.
 
 The changed rooms are as follows:
 * #2065 (Fistula)
@@ -310,12 +313,13 @@ The changed rooms are as follows:
 
 <br />
 
-### Split Blastocyst Fix
+### Blastocyst Fix
 
-When entering from the top or bottom door of the boss room with the already-split Blastocyst, the player is not given enough time to reasonably dodge the first attack. Two rocks are placed to alleviate this.
+In certain rooms with Blastocyst near a door, the player is not given enough time to reasonably dodge the first attack. The Blastocyst are slightly moved to alleviate this. On the boss room, two rocks are also placed to protect the top and bottom entrances.
 
 The changed room is as follows:
-* #2042
+* Boss: #2042
+* Chest: #54
 
 <br />
 
@@ -392,7 +396,7 @@ The changed rooms are as follows:
 
 ### Narrow Red Poop Room Fix
 
-The narrow red poop room in The Chest unavoidable damage on Dr. Fetus builds. This bug has been fixed by deleting some of the poops to allow for a walkable path.
+On Dr. Fetus builds, the narrow red poop room in The Chest is unavoidable damage. This bug has been fixed by deleting some of the poops to allow for a walkable path.
 
 The changed room is as follows:
 * The Chest: #289
@@ -451,7 +455,7 @@ The changed room is as follows:
 
 ### Pooter Fix
 
-On certain rooms in the Basement/Cellar, some Pooters get stuck in rock, causing a soft lock.
+On certain rooms in the Basement/Cellar, some Pooters can fly over rocks, causing a soft lock.
 
 The deleted room is as follows:
 * Basement: #811
@@ -464,7 +468,7 @@ The changed room is as follows:
 
 ### Bomb Puzzle Room Fix
 
-On the room with the bomb drops at each of the four entrances, the random bomb drops were replaced with a set bomb drop to prevent troll bombs from spawning. Also, several key rocks were changed to pots to prevent them from spawning as spikes in the Dank Depths. Finally, a rock was also removed to prevent a sock-lock if the player enters from the left side.
+On the bomb puzzle room with four entrances, the random bomb drops were replaced with a set bomb drop to prevent troll bombs from spawning. Also, several rocks were changed to skulls to prevent them from spawning as spikes in the Dank Depths. Finally, a rock was also removed to prevent a sock-lock if the player enters from the left side.
 
 The changed room is as follows:
 * Depths: #41
@@ -498,7 +502,7 @@ The removed rooms are as follows:
 
 ### Out of Bounds Fix
 
-* Rooms with entities out of bounds have been placed in bounds. This doesn't affect gameplay in any way.
+Rooms with entities out of bounds have been placed in bounds. This doesn't affect gameplay in any way.
 
 * Caves: #203, #363, #406, #427, #429
 * Catacombs: #363, #406, #427, #429
