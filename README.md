@@ -1,11 +1,11 @@
-# The Jud6s Mod v1.13
+# The Jud6s Mod v1.14
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
 
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.13/jud6s.v1.13.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.14/jud6s.v1.14.zip)
 
 <br />
 
@@ -19,6 +19,7 @@ This has been used in several [Balls of Steel](http://www.ballsofsteel.tv/) week
 
 ## Version History
 
+* *1.14* - January 24th - Teleport! and Undefined have been removed from all pools in the seeded mode.
 * *1.13* - January 21st - The Windows installation script will now attempt to automatically find your "resources" directory using Steam, which means it will now work if you have Isaac installed in a non-standard place. (Thanks to Ipn for this.) Fixed a 2x1 Chest room by moving the Blastocysts slightly away from the doors.
 * *1.12* - January 16th - Deleted a Basement/Cellar L-shaped Pooter room. Changed some Basement rooms to fix the Pooter soft-lock.
 * *1.11* - January 15th - Deleted the Chest narrow double Headless Horseman room. Deleted the Chest narrow Mega Maw room. Deleted the Chest narrow Gurdy Jr. room. Deleted the Chest double Monstro rooms. Deleted the Chest quad Monstro room. Fixed the Cathedral narrow Floating Knight room. Fixed the Womb/Utero 2x2 room with Suckers in the corners. Moved some Adversaries to be closer to the middle of the room. Changed the Polaroid and Cathedral beam graphics to be more obnoxious on the Dark Room mode. (Thanks to Gromfalloon for creating some of the images.)

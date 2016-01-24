@@ -37,8 +37,6 @@
 		
 		<Item DecreaseBy="1" Id="42" RemoveOn="0.1" Weight="1" />
 		
-		<Item DecreaseBy="1" Id="44" RemoveOn="0.1" Weight="1" />
-		
 		<Item DecreaseBy="1" Id="45" RemoveOn="0.1" Weight="1" />
 		
 		<Item DecreaseBy="1" Id="46" RemoveOn="0.1" Weight="1" />
@@ -424,8 +422,6 @@
 		<Item DecreaseBy="1" Id="322" RemoveOn="0.1" Weight="1" />
 		
 		<Item DecreaseBy="1" Id="323" RemoveOn="0.1" Weight="1" />
-		
-		<Item DecreaseBy="1" Id="324" RemoveOn="0.1" Weight="1" />
 		
 		<Item DecreaseBy="1" Id="325" RemoveOn="0.1" Weight="1" />
 		
