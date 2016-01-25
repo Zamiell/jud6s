@@ -89,7 +89,7 @@ Alternatively, you can manually install the mod by going into the subdirectory t
 #### Extra Changes in "Seeded Mode"
 * All characters start with The Compass in addition to their other items.
 * Angel statues are replaced with either Uriel or Gabriel. Key Piece 1 has been placed in each Angel Room.
-* Pandora's Box is removed from all item pools.
+* Pandora's Box, Teleport!, and Undefined are removed from all item pools.
 
 #### Extra Changes for "Dark Room Mode"
 * 4 golden chests will now spawn at the beginning of the Dark Room (instead of red chests).
