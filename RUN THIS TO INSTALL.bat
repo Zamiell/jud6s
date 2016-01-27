@@ -107,6 +107,6 @@ if [%id%] == [4] xcopy /S /Q "%~dp0Ruleset 4 - Dark Room" "%ResourcesFolder%"
 if [%id%] == [5] xcopy /S /Q "%~dp0Ruleset 5 - Seeded Dark Room" "%ResourcesFolder%"
 if [%id%] == [6] echo All mods have been uninstalled.
 
-rem All done
+rem All done.
 echo.
 pause
