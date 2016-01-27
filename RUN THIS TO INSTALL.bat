@@ -76,7 +76,6 @@ echo.
 
 rem Validate user input (the brackets are needed to test for an empty input)
 if [%id%] == [1] goto :start
-if [%id%] == [1] goto :start
 if [%id%] == [2] goto :start
 if [%id%] == [3] goto :start
 if [%id%] == [4] goto :start
