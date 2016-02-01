@@ -88,9 +88,9 @@ exit /B
 rem Start the installation
 :start
 
-rem Delete all files
+rem Delete all files except for config.ini
 for %%i in ("%ResourcesFolder%\*") do (
-	del /Q "%%~fi"
+	if "%%~nxi" NEQ "config.ini" del /Q "%%~fi"
 )
 
 rem Delete all directories except for the resources one

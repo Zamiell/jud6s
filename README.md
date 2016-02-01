@@ -19,7 +19,7 @@ This has been used in several [Balls of Steel](http://www.ballsofsteel.tv/) week
 
 ## Version History
 
-* *1.15* - Unreleased - Fixed the door on Basement/Cellar room #772 Fixed the bug where Pony and White Pony do not show if the player have certain transformations.
+* *1.15* - Unreleased - The installer script will not longer delete config.ini. Fixed the door on Basement/Cellar room #772 Fixed the bug where Pony and White Pony do not show if the player have certain transformations.
 * *1.14* - January 24th - Teleport! and Undefined have been removed from all pools in the seeded mode.
 * *1.13* - January 21st - The Windows installation script will now attempt to automatically find your "resources" directory using Steam, which means it will now work if you have Isaac installed in a non-standard place. (Thanks to Ipn for this.) Fixed a 2x1 Chest room by moving the Blastocysts slightly away from the doors.
 * *1.12* - January 16th - Deleted a Basement/Cellar L-shaped Pooter room. Changed some Basement rooms to fix the Pooter soft-lock.
