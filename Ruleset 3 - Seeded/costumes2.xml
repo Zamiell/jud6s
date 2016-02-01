@@ -175,7 +175,7 @@
 	</costume>
 	<costume anm2path="129_Bucket of Lard.anm2" hasSkinAlt="true" id="129" type="active">
 	</costume>
-	<costume anm2path="130_Pony.anm2" hasSkinAlt="true" id="130" isFlying="true" priority="23" type="passive">
+	<costume anm2path="130_Pony.anm2" hasSkinAlt="true" id="130" isFlying="true" priority="199" type="passive">
 	</costume>
 	<costume anm2path="132_A Lump of Coal.anm2" id="132" type="passive">
 	</costume>
@@ -231,7 +231,7 @@
 	</costume>
 	<costume anm2path="179_Fate.anm2" id="179" isFlying="true" type="passive">
 	</costume>
-	<costume anm2path="181_White Pony.anm2" hasSkinAlt="true" id="181" isFlying="true" priority="23" type="passive">
+	<costume anm2path="181_White Pony.anm2" hasSkinAlt="true" id="181" isFlying="true" priority="199" type="passive">
 	</costume>
 	<costume anm2path="182_Sacred Heart.anm2" id="182" type="passive">
 	</costume>
