@@ -19,6 +19,9 @@ It has been used in the [Roid Rage](http://roidragetv.weebly.com/) tournament an
 
 ## Version History
 
+* *1.16* - Unreleased
+  * Removed the 2x1 Adversary room in the Dark Room.
+  * Fixed the Black Bonies on Depths/Necropolis room #668.
 * *1.15* - February 7th
   * The installer script will no longer delete config.ini.
   * Reorganized the ruleset numbers.
@@ -303,12 +306,13 @@ The changed rooms are as follows:
 
 <br />
 
-### Triple Adversary Removal
+### Adversary Room Removal
 
 While not technically unavoidable, the random nature of the boss movement combined with off-screen Brimstone attacks makes for a very unfair room.
 
 The deleted room is as follows:
-* Dark Room: #78
+* Dark Room: #50 (double Adversary, 2x1)
+* Dark Room: #78 (triple Adversary, 2x2)
 
 <br />
 
