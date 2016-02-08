@@ -19,23 +19,75 @@ It has been used in the [Roid Rage](http://roidragetv.weebly.com/) tournament an
 
 ## Version History
 
-* *1.15* - February 7th - The installer script will no longer delete config.ini. Reorganized the ruleset numbers. Fixed the door on Basement/Cellar room #772. Fixed the bug where the Pony and the White Pony do not show if the player has certain transformations. Added a new ruleset for The Lost Child Open loser's bracket:
-  * Blue Baby now starts with a bomb and an extra half soul heart.
-  * Judas Shadow and Lazarus' Rags are removed from all pools.
-* *1.14* - January 24th - Teleport! and Undefined have been removed from all pools in the seeded mode.
-* *1.13* - January 21st - The Windows installation script will now attempt to automatically find your "resources" directory using Steam, which means it will now work if you have Isaac installed in a non-standard place. (Thanks to Ipn for this.) Fixed a 2x1 Chest room by moving the Blastocysts slightly away from the doors.
-* *1.12* - January 16th - Deleted a Basement/Cellar L-shaped Pooter room. Changed some Basement rooms to fix the Pooter soft-lock.
-* *1.11* - January 15th - Deleted the Chest narrow double Headless Horseman room. Deleted the Chest narrow Mega Maw room. Deleted the Chest narrow Gurdy Jr. room. Deleted the Chest double Monstro rooms. Deleted the Chest quad Monstro room. Fixed the Cathedral narrow Floating Knight room. Fixed the Womb/Utero 2x2 room with Suckers in the corners. Moved some Adversaries to be closer to the middle of the room. Changed the Polaroid and Cathedral beam graphics to be more obnoxious on the Dark Room mode. (Thanks to Gromfalloon for creating some of the images.)
-* *1.10* - January 11th, 2016 - Added RatRacing's start room graphic. Changed the text on the character select screen for Judas. Added graphics to help from players accidentally taking the Polaroid or going to the Cathedral on the Dark Room mode.
-* *1.9* - January 11th, 2016 - Fixed the Gate boss room with no side entrances. Deleted the narrow Mega Maw room.
-* *1.8* - January 10th, 2016 - Made the installation script better; just edit line 4 if you don't have Afterbirth installed in the normal location. Added a separate installation script for Mac/Linux. (Thanks to viroulep for this.) Deleted the double troll bomb room in the Basement/Cellar. Deleted the narrow Fallen rooms on The Chest / Dark Room. Deleted the Triple Adversary room in the Dark Room. Deleted the narrow Forsaken room on the Dark Room. Deleted the narrow Teratoma rooms on the Dark Room. Fixed a Kamikaze Leech room in the Dark Room. Fixed the High Priestess card room in the Dark Room.
-* *1.7* - January 7th, 2016 - Added a helpful installer script and a shortcut to the Afterbirth resources directory. Added Uriel or Gabriel to every Angel Room on seeded mode. Deleted the double Forsaken room in the Chest. Changed the room in the Depths with the two Leapers and two Pokeys to be more reasonable. Fixed the bomb puzzle room in the Depths/Necropolis. Fixed the room in the Caves with the Hive that was spawning too close to the top entrance. Made a Hive room in the Caves symmetrical.
-* *1.6* - January 6th, 2016 - Reverted the "room variety" change. Fixed the L-shaped room with the Pooters in the Basement/Cellar.
-* *1.5* - January 6th, 2016 - Added a More Options mode. Reverted the "giantbook" animation removal (black heart, Betrayal, and so forth). Changed the Treasure Room with two pedestals and spikes. Reverted the changes to The Haunt room and Mega Fatty room with TNT barrels.
-* *1.4* - January 5th, 2016 - Fixed a bug with certain rooms incorrectly being set to 1000 weight.
-* *1.3* - January 5th, 2016 - Updated the mod for Afterbirth and added some other goodies. Also moved the documentation from the Medium blog to GitHub. This update took me around 30 hours of research, verification, implementation, and documentation.
-* *1.2* - July 13th, 2105 - Added half a soul heart to Judas. Made modifications to some buggy rooms.
-* *1.1* - July 1st, 2015 - The initial public release. The first weekly was played on this version.
+* *1.15* - February 7th
+  * The installer script will no longer delete config.ini.
+  * Reorganized the ruleset numbers.
+  * Fixed the door on Basement/Cellar room #772.
+  * Fixed the bug where the Pony and the White Pony do not show if the player has certain transformations.
+  * Added a new ruleset for The Lost Child Open loser's bracket:
+    * Blue Baby now starts with a bomb and an extra half soul heart.
+    * Judas Shadow and Lazarus' Rags are removed from all pools.
+* *1.14* - January 24th
+  * Teleport! and Undefined have been removed from all pools in the seeded mode.
+* *1.13* - January 21st
+  * The Windows installation script will now attempt to automatically find your "resources" directory using Steam, which means it will now work if you have Isaac installed in a non-standard place. (Thanks to Ipn for this.)
+  * Fixed a 2x1 Chest room by moving the Blastocysts slightly away from the doors.
+* *1.12* - January 16th 
+  * Deleted a Basement/Cellar L-shaped Pooter room.
+  * Changed some Basement rooms to fix the Pooter soft-lock.
+* *1.11* - January 15th
+  * Deleted the Chest narrow double Headless Horseman room.
+  * Deleted the Chest narrow Mega Maw room.
+  * Deleted the Chest narrow Gurdy Jr. room.
+  * Deleted the Chest double Monstro rooms.
+  * Deleted the Chest quad Monstro room.
+  * Fixed the Cathedral narrow Floating Knight room.
+  * Fixed the Womb/Utero 2x2 room with Suckers in the corners.
+  * Moved some Adversaries to be closer to the middle of the room.
+  * Changed the Polaroid and Cathedral beam graphics to be more obnoxious on the Dark Room mode. (Thanks to Gromfalloon for creating some of the images.)
+* *1.10* - January 11th, 2016
+  * Added RatRacing's start room graphic.
+  * Changed the text on the character select screen for Judas.
+  * Added graphics to help from players accidentally taking the Polaroid or going to the Cathedral on the Dark Room mode.
+* *1.9* - January 11th, 2016
+  * Fixed the Gate boss room with no side entrances.
+  * Deleted the narrow Mega Maw room.
+* *1.8* - January 10th, 2016
+  * Made the installation script better; just edit line 4 if you don't have Afterbirth installed in the normal location.
+  * Added a separate installation script for Mac/Linux. (Thanks to viroulep for this.)
+  * Deleted the double troll bomb room in the Basement/Cellar.
+  * Deleted the narrow Fallen rooms on The Chest / Dark Room.
+  * Deleted the Triple Adversary room in the Dark Room.
+  * Deleted the narrow Forsaken room on the Dark Room.
+  * Deleted the narrow Teratoma rooms on the Dark Room.
+  * Fixed a Kamikaze Leech room in the Dark Room.
+  * Fixed the High Priestess card room in the Dark Room.
+* *1.7* - January 7th, 2016
+  * Added a helpful installer script and a shortcut to the Afterbirth resources directory.
+  * Added Uriel or Gabriel to every Angel Room on seeded mode.
+  * Deleted the double Forsaken room in the Chest.
+  * Changed the room in the Depths with the two Leapers and two Pokeys to be more reasonable.
+  * Fixed the bomb puzzle room in the Depths/Necropolis.
+  * Fixed the room in the Caves with the Hive that was spawning too close to the top entrance.
+  * Made a Hive room in the Caves symmetrical.
+* *1.6* - January 6th, 2016
+  * Reverted the "room variety" change.
+  * Fixed the L-shaped room with the Pooters in the Basement/Cellar.
+* *1.5* - January 6th, 2016
+  * Added a More Options mode.
+  * Reverted the "giantbook" animation removal (black heart, Betrayal, and so forth).
+  * Changed the Treasure Room with two pedestals and spikes.
+  * Reverted the changes to The Haunt room and Mega Fatty room with TNT barrels.
+* *1.4* - January 5th, 2016
+  * Fixed a bug with certain rooms incorrectly being set to 1000 weight.
+* *1.3* - January 5th, 2016
+  * Updated the mod for Afterbirth and added some other goodies.
+  * Moved the documentation from the Medium blog to GitHub.
+* *1.2* - July 13th, 2105
+  * Added half a soul heart to Judas.
+  * Made modifications to some buggy rooms.
+* *1.1* - July 1st, 2015
+  * The initial public release. The first Balls of Steel weekly was played on this version.
 
 <br />
 
