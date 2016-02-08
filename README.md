@@ -1,11 +1,11 @@
-# The Jud6s Mod v1.14
+# The Jud6s Mod v1.15
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
 
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.14/jud6s.v1.14.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.15/jud6s.v1.15.zip)
 
 <br />
 
@@ -13,13 +13,13 @@
 
 This is a mod that stays very close to the original game while slightly tweaking it to be more fair for racing.
 
-This has been used in several [Balls of Steel](http://www.ballsofsteel.tv/) weekly tournaments hosted by [Diabetech](http://www.twitch.tv/diabetech).
+It has been used in the [Roid Rage](http://roidragetv.weebly.com/) tournament and several [Balls of Steel](http://www.ballsofsteel.tv/) weekly tournaments.
 
 <br />
 
 ## Version History
 
-* *1.15* - Unreleased - The installer script will no longer delete config.ini. Fixed the door on Basement/Cellar room #772. Fixed the bug where the Pony and the White Pony do not show if the player has certain transformations.
+* *1.15* - February 7th - The installer script will no longer delete config.ini. Blue Baby now starts with a bomb and an extra half soul heart (to accommodate Xelnas' tournament). Fixed the door on Basement/Cellar room #772. Fixed the bug where the Pony and the White Pony do not show if the player has certain transformations.
 * *1.14* - January 24th - Teleport! and Undefined have been removed from all pools in the seeded mode.
 * *1.13* - January 21st - The Windows installation script will now attempt to automatically find your "resources" directory using Steam, which means it will now work if you have Isaac installed in a non-standard place. (Thanks to Ipn for this.) Fixed a 2x1 Chest room by moving the Blastocysts slightly away from the doors.
 * *1.12* - January 16th - Deleted a Basement/Cellar L-shaped Pooter room. Changed some Basement rooms to fix the Pooter soft-lock.
@@ -505,7 +505,7 @@ The removed rooms are as follows:
 
 ### Out of Bounds Fix
 
-Rooms with entities out of bounds have been placed in bounds. This doesn't affect gameplay in any way.
+Rooms with entities out of bounds have been placed in bounds. This does not affect gameplay in any way.
 
 * Caves: #203, #363, #406, #427, #429
 * Catacombs: #363, #406, #427, #429
