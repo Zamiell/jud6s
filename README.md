@@ -19,7 +19,9 @@ It has been used in the [Roid Rage](http://roidragetv.weebly.com/) tournament an
 
 ## Version History
 
-* *1.15* - February 7th - The installer script will no longer delete config.ini. Blue Baby now starts with a bomb and an extra half soul heart (to accommodate Xelnas' tournament). Fixed the door on Basement/Cellar room #772. Fixed the bug where the Pony and the White Pony do not show if the player has certain transformations.
+* *1.15* - February 7th - The installer script will no longer delete config.ini. Reorganized the ruleset numbers. Fixed the door on Basement/Cellar room #772. Fixed the bug where the Pony and the White Pony do not show if the player has certain transformations. Added a new ruleset for The Lost Child Open loser's bracket:
+  * Blue Baby now starts with a bomb and an extra half soul heart.
+  * Judas Shadow and Lazarus' Rags are removed from all pools.
 * *1.14* - January 24th - Teleport! and Undefined have been removed from all pools in the seeded mode.
 * *1.13* - January 21st - The Windows installation script will now attempt to automatically find your "resources" directory using Steam, which means it will now work if you have Isaac installed in a non-standard place. (Thanks to Ipn for this.) Fixed a 2x1 Chest room by moving the Blastocysts slightly away from the doors.
 * *1.12* - January 16th - Deleted a Basement/Cellar L-shaped Pooter room. Changed some Basement rooms to fix the Pooter soft-lock.
@@ -84,9 +86,6 @@ Alternatively, you can manually install the mod by going into the subdirectory t
 * Boss death animations that are longer than 1 frame are set to 1 frame (except for Krampus, Uriel, and Gabriel).
 * Many rooms with unavoidable damage or bugs have been fixed.
 
-#### Extra Changes in "More Options Mode"
-* All characters start with More Options in addition to their other items.
-
 #### Extra Changes in "Seeded Mode"
 * All characters start with The Compass in addition to their other items.
 * Angel statues are replaced with either Uriel or Gabriel. Key Piece 1 has been placed in each Angel Room.
@@ -95,6 +94,9 @@ Alternatively, you can manually install the mod by going into the subdirectory t
 #### Extra Changes for "Dark Room Mode"
 * 4 golden chests will now spawn at the beginning of the Dark Room (instead of red chests).
 * We Need To Go Deeper! is removed from all item pools.
+
+#### Extra Changes in "More Options Mode"
+* All characters start with More Options in addition to their other items.
 
 <br />
 
