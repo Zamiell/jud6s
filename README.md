@@ -219,14 +219,15 @@ The changed rooms are as follows:
 
 ### Double Boss Champion Fix
 
-Some rooms have Monstros, Gurdy Jr.'s, or Cages that spawn near an entrance. If the double champion version spawns, the player will be touched while the room is loading and automatically take damage. This bug is fixed by moving the enemies closer to the center of the room.
+Some rooms have Monstros, Gurdy Jr.'s, or Cages that spawn near an entrance. If the double champion version spawns and they happen to spawn in a diagonal orientation, the player will be touched while the room is loading and automatically take damage. This bug is fixed by moving the enemies closer to the center of the room.
 
 The changed rooms are as follows:
 * Sheol: #212 (Cage)
 * Chest: #43, #69 (Monstro)
 * Chest: #14, #56 (Gurdy Jr.)
 * Chest: #34 (Cage)
-* The Dark Room: #14, #34 (Cage / Monstro)
+* The Dark Room: #14 (Cage)
+* The Dark Room: #34 (Monstro)
 
 <br />
 
