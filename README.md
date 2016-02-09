@@ -1,11 +1,11 @@
-# The Jud6s Mod v1.16
+# The Jud6s Mod v1.17
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
 
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.16/jud6s.v1.16.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.17/jud6s.v1.17.zip)
 
 <br />
 
@@ -19,7 +19,7 @@ It has been used in the [Roid Rage](http://roidragetv.weebly.com/) tournament an
 
 ## Version History
 
-* *1.17* - February 8th
+* *1.17* - February 9th
   * Fixed the bug where shields would not show if the player was using the Pony or the White Pony.
   * Changed The Lost Child Open loser's bracket ruleset:
     * The previous changes have been reverted.
