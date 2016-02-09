@@ -344,7 +344,7 @@ The deleted rooms are as follows:
 * Boss: #5043 (The Gate)
 * Cathedral: #286 (Uriel)
 * Cathedral: #291 (Gabriel)
-* Chest: #258 (The Haunt)
+* Chest: #258 (The Haunt) - This room was never play-tested and actually results in soft-lock on most builds.
 * Chest: #262 (Headless Horseman Head x2)
 * Chest: #269 (Mega Maw)
 * Chest: #264, #273 (Monstro x2)
@@ -481,7 +481,7 @@ The changed rooms are as follows:
 
 ### Troll Bomb Room Removal
 
-For certain rooms with troll bombs, there is no consistent strategy to navigate this room without taking damage.
+For certain rooms with troll bombs, there is no consistent strategy to navigate the room without taking damage.
 
 The removed rooms are as follows:
 * Basement: #752, #767
@@ -491,13 +491,13 @@ The removed rooms are as follows:
 
 <br />
 
-### 2x2 Black Bony Fix
+### Black Bony Fix
 
-In the 2x2 Depths / Necropolis room with Black Bony x8 and pots, the enemies have been spaced out so that they do not automatically become stuck.
+In rooms with two Black Bonies placed between pots, they will become stuck on each other. This bug is fixed by spreading them out slightly.
 
 The changed rooms are as follows:
-* Depths: #731
-* Necropolis: #731
+* Depths: #668, #731
+* Necropolis: #668, #731
 
 <br />
 
