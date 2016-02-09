@@ -1,11 +1,11 @@
-# The Jud6s Mod v1.15
+# The Jud6s Mod v1.16
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
 
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.15/jud6s.v1.15.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.16/jud6s.v1.15.zip)
 
 <br />
 
@@ -19,7 +19,7 @@ It has been used in the [Roid Rage](http://roidragetv.weebly.com/) tournament an
 
 ## Version History
 
-* *1.16* - Unreleased
+* *1.16* - February 8th
   * Removed the 2x1 Adversary room in the Dark Room.
   * Fixed the Black Bonies on Depths/Necropolis room #668.
 * *1.15* - February 7th
@@ -322,7 +322,7 @@ If two Adversaries get close to a wall, the Brimstone attack can be unavoidable.
 
 The changed rooms are as follows:
 * Chest: #41
-* Dark Room: #7, #50
+* Dark Room: #7
 
 <br />
 

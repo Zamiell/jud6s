@@ -63,10 +63,10 @@ echo ^+-------------------------------------------------------------^+
 echo.
 echo Choose a ruleset:
 echo   1) Normal
-echo   2) More Options
-echo   3) Seeded
-echo   4) Dark Room
-echo   5) Seeded Dark Room
+echo   2) Seeded
+echo   3) Dark Room
+echo   4) Seeded Dark Room
+echo   5) More Options
 echo   6) The Lost Child Open Loser's Bracket
 echo.
 echo Or:
