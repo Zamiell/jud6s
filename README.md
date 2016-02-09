@@ -5,7 +5,7 @@
 
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.16/jud6s.v1.15.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.16/jud6s.v1.16.zip)
 
 <br />
 
