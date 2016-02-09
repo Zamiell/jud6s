@@ -19,6 +19,11 @@ It has been used in the [Roid Rage](http://roidragetv.weebly.com/) tournament an
 
 ## Version History
 
+* *1.17* - February 8th
+  * Fixed the bug where shields would not show if the player was using the Pony or the White Pony.
+  * Changed The Lost Child Open loser's bracket ruleset:
+    * The previous changes have been reverted.
+    * Judas now starts with Judas' Shadow and 0 HP.
 * *1.16* - February 8th
   * Removed the 2x1 Adversary room in the Dark Room.
   * Fixed the Black Bonies on Depths/Necropolis room #668.
