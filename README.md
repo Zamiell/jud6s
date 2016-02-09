@@ -11,7 +11,7 @@
 
 ## What Is It?
 
-This is a mod that stays very close to the original game while slightly tweaking it to be more fair for racing.
+This is a mod that stays very close to the original game while slightly tweaking it to be more fair for racing. It also fixes a ton of bugs that the developers have not bothered to fix in the vanilla game.
 
 It has been used in the [Roid Rage](http://roidragetv.weebly.com/) tournament and several [Balls of Steel](http://www.ballsofsteel.tv/) weekly tournaments.
 
