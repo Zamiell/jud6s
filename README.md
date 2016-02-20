@@ -528,7 +528,7 @@ The deleted room is as follows:
 * Basement: #811
 * Cellar: #811
 
-The changed room is as follows:
+The changed rooms are as follows:
 * Basement: #135, #391, #534, #747
 
 <br />
