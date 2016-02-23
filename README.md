@@ -1,4 +1,4 @@
-# The Jud6s Mod v1.17
+# The Jud6s Mod v1.18
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
@@ -19,6 +19,12 @@ It has been used in the [Roid Rage](http://roidragetv.weebly.com/) tournament an
 
 ## Version History
 
+* *1.18* - February 22nd
+  * Reverted the death animation removal for It Lives, which fixes the bug with the death tears.
+  * Fixed an unavoidable damage room with a Mulligan in the Basement.
+  * Fived an unavoidable damage room with a Maggot in the Caves.
+  * Removed the useless room with the donation machine in Necropolis.
+  * Made Womb/Utero room #705 and Caves room #28 symmetrical.
 * *1.17* - February 9th
   * Fixed the bug where shields would not show if the player was using the Pony or the White Pony.
   * Changed The Lost Child Open loser's bracket ruleset:
@@ -245,11 +251,12 @@ The deleted room is as follows:
 Some rooms have exploding enemies that spawn near an entrance. If the player has a sufficient number of unused blue flies, the flies will kill the enemy while the room is loading and the player will automatically take damage. This bug is fixed by moving the enemy closer to the center of the room.
 
 The changed rooms are as follows:
-* Basement: #129, #130, #359 (Mulligan)
+* Basement: #129, #130, #393, #359 (Mulligan)
 * Cellar: #129, #130 (Mulligoon)
 * Cellar: #359 (Mulligan)
 * Caves: #46, #50, #440, #518 (Boom Fly)
 * Caves: #141 (Clotty)
+* Caves: #255 (Maggot)
 * Caves: #553 (Hive)
 * Caves: #548 (Drowned Hive)
 * Catacombs: #46, #440, #518 (Boom Fly)
@@ -552,6 +559,15 @@ The changed room is as follows:
 
 <br />
 
+### Donation Machine Room Removal
+
+One room in the Necropolis has a donation machine in it. With donation machines removed from the game, this room is largely useless.
+
+The removed room is as follows:
+* Necropolis: #469
+
+<br />
+
 ### Empty Room Removal
 
 Several rooms in the game are completely empty of any objects at all.
@@ -578,18 +594,22 @@ Rooms with entities out of bounds have been placed in bounds. This does not affe
 
 <br />
 
-### Misc. Fixes
+### Symmetry Fix
 
-* Basement/Cellar: #772 - The room was made symmetrical.
-* Caves: #120 - The room was made symmetrical.
-* Caves: #416 - The room was made symmetrical.
+Certain rooms in the game were meant to be symmetrical, but one entity or tile was incorrectly placed. This is fixed.
+
+* Basement/Cellar: #772
+* Caves: #28, #120, #416
+* Womb/Utero: #705
 
 <br />
 
 ## Rooms That Were Deliberately Not Changed
 
 * Basement #274 - There is a TNT barrel to the left/right of the top/bottom entrances. However, on a knife build, if you are playing correctly, you should be pointing it towards the center of the room upon entering.
+* Basement/Cellar #401 - If there is a tinted rock in the room, you should ignore it and hustle to kill the Pooters before they get into a soft-lock position.
 * Cellar #766 - This is a room with 3 mega troll bombs, but if you stand completely still, they will not damage you.
+* Caves #161, #271, #553 - If the enemy by the top door is a explosive champion, the player will not be hit. If the enemy by the top door is a tear champion, the player has a full second to react upon entering.
 * Womb/Utero #147 - This is a room with 3 Nerve Endings next to the entrance. If you have Ipecac, it is possible to use a tear on the wall to safely kill a Nerve Ending. Alternatively, you can safely use a bomb.
 * Dark Room #287 - This is a room with 3 mega troll bombs and an Imp. If you stand completely still, the troll bombs will not damage you.
 * Chest #39 - This is a room with 2 Mega Maws. Even with the champion version, there is enough time to react to the patterns.
