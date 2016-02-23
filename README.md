@@ -22,7 +22,7 @@ It has been used in the [Roid Rage](http://roidragetv.weebly.com/) tournament an
 * *1.18* - February 22nd
   * Reverted the death animation removal for It Lives, which fixes the bug with the death tears.
   * Fixed an unavoidable damage room with a Mulligan in the Basement.
-  * Fived an unavoidable damage room with a Maggot in the Caves.
+  * Fixed an unavoidable damage room with a Maggot in the Caves.
   * Removed the useless room with the donation machine in Necropolis.
   * Made Womb/Utero room #705 and Caves room #28 symmetrical.
 * *1.17* - February 9th
