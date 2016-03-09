@@ -195,7 +195,7 @@ The technical details of the mod are listed here for those who truly care to kno
 * Devil Rooms have been slightly tweaked to have exits on all sides. Otherwise, expected item pedestal amount would change depending on the entrance location.
 
 The changed rooms are as follows:
-* #5 (red chest chests)
+* #5 (red chests)
 * #11 (2 items and 2 Nulls)
 * #13 (1 item and Mom's Hand)
 * #14 (2 black hearts and 1 Imp)
