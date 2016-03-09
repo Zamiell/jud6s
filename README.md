@@ -1,11 +1,11 @@
-# The Jud6s Mod v1.18
+# The Jud6s Mod v1.19
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
 
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.18/jud6s.v1.18.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.19/jud6s.v1.19.zip)
 
 <br />
 
@@ -19,6 +19,9 @@ It has been used in the [Roid Rage](http://roidragetv.weebly.com/) tournament an
 
 ## Version History
 
+* *1.19* - March 9th
+  * Fixed an unavoidable damage room with double Gurdy in Utero.
+  * Fixed a soft lock that occurs in the Womb/Utero room with 4 turrets and very large tears.
 * *1.18* - February 22nd
   * Reverted the death animation removal for It Lives, which fixes the bug with the death tears.
   * Fixed an unavoidable damage room with a Mulligan in the Basement.
@@ -228,6 +231,7 @@ The changed rooms are as follows:
 Some rooms have Monstros, Gurdy Jr.'s, or Cages that spawn near an entrance. If the double champion version spawns and they happen to spawn in a diagonal orientation, the player will be touched while the room is loading and automatically take damage. This bug is fixed by moving the enemies closer to the center of the room.
 
 The changed rooms are as follows:
+* Utero: #133 (Gurdy Jr.)
 * Sheol: #212 (Cage)
 * Chest: #43, #69 (Monstro)
 * Chest: #14, #56 (Gurdy Jr.)
