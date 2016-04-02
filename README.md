@@ -19,9 +19,11 @@ It has been used in the [Roid Rage](http://roidragetv.weebly.com/) tournament an
 
 ## Version History
 
+* *1.20* - Unreleased
+  * Reverted the skull change in the Depths/Necropolis bomb puzzle room, as it doesn't actually stop spikes from spawning.
 * *1.19* - March 9th
   * Fixed an unavoidable damage room with double Gurdy in Utero.
-  * Fixed a soft lock that occurs in the Womb/Utero room with 4 turrets and very large tears.
+  * Fixed a soft-lock that occurs in the Womb/Utero room with 4 turrets and very large tears.
 * *1.18* - February 22nd
   * Reverted the death animation removal for It Lives, which fixes the bug with the death tears.
   * Fixed an unavoidable damage room with a Mulligan in the Basement.
@@ -533,7 +535,7 @@ The changed room is as follows:
 
 ### Pooter Fix
 
-On certain rooms in the Basement/Cellar, some Pooters can fly over rocks, causing a soft lock.
+On certain rooms in the Basement/Cellar, some Pooters can fly over rocks, causing a soft-lock.
 
 The deleted room is as follows:
 * Basement: #811
@@ -546,7 +548,7 @@ The changed rooms are as follows:
 
 ### Bomb Puzzle Room Fix
 
-On the bomb puzzle room with four entrances, the random bomb drops were replaced with a set bomb drop to prevent troll bombs from spawning. Also, several rocks were changed to skulls to prevent them from spawning as spikes in the Dank Depths. Finally, a rock was also removed to prevent a sock-lock if the player enters from the left side.
+On the bomb puzzle room with four entrances, the random bomb drops were replaced with a set bomb drop to prevent troll bombs from spawning. Also, a rock was also removed to prevent a sock-lock if the player enters from the left side.
 
 The changed room is as follows:
 * Depths: #41
@@ -610,10 +612,11 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 
 ## Rooms That Were Deliberately Not Changed
 
-* Basement #274 - There is a TNT barrel to the left/right of the top/bottom entrances. However, on a knife build, if you are playing correctly, you should be pointing it towards the center of the room upon entering.
-* Basement/Cellar #401 - If there is a tinted rock in the room, you should ignore it and hustle to kill the Pooters before they get into a soft-lock position.
-* Cellar #766 - This is a room with 3 mega troll bombs, but if you stand completely still, they will not damage you.
+* Basement #274 - This is a 1x1 room with a TNT barrel to the left/right of the top/bottom entrances. However, on a knife build, if you are playing correctly, you should be pointing it towards the center of the room upon entering.
+* Basement/Cellar #401 - This is a 2x1 room with 4 Pooters. If there is a tinted rock in the room, you should ignore it and hustle to kill the Pooters before they get into a soft-lock position.
+* Cellar #766 - This is a 1x1 room with 3 mega troll bombs, but if you stand completely still, they will not damage you.
 * Caves #161, #271, #553 - If the enemy by the top door is a explosive champion, the player will not be hit. If the enemy by the top door is a tear champion, the player has a full second to react upon entering.
+* Caves #692 - This is a narrow 1x1 room filled with poops. With Ipecac, you can safely shoot left from the top right-hand corner. With Dr. Fetus, you can walk diagonally through the poops to plant your first bomb. With Dr. Fetus and Bomber Boy, it is unavoidable damage.
 * Womb/Utero #147 - This is a room with 3 Nerve Endings next to the entrance. If you have Ipecac, it is possible to use a tear on the wall to safely kill a Nerve Ending. Alternatively, you can safely use a bomb.
 * Dark Room #287 - This is a room with 3 mega troll bombs and an Imp. If you stand completely still, the troll bombs will not damage you.
 * Chest #39 - This is a room with 2 Mega Maws. Even with the champion version, there is enough time to react to the patterns.
