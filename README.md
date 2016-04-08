@@ -13,7 +13,7 @@
 
 This is a mod that stays very close to the original game while slightly tweaking it to be more fair for racing. It also fixes a ton of bugs that the developers have not bothered to fix in the vanilla game.
 
-It has been used in the [Roid Rage](http://roidragetv.weebly.com/) tournament and several [Balls of Steel](http://www.ballsofsteel.tv/) weekly tournaments.
+This mod is commonly used while racing on [SpeedRunsLive](http://www.speedrunslive.com/races/game/#!/isaacafterbirth/1) and is the mod chosen for most tournaments, such as [Roid Rage](http://roidragetv.weebly.com/) and [Balls of Steel](http://www.ballsofsteel.tv/).
 
 <br />
 
@@ -21,6 +21,7 @@ It has been used in the [Roid Rage](http://roidragetv.weebly.com/) tournament an
 
 * *1.20* - Unreleased
   * Reverted the skull change in the Depths/Necropolis bomb puzzle room, as it doesn't actually stop spikes from spawning.
+  * Fixed a softlock with one of the Turdling boss rooms.
 * *1.19* - March 9th
   * Fixed an unavoidable damage room with double Gurdy in Utero.
   * Fixed a soft-lock that occurs in the Womb/Utero room with 4 turrets and very large tears.
@@ -456,8 +457,17 @@ The changed rooms are as follows:
 
 In the Gurdy room filled with pits, the player is forced to take the boss item in order to exit the floor. This bug is fixed by deleting some pits to allow for more maneuverability.
 
-The changed rooms are as follows:
+The changed room is as follows:
 * #1066 (Gurdy)
+
+<br />
+
+### Turdling Softlock Fix
+
+In the Turdling room with pots, sometimes Dips can get inside the pots and the wall, causing a softlock. This bug is fixed by changing the pots to poops.
+
+The changed room is as follows:
+* #5151 (Turdling)
 
 <br />
 
