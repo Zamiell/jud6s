@@ -21,7 +21,13 @@ This mod is commonly used while racing on [SpeedRunsLive](http://www.speedrunsli
 
 * *1.20* - Unreleased
   * Reverted the skull change in the Depths/Necropolis bomb puzzle room, as it doesn't actually stop spikes from spawning.
-  * Fixed a softlock with one of the Turdling boss rooms.
+  * Fixed a soft-lock with one of the Turdling boss rooms.
+  * Fixed an unavoidable damage room with explosive champion Lumps in the Womb.
+  * Deleted the trapdoor room on Sheol.
+  * Deleted an unavoidable damage room on Sheol with Megatroll Bombs.
+  * Deleted an unavoidable damage room on the Dark Room with 4 Nulls.
+  * Deleted an unavoidable damage room on the Dark Room with 5 Nulls.
+  * Fixed an unavoidable damage room with explosive champion Bone Knights in the Dark Room.
 * *1.19* - March 9th
   * Fixed an unavoidable damage room with double Gurdy in Utero.
   * Fixed a soft-lock that occurs in the Womb/Utero room with 4 turrets and very large tears.
@@ -269,6 +275,7 @@ The changed rooms are as follows:
 * Catacombs: #46, #440, #518 (Boom Fly)
 * Catacombs: #548 (Drowned Hive)
 * Depths: #11 (Boom Fly)
+* Womb/Utero: #203 (Lump)
 * Womb: #333 (Fistula)
 * Womb: #410 (Sucker)
 * Utero #333 (Fistula)
@@ -278,6 +285,7 @@ The changed rooms are as follows:
 * Sheol: #30 (Kamikaze Leech)
 * Chest: #53, #72, #84 (Fistula)
 * Dark Room: #238, #272 (Kamikaze Leech)
+* Dark Room: #264 (Bone Knight)
 
 <br />
 
@@ -369,6 +377,8 @@ The deleted rooms are as follows:
 * Dark Room: #255, #274 (Teratoma)
 * Dark Room: #256, #275 (The Fallen)
 * Dark Room: #263 (The Forsaken)
+* Dark Room: #270 (4 Nulls)
+* Dark Room: #312 (5 Nulls)
 
 <br />
 
@@ -462,9 +472,9 @@ The changed room is as follows:
 
 <br />
 
-### Turdling Softlock Fix
+### Turdling Soft-lock Fix
 
-In the Turdling room with pots, sometimes Dips can get inside the pots and the wall, causing a softlock. This bug is fixed by changing the pots to poops.
+In the Turdling room with pots, sometimes Dips can get inside the pots and the wall, causing a soft-lock. This bug is fixed by changing the pots to poops.
 
 The changed room is as follows:
 * #5151 (Turdling)
@@ -512,6 +522,7 @@ The removed rooms are as follows:
 * Cellar: #752, #767
 * Depths: #699
 * Necropolis: #699
+* Sheol: #285
 
 <br />
 
@@ -558,11 +569,20 @@ The changed rooms are as follows:
 
 ### Bomb Puzzle Room Fix
 
-On the bomb puzzle room with four entrances, the random bomb drops were replaced with a set bomb drop to prevent troll bombs from spawning. Also, a rock was also removed to prevent a sock-lock if the player enters from the left side.
+On the bomb puzzle room with four entrances, the random bomb drops were replaced with a set bomb drop to prevent troll bombs from spawning. Also, a rock was also removed to prevent a soft-lock if the player enters from the left side.
 
 The changed room is as follows:
 * Depths: #41
 * Necropolis: #41
+
+<br />
+
+### Trapdoor Room
+
+On Sheol, there exists a room with a trapdoor that takes you directly to the Dark Room without having to fight Satan. This puts too much of an extreme lower bound on the clear time of the floor.
+
+The removed room is as follows:
+* Sheol: #290
 
 <br />
 
@@ -632,3 +652,4 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 * Chest #39 - This is a room with 2 Mega Maws. Even with the champion version, there is enough time to react to the patterns.
 * Mama Gurdy - In Afterbirth, you have more time to dodge the spikes before the hitbox appears.
 * Daddy Long Legs - In Afterbirth, the multiple stomp attack no longer damages you before the animation begins.
+* The Forsaken - Before doing the Brimstone attack, he moves to the center of the room, giving you enough time to dodge.
