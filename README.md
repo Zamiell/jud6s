@@ -20,14 +20,16 @@ This mod is commonly used while racing on [SpeedRunsLive](http://www.speedrunsli
 ## Version History
 
 * *1.20* - Unreleased
-  * Reverted the skull change in the Depths/Necropolis bomb puzzle room, as it doesn't actually stop spikes from spawning.
-  * Fixed a soft-lock with one of the Turdling boss rooms.
+  * Removed the More Options mode, since nobody uses it anymore.
+  * Reverted the skull change in the Depths/Necropolis bomb puzzle room, as it doesn't actually stop spikes from spawning on Dank Depths. If you get spikes spawning on a critical path and you don't have flying, you are pretty much screwed.
+  * Fixed a soft-lock in one of the Turdling boss rooms.
   * Fixed an unavoidable damage room with explosive champion Lumps in the Womb.
   * Deleted the trapdoor room on Sheol.
   * Deleted an unavoidable damage room on Sheol with Megatroll Bombs.
   * Deleted an unavoidable damage room on the Dark Room with 4 Nulls.
   * Deleted an unavoidable damage room on the Dark Room with 5 Nulls.
   * Fixed an unavoidable damage room with explosive champion Bone Knights in the Dark Room.
+  * Fixed an unavoidable damage room with chunky poop and Gushers in the Basement. (Gushers were also moved to address unavoidable damage on Ipecac builds.)
 * *1.19* - March 9th
   * Fixed an unavoidable damage room with double Gurdy in Utero.
   * Fixed a soft-lock that occurs in the Womb/Utero room with 4 turrets and very large tears.
@@ -310,6 +312,15 @@ The changed rooms are as follows:
 * Womb: #182, #471, #508, #733 (Gurglings)
 * Utero: #182, #471, #733 (Gurglings)
 * Chest: #35, #87, #301 (Gurglings)
+
+<br />
+
+### Chunky Poop Fix
+
+If a poop that is next to an entrance randomly spawns as a chunky poop, it can lead to unavoidable damage in certain situations. This bug is fixed by moving the poops over by one square.
+
+The changed room is as follows:
+* Basement: #124 (4 Gapers and 4 Gushers; also moved Gushers to prevent unavoidable damage on Ipecac)
 
 <br />
 

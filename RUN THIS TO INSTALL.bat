@@ -66,11 +66,10 @@ echo   1) Normal
 echo   2) Seeded
 echo   3) Dark Room
 echo   4) Seeded Dark Room
-echo   5) More Options
-echo   6) The Lost Child Open Loser's Bracket
+echo   5) The Lost Child Open Loser's Bracket
 echo.
 echo Or:
-echo   7) Uninstall all mods
+echo   6) Uninstall all mods
 echo.
 set /p id="Enter your choice: "
 echo.
@@ -82,7 +81,6 @@ if [%id%] == [3] goto :start
 if [%id%] == [4] goto :start
 if [%id%] == [5] goto :start
 if [%id%] == [6] goto :start
-if [%id%] == [7] goto :start
 echo You did not enter a valid choice. Exiting...
 pause
 exit /B
@@ -105,9 +103,8 @@ if [%id%] == [1] xcopy /S /Q "%~dp0Ruleset 1 - Normal" "%ResourcesFolder%"
 if [%id%] == [2] xcopy /S /Q "%~dp0Ruleset 2 - Seeded" "%ResourcesFolder%"
 if [%id%] == [3] xcopy /S /Q "%~dp0Ruleset 3 - Dark Room" "%ResourcesFolder%"
 if [%id%] == [4] xcopy /S /Q "%~dp0Ruleset 4 - Seeded Dark Room" "%ResourcesFolder%"
-if [%id%] == [5] xcopy /S /Q "%~dp0Ruleset 5 - More Options" "%ResourcesFolder%"
-if [%id%] == [6] xcopy /S /Q "%~dp0Ruleset 6 - LCO Loser's Bracket" "%ResourcesFolder%"
-if [%id%] == [7] echo All mods have been uninstalled.
+if [%id%] == [5] xcopy /S /Q "%~dp0Ruleset 5 - LCO Loser's Bracket" "%ResourcesFolder%"
+if [%id%] == [6] echo All mods have been uninstalled.
 
 rem All done.
 echo.
