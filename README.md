@@ -1,11 +1,11 @@
-# The Jud6s Mod v1.19
+# The Jud6s Mod v1.20
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
 
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.19/jud6s.v1.19.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.20/jud6s.v1.20.zip)
 
 <br />
 
@@ -19,7 +19,7 @@ This mod is commonly used while racing on [SpeedRunsLive](http://www.speedrunsli
 
 ## Version History
 
-* *1.20* - Unreleased
+* *1.20* - April 11th
   * Removed the More Options mode, since nobody uses it anymore.
   * Reverted the skull change in the Depths/Necropolis bomb puzzle room, as it doesn't actually stop spikes from spawning on Dank Depths. If you get spikes spawning on a critical path and you don't have flying, you are pretty much screwed.
   * Fixed a soft-lock in one of the Turdling boss rooms.
