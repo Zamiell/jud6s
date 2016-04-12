@@ -29,7 +29,7 @@ This mod is commonly used while racing on [SpeedRunsLive](http://www.speedrunsli
   * Deleted an unavoidable damage room on the Dark Room with 4 Nulls.
   * Deleted an unavoidable damage room on the Dark Room with 5 Nulls.
   * Fixed an unavoidable damage room with explosive champion Bone Knights in the Dark Room.
-  * Fixed an unavoidable damage room with chunky poop and Gushers in the Basement. (Gushers were also moved to address unavoidable damage on Ipecac builds.)
+  * Fixed an unavoidable damage room with chunky poop in the Basement. (The Gushers in the room were also moved to address unavoidable damage on Ipecac builds.)
 * *1.19* - March 9th
   * Fixed an unavoidable damage room with double Gurdy in Utero.
   * Fixed a soft-lock that occurs in the Womb/Utero room with 4 turrets and very large tears.
