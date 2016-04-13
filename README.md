@@ -19,6 +19,9 @@ This mod is commonly used while racing on [SpeedRunsLive](http://www.speedrunsli
 
 ## Version History
 
+* *1.21* - Unreleased
+  * Set the Lamb death animation to 1 frame and the Satan death animation to 10 frames.
+  * Integrated the "Fogless! v1.1" graphics mod (https://moddingofisaac.com/mod/950/fogless) by Dan into the Jud6s mod. This helps eliminate lag on some slower computers and makes the game clearer to see for everyone.
 * *1.20* - April 11th
   * Removed the More Options mode, since nobody uses it anymore.
   * Reverted the skull change in the Depths/Necropolis bomb puzzle room, as it doesn't actually stop spikes from spawning on Dank Depths. If you get spikes spawning on a critical path and you don't have flying, you are pretty much screwed.
@@ -182,9 +185,12 @@ Alternatively, you can manually install the mod by going into the subdirectory t
 
 ## Shoutouts
 
-* A huge thanks to [Chronometrics](http://www.twitch.tv/chronometrics) for making and continuing to support [Basement Renovator](https://github.com/Tempus/Basement-Renovator).
+* [Chronometrics](http://www.twitch.tv/chronometrics) deserves recognition for making and continuing to support [Basement Renovator](https://github.com/Tempus/Basement-Renovator).
 * Thanks to all of the racers who have given me feedback, including [Hyphen-ated](http://www.twitch.tv/hyphen_ated), [Cyber_1](http://www.twitch.tv/cyber_1), [Ou_J](http://www.twitch.tv/ou_j), [HauntedQuest](http://www.twitch.tv/hauntedquest), and [Dea1h](http://www.twitch.tv/dea1h).
-* Thanks to [Gromfalloon](http://www.twitch.tv/gromfalloon) for helping create the Dark Room graphics.
+* [Dan](https://moddingofisaac.com/user/255) created [the Fogless! mod](https://moddingofisaac.com/mod/950/fogless), which is included in the Jud6s mod.
+* [Gromfalloon](http://www.twitch.tv/gromfalloon) originally created the Dark Room graphics.
+* Ipn created the Windows installation script.
+* viroulep created the Mac/Linux installation script.
 
 <br />
 
