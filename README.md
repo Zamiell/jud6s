@@ -22,8 +22,8 @@ This mod is commonly used while racing on [SpeedRunsLive](http://www.speedrunsli
 * *1.21* - Unreleased
   * Set the the Satan death animation to 30 frames; note that the 3rd phase of the fight will happen a lot quicker now, so be prepared for the stomps.
   * Set The Lamb death animation to 1 frame.
-  * Integrated the "Fogless! v1.1" graphics mod (https://moddingofisaac.com/mod/950/fogless) by Dan into the Jud6s mod. This helps eliminate lag on slower computers and makes the game clearer to see for everyone.
-  * Integrated a config.ini file (https://steamcommunity.com/app/250900/discussions/0/613941122558099449/) into the Jud6s mod. It will only be installed if you install the mod with the provided installer script. This file tells the game to disable certain graphical effects, such as the water on Flooded Caves. This helps eliminate lag on slower computers and makes the game clearer to see for everyone. If you already have a config.ini in your resources directory, then the installer script will not bother copying anything over. If you don't like the way that the config.ini makes the game look, simply delete the file from your resources directory.
+  * Integrated the "Fogless! v1.1" graphics mod by Dan (https://moddingofisaac.com/mod/950/fogless) into the Jud6s mod. This helps eliminate lag on slower computers and makes the game clearer to see.
+  * Integrated a config.ini file (https://steamcommunity.com/app/250900/discussions/0/613941122558099449/) into the Jud6s mod. It will only be installed if you install the mod with the provided installer script. This file tells the game to disable certain graphical effects, such as the water on Flooded Caves. This helps eliminate lag on slower computers and makes the game clearer to see. If you already have a config.ini in your resources directory, then the installer script will not bother copying anything over. If you don't like the way that the config.ini makes the game look, simply delete the file from your resources directory.
 * *1.20* - April 11th
   * Removed the More Options mode, since nobody uses it anymore.
   * Reverted the skull change in the Depths/Necropolis bomb puzzle room, as it doesn't actually stop spikes from spawning on Dank Depths. If you get spikes spawning on a critical path and you don't have flying, you are pretty much screwed.
@@ -156,20 +156,28 @@ Alternatively, you can manually install the mod by going into the subdirectory t
 
 ## Mod Changes
 
-* Judas has been tweaked:
+# Judas is tweaked:
   * Judas starts with the D6. (All other characters also start with the D6, except for Eve, Eden, and Keeper, as it isn't possible.)
   * Judas starts with half a soul heart in addition to his 1 red heart container (so that he can consistently take a devil deal).
   * Judas starts with a bomb instead of 3 coins (so that he can get Treasure Room pedestal items surrounded by rocks).
-* The Devil Rooms and Angel Rooms without item pedestals in them have been removed.
-* Charge animations with transformations now work.
-* All cutscenes have been removed.
-* Some useless animations have been removed:
-  * the fetal position animation at the beginning of every floor
-  * the jumping in the hole to the next floor animation
-  * the beam of light animation when going to the Cathedral
-  * the chest entering animation when going to The Chest or beating the game
-* Boss death animations that are longer than 1 frame are set to 1 frame (except for Krampus, Uriel, and Gabriel).
-* Many rooms with unavoidable damage or bugs have been fixed.
+# Devil / Angel rooms are buffed:
+  * Rooms without item pedestals in them have been removed.
+# All cutscenes are removed.
+# Some useless animations are removed:
+  * cowering in the fetal position at the beginning of every floor
+  * jumping in a hole to the next floor
+  * going up the beam of light to the Cathedral
+  * entering a chest when going to The Chest or beating the game
+# Death animations are shortened:
+  * Boss death animations that are longer than 1 frame are set to 1 frame.
+  * The Satan death animation is set to 30 frames.
+  * Krampus, Uriel, and Gabriel are unchanged.
+# Bug fixes:
+  * Charge animations with transformations now work.
+  * Many rooms with unavoidable damage or bugs have been fixed. Full documentation can be found below.
+# Lag reduction:
+  * Fog has been removed to help eliminate lag on slower computers and make the game clearer to see.
+  * A [config.ini file](https://steamcommunity.com/app/250900/discussions/0/613941122558099449/) has been included to disable some graphical effects, such as the water on Flooded Caves. It will only be installed if you install the mod with the provided installer script. If you already have a config.ini in your resources directory, then the installer script will not bother copying anything over. If you don't like the way that the config.ini makes the game look, simply delete the file from your resources directory.
 
 #### Extra Changes in "Seeded Mode"
 * All characters start with The Compass in addition to their other items.
