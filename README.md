@@ -91,8 +91,8 @@ If don't already have one, you can [download a save file from Speedrun.com](http
 * Thanks to all of the racers who have given me feedback, including [Hyphen-ated](http://www.twitch.tv/hyphen_ated), [Cyber_1](http://www.twitch.tv/cyber_1), [Ou_J](http://www.twitch.tv/ou_j), [HauntedQuest](http://www.twitch.tv/hauntedquest), and [Dea1h](http://www.twitch.tv/dea1h).
 * [Dan](https://moddingofisaac.com/user/255) created [the Fogless! mod](https://moddingofisaac.com/mod/950/fogless), which is included in the Jud6s mod.
 * [Gromfalloon](http://www.twitch.tv/gromfalloon) originally created the Dark Room graphics.
-* Ipn created the Windows installation script.
-* viroulep created the Mac/Linux installation script.
+* [Ipn](https://github.com/lpn) created the Windows installation script.
+* [viroulep](https://github.com/viroulep) created the Mac/Linux installation script.
 
 <br />
 
