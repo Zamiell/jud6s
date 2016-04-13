@@ -160,19 +160,19 @@ Alternatively, you can manually install the mod by going into the subdirectory t
   * Judas starts with the D6. (All other characters also start with the D6, except for Eve, Eden, and Keeper, as it isn't possible.)
   * Judas starts with half a soul heart in addition to his 1 red heart container (so that he can consistently take a devil deal).
   * Judas starts with a bomb instead of 3 coins (so that he can get Treasure Room pedestal items surrounded by rocks).
-2. Devil / Angel rooms are buffed:
-  * Rooms without item pedestals in them have been removed.
-3. All cutscenes are removed.
+2. Devil Rooms and Angel Rooms are buffed:
+  * Devil Rooms and Angel Rooms without item pedestals in them have been removed.
+3. Cutscenes are removed.
 4. Some useless animations are removed:
   * cowering in the fetal position at the beginning of every floor
   * jumping in a hole to the next floor
   * going up the beam of light to the Cathedral
   * entering a chest when going to The Chest or beating the game
-5. Death animations are shortened:
+5. Some death animations are shortened:
   * Boss death animations that are longer than 1 frame are set to 1 frame.
   * The Satan death animation is set to 30 frames.
   * Krampus, Uriel, and Gabriel are unchanged.
-6. Bug fixes:
+6. Some bug fixes:
   * Charge animations with transformations now work.
   * Many rooms with unavoidable damage or bugs have been fixed. Full documentation can be found below.
 7. Lag reduction:
@@ -187,9 +187,6 @@ Alternatively, you can manually install the mod by going into the subdirectory t
 #### Extra Changes for "Dark Room Mode"
 * 4 golden chests will now spawn at the beginning of the Dark Room (instead of red chests).
 * We Need To Go Deeper! is removed from all item pools.
-
-#### Extra Changes in "More Options Mode"
-* All characters start with More Options in addition to their other items.
 
 <br />
 
