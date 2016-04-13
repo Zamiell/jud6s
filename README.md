@@ -44,7 +44,7 @@ The mod is meant to be played:
 * on normal mode
 * with the BLCK CNDL seed ("total curse immunity")
 * on a "1001%" save file (which is a save file that has everything in the game unlocked)
-** (If don't already have one, you can [download one from Speedrun.com](http://www.speedrun.com/saves/fully_unlocked_afterbirth_save_k5imn.zip).)
+  * (If don't already have one, you can [download one from Speedrun.com](http://www.speedrun.com/saves/fully_unlocked_afterbirth_save_k5imn.zip).)
 
 <br />
 
