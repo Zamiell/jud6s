@@ -69,7 +69,7 @@ echo   4) Seeded Dark Room
 echo   5) The Lost Child Open Loser's Bracket
 echo.
 echo Or:
-echo   6) Uninstall all mods
+echo   6) Uninstall all mods (except for config.ini)
 echo.
 set /p id="Enter your choice: "
 echo.
@@ -96,6 +96,13 @@ for %%i in ("%ResourcesFolder%\*") do (
 rem Delete all directories except for the resources one
 for /D %%i in ("%ResourcesFolder%\*") do (
 	if "%%~nxi" NEQ "packed" rd /S /Q "%%~fi"
+)
+
+rem If we are not uninstalling all mods, copy over config.ini if it doesn't already exist
+if not [%id%] == [6] (
+	if not exist "%ResourcesFolder%\config.ini" (
+		xcopy /Q "%~dp0Miscellaneous\config.ini" "%ResourcesFolder%"
+	)
 )
 
 rem Copy the files over (the /S flag is to include folders and the /Q flag is to make it be quiet)

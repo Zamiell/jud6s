@@ -20,8 +20,10 @@ This mod is commonly used while racing on [SpeedRunsLive](http://www.speedrunsli
 ## Version History
 
 * *1.21* - Unreleased
-  * Set the Lamb death animation to 1 frame and the Satan death animation to 10 frames.
-  * Integrated the "Fogless! v1.1" graphics mod (https://moddingofisaac.com/mod/950/fogless) by Dan into the Jud6s mod. This helps eliminate lag on some slower computers and makes the game clearer to see for everyone.
+  * Set the the Satan death animation to 30 frames; note that the 3rd phase of the fight will happen a lot quicker now, so be prepared for the stomps.
+  * Set The Lamb death animation to 1 frame.
+  * Integrated the "Fogless! v1.1" graphics mod (https://moddingofisaac.com/mod/950/fogless) by Dan into the Jud6s mod. This helps eliminate lag on slower computers and makes the game clearer to see for everyone.
+  * Integrated a config.ini file (https://steamcommunity.com/app/250900/discussions/0/613941122558099449/) into the Jud6s mod. It will only be installed if you install the mod with the provided installer script. This file tells the game to disable certain graphical effects, such as the water on Flooded Caves. This helps eliminate lag on slower computers and makes the game clearer to see for everyone. If you already have a config.ini in your resources directory, then the installer script will not bother copying anything over. If you don't like the way that the config.ini makes the game look, simply delete the file from your resources directory.
 * *1.20* - April 11th
   * Removed the More Options mode, since nobody uses it anymore.
   * Reverted the skull change in the Depths/Necropolis bomb puzzle room, as it doesn't actually stop spikes from spawning on Dank Depths. If you get spikes spawning on a critical path and you don't have flying, you are pretty much screwed.

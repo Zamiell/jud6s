@@ -6,7 +6,7 @@ from PIL import Image, ImageFont, ImageDraw
 title_screen_text = 'Jud6s Mod v1.21'
 
 # Draw the version number on the title menu graphic
-large_font = ImageFont.truetype("IsaacSans.ttf", 19)
+large_font = ImageFont.truetype('IsaacSans.ttf', 19)
 title_img = Image.open('titlemenu-base.png')
 title_draw = ImageDraw.Draw(title_img)
 title_draw.text((345, 247), title_screen_text, (134, 86, 86), font=large_font)
