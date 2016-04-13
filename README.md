@@ -1,11 +1,11 @@
-# The Jud6s Mod v1.20
+# The Jud6s Mod v1.21
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
 
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.20/jud6s.v1.20.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.21/jud6s.v1.21.zip)
 
 <br />
 
@@ -577,7 +577,7 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 
 ## Version History
 
-* *1.21* - Unreleased
+* *1.21* - April 13th
   * Set the the Satan death animation to 30 frames; note that the 3rd phase of the fight will happen a lot quicker now, so be prepared for the stomps.
   * Set The Lamb death animation to 1 frame.
   * Integrated the "Fogless! v1.1" graphics mod by Dan (https://moddingofisaac.com/mod/950/fogless) into the Jud6s mod. This helps eliminate lag on slower computers and makes the game clearer to see.
