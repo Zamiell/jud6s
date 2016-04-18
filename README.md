@@ -1,11 +1,11 @@
-# The Jud6s Mod v1.21
+# The Jud6s Mod v1.22
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
 
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.21/jud6s.v1.21.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.22/jud6s.v1.22.zip)
 
 <br />
 
@@ -57,11 +57,8 @@ If don't already have one, you can [download a save file from Speedrun.com](http
   * Judas starts with a bomb instead of 3 coins (so that he can get Treasure Room pedestal items surrounded by rocks).
 2. Devil Rooms and Angel Rooms are buffed:
   * Devil Rooms and Angel Rooms without item pedestals in them have been removed.
-3. Some completely useless items are removed:
+3. Some items with no effect are removed:
   * The Karma trinket (all Donation Machines are removed on the BLCK CNDL seed)
-  * The Rules Card
-  * The I Found Pills pill
-  * The Puberty pill
   * The Amnesia pill (all curses are removed on the BLCK CNDL seed)
   * The ??? pill (all curses are removed on the BLCK CNDL seed)
 4. Cutscenes are removed.
@@ -596,13 +593,11 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 
 ## Version History
 
-* *1.22* - Unreleased
+* *1.22* - April 18th
   * Removed the Basement/Cellar puzzle room with the red fires along the sides, as it is sometimes unavoidable damage.
   * Removed the Karma trinket from the game, since all Donation Machines are removed on the BLCK CNDL seed.
   * Removed the Amnesia and ??? pill from the game, since all curses are removed on the BLCK CNDL seed.
-  * Removed the Rules Card from the game, since it has no purpose in a racing context.
-  * Removed the I Found Pills and Puberty pills from the game, since they have no purpose in a racing context.
-  * Removed the Cain's Eye trinket from the game on the seeded rulesets, since starting with The Compass makes it useless.
+  * Removed the Cain's Eye trinket from the game on the seeded rulesets, since starting with The Compass makes it have no effect.
 * *1.21* - April 13th
   * Set the the Satan death animation to 30 frames; note that the 3rd phase of the fight will happen a lot quicker now, so be prepared for the stomps.
   * Set The Lamb death animation to 1 frame.

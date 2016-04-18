@@ -38,7 +38,7 @@
 	<rune achievement="232" description="???" id="36" name="Blank Rune" />
 	<card achievement="97" description="???" hud="28_ChaosCard" id="37" name="Chaos Card" />
 	<card achievement="98" description="Charge it!" hud="29_CreditCard" id="38" name="Credit Card" />
-	<card achievement="0" description="???" hud="30_RulesCard" id="39" name="Rules Card" />
+	<card achievement="99" description="???" hud="30_RulesCard" id="39" name="Rules Card" />
 	<card achievement="100" description="Something stinks..." hud="31_CardAgainstHumanity" id="40" name="A Card Against Humanity" />
 	<card achievement="120" description="A true ending?" hud="27_SuicideKing" id="41" name="Suicide King" />
 	<card achievement="225" description="Open Sesame" hud="32_GetOutOfJail" id="42" name="Get Out Of Jail Free Card" />
@@ -54,8 +54,8 @@
 	<pilleffect id="5" name="Full Health" />
 	<pilleffect id="6" name="Health Down" />
 	<pilleffect id="7" name="Health Up" />
-	<pilleffect achievement="0" id="0" name="I Found Pills" />
-	<pilleffect achievement="0" id="0" name="Puberty" />
+	<pilleffect id="8" name="I Found Pills" />
+	<pilleffect id="9" name="Puberty" />
 	<pilleffect id="10" name="Pretty Fly" />
 	<pilleffect id="11" name="Range Down" />
 	<pilleffect id="12" name="Range Up" />

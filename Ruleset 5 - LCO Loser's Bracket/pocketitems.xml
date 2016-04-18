@@ -54,8 +54,8 @@
 	<pilleffect id="5" name="Full Health" />
 	<pilleffect id="6" name="Health Down" />
 	<pilleffect id="7" name="Health Up" />
-	<pilleffect achievement="0" id="0" name="I Found Pills" />
-	<pilleffect achievement="0" id="0" name="Puberty" />
+	<pilleffect achievement="0" id="8" name="I Found Pills" />
+	<pilleffect achievement="0" id="9" name="Puberty" />
 	<pilleffect id="10" name="Pretty Fly" />
 	<pilleffect id="11" name="Range Down" />
 	<pilleffect id="12" name="Range Up" />
