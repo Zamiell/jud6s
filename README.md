@@ -1,11 +1,11 @@
-# The Jud6s Mod v1.22
+# The Jud6s Mod v1.21
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
 
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.22/jud6s.v1.22.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.21/jud6s.v1.21.zip)
 
 <br />
 
@@ -57,28 +57,35 @@ If don't already have one, you can [download a save file from Speedrun.com](http
   * Judas starts with a bomb instead of 3 coins (so that he can get Treasure Room pedestal items surrounded by rocks).
 2. Devil Rooms and Angel Rooms are buffed:
   * Devil Rooms and Angel Rooms without item pedestals in them have been removed.
-3. Cutscenes are removed.
-4. Some useless animations are removed:
+3. Some completely useless items are removed:
+  * The Karma trinket (all Donation Machines are removed on the BLCK CNDL seed)
+  * The Rules Card
+  * The I Found Pills pill
+  * The Puberty pill
+  * The Amnesia pill (all curses are removed on the BLCK CNDL seed)
+  * The ??? pill (all curses are removed on the BLCK CNDL seed)
+4. Cutscenes are removed.
+5. Some useless animations are removed:
   * cowering in the fetal position at the beginning of every floor
   * jumping in a hole to the next floor
   * going up the beam of light to the Cathedral
   * entering a chest when going to The Chest or beating the game
-5. Some death animations are shortened:
+6. Some death animations are shortened:
   * Boss death animations that are longer than 1 frame are set to 1 frame.
   * The Satan death animation is set to 30 frames.
   * Krampus, Uriel, and Gabriel are unchanged.
-6. Some bug fixes:
+7. Some bug fixes:
   * Charge animations with transformations now work.
   * Many rooms with unavoidable damage or bugs have been fixed. Full documentation can be found below.
-7. Lag reduction:
+8. Lag reduction:
   * Fog has been removed to help eliminate lag on slower computers and make the game clearer to see.
-  * A [config.ini file](https://steamcommunity.com/app/250900/discussions/0/613941122558099449/) has been included to disable some graphical effects, such as the water on Flooded Caves. It will only be installed if you install the mod with the provided installer script. If you already have a config.ini in your resources directory, then the installer script will not bother copying anything over. If you don't like the way that the config.ini makes the game look, simply delete the file from your resources directory.
+  * A [config.ini file](https://steamcommunity.com/app/250900/discussions/0/613941122558099449/) has been included to disable some graphical effects, such as the water on Flooded Caves. It will only be installed if you install the mod with the provided installer script. If you already have a config.ini in your resources directory, then the installer script will not bother copying anything over. If you don't like the way that the config.ini makes the game look, simply delete the file from your resources directory or make the contents completely blank.
 
 #### Extra Changes in "Seeded Mode"
 * All characters start with The Compass in addition to their other items.
 * Angel statues are replaced with either Uriel or Gabriel. Key Piece 1 has been placed in each Angel Room.
 * Pandora's Box, Teleport!, and Undefined are removed from all item pools.
-* Cain's Eye is removed from the game.
+* The Cain's Eye trinket is removed from the game.
 
 #### Extra Changes for "Dark Room Mode"
 * 4 golden chests will now spawn at the beginning of the Dark Room (instead of red chests).
@@ -589,9 +596,13 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 
 ## Version History
 
-* *1.22* - April 17th
-  * Removed the Basement/Cellar puzzle room with the red fires along the sides.
-  * Removed Cain's Eye from the seeded rulesets.
+* *1.22* - Unreleased
+  * Removed the Basement/Cellar puzzle room with the red fires along the sides, as it is sometimes unavoidable damage.
+  * Removed the Karma trinket from the game, since all Donation Machines are removed on the BLCK CNDL seed.
+  * Removed the Amnesia and ??? pill from the game, since all curses are removed on the BLCK CNDL seed.
+  * Removed the Rules Card from the game, since it has no purpose in a racing context.
+  * Removed the I Found Pills and Puberty pills from the game, since they have no purpose in a racing context.
+  * Removed the Cain's Eye trinket from the game on the seeded rulesets, since starting with The Compass makes it useless.
 * *1.21* - April 13th
   * Set the the Satan death animation to 30 frames; note that the 3rd phase of the fight will happen a lot quicker now, so be prepared for the stomps.
   * Set The Lamb death animation to 1 frame.
