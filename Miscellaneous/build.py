@@ -29,7 +29,7 @@ title_img.save('../' + ruleset5 + '/gfx/ui/main menu/titlemenu.png')
 # Copy the rooms files from ruleset 1 (but not the special rooms because of the Angel Room change)
 print('Copying the rooms files...')
 for file_name in os.listdir('../' + ruleset1 + '/rooms'):
-    if (file_name == '"00.special rooms.stb'):
+    if (file_name == '00.special rooms.stb'):
         continue
     file_full_path = os.path.join('../' + ruleset1 + '/rooms', file_name)
 
