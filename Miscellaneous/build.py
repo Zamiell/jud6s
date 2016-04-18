@@ -3,6 +3,7 @@
 # Imports
 import os
 import shutil
+import zipfile
 from PIL import Image, ImageFont, ImageDraw
 
 # Configuration
@@ -45,5 +46,27 @@ shutil.copyfile('../' + ruleset1 + '/rooms/00.special rooms.stb', '../' + rulese
 # Copy the "00.special rooms.stb" file from ruleset 2 to the seeded rulesets
 shutil.copyfile('../' + ruleset2 + '/rooms/00.special rooms.stb', '../' + ruleset4 + '/rooms/00.special rooms.stb')
 
+# Rename README.md to README.txt extension so that noobs are less confused
+shutil.move('../README.md', '../README.txt')
+
+# Make the zip file
+print('Making a zip file...')
+shutil.make_archive('../../jud6s ' + version, 'zip', '..')
+
+# Remove the .git directory from the zip file
+zip_in = zipfile.ZipFile ('../../jud6s ' + version + '.zip', 'r')
+zip_out = zipfile.ZipFile ('../../jud6s ' + version + '.zip2', 'w')
+for item in zip_in.infolist():
+    buffer = zip_in.read(item.filename)
+    if ('.git' not in item.filename):
+        zip_out.writestr(item, buffer)
+zip_in.close()
+zip_out.close()
+shutil.move('../../jud6s ' + version + '.zip2', '../../jud6s ' + version + '.zip')
+
+# Rename README.txt back to the way it was
+shutil.move('../README.txt', '../README.md')
+
+# Done
 print('Success!')
-test = input('Press enter to continue...').strip()
+input('Press enter to continue...').strip()
