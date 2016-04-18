@@ -1,11 +1,11 @@
-# The Jud6s Mod v1.21
+# The Jud6s Mod v1.22
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
 
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.21/jud6s.v1.21.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.22/jud6s.v1.22.zip)
 
 <br />
 
@@ -78,6 +78,7 @@ If don't already have one, you can [download a save file from Speedrun.com](http
 * All characters start with The Compass in addition to their other items.
 * Angel statues are replaced with either Uriel or Gabriel. Key Piece 1 has been placed in each Angel Room.
 * Pandora's Box, Teleport!, and Undefined are removed from all item pools.
+* Cain's Eye is removed from the game.
 
 #### Extra Changes for "Dark Room Mode"
 * 4 golden chests will now spawn at the beginning of the Dark Room (instead of red chests).
@@ -496,6 +497,16 @@ The changed room is as follows:
 
 <br />
 
+### Red Fire Puzzle Room Removal
+
+The puzzle rooms with the red fires along the sides of the room have no consistent strategy with which to avoid the random shots.
+
+The removed room is as follows:
+* Basement: #771
+* Cellar: #771
+
+<br />
+
 ### Trapdoor Room
 
 On Sheol, there exists a room with a trapdoor that takes you directly to the Dark Room without having to fight Satan. This puts too much of an extreme lower bound on the clear time of the floor.
@@ -566,6 +577,7 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 * Cellar #766 - This is a 1x1 room with 3 mega troll bombs, but if you stand completely still, they will not damage you.
 * Caves #161, #271, #553 - If the enemy by the top door is a explosive champion, the player will not be hit. If the enemy by the top door is a tear champion, the player has a full second to react upon entering.
 * Caves #692 - This is a narrow 1x1 room filled with poops. With Ipecac, you can safely shoot left from the top right-hand corner. With Dr. Fetus, you can walk diagonally through the poops to plant your first bomb. With Dr. Fetus and Bomber Boy, it is unavoidable damage.
+* Catacombs #267 - This is a room with a Night Crawler right next to the bottom entrance. Night Crawler's cannot spawn as champions, so it will never explode in your face from blue flies.
 * Womb/Utero #147 - This is a room with 3 Nerve Endings next to the entrance. If you have Ipecac, it is possible to use a tear on the wall to safely kill a Nerve Ending. Alternatively, you can safely use a bomb.
 * Dark Room #287 - This is a room with 3 mega troll bombs and an Imp. If you stand completely still, the troll bombs will not damage you.
 * Chest #39 - This is a room with 2 Mega Maws. Even with the champion version, there is enough time to react to the patterns.
@@ -577,6 +589,9 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 
 ## Version History
 
+* *1.22* - April 17th
+  * Removed the Basement/Cellar puzzle room with the red fires along the sides.
+  * Removed Cain's Eye from the seeded rulesets.
 * *1.21* - April 13th
   * Set the the Satan death animation to 30 frames; note that the 3rd phase of the fight will happen a lot quicker now, so be prepared for the stomps.
   * Set The Lamb death animation to 1 frame.
