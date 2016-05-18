@@ -69,4 +69,4 @@ shutil.move('../README.txt', '../README.md')
 
 # Done
 print('Success!')
-input('Press enter to continue...').strip()
+input('Press enter to continue...')

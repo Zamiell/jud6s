@@ -58,9 +58,9 @@ If don't already have one, you can [download a save file from Speedrun.com](http
 2. Devil Rooms and Angel Rooms are buffed:
   * Devil Rooms and Angel Rooms without item pedestals in them have been removed.
 3. Some items with no effect are removed:
-  * The Karma trinket (all Donation Machines are removed on the BLCK CNDL seed)
-  * The Amnesia pill (all curses are removed on the BLCK CNDL seed)
-  * The ??? pill (all curses are removed on the BLCK CNDL seed)
+  * the Karma trinket (all Donation Machines are removed on the BLCK CNDL seed)
+  * the Amnesia pill (all curses are removed on the BLCK CNDL seed)
+  * the ??? pill (all curses are removed on the BLCK CNDL seed)
 4. Cutscenes are removed.
 5. Some useless animations are removed:
   * cowering in the fetal position at the beginning of every floor
@@ -93,7 +93,7 @@ If don't already have one, you can [download a save file from Speedrun.com](http
 ## Shoutouts
 
 * [Chronometrics](http://www.twitch.tv/chronometrics) deserves recognition for making and continuing to support [Basement Renovator](https://github.com/Tempus/Basement-Renovator).
-* Thanks to all of the racers who have given me feedback, including [Hyphen-ated](http://www.twitch.tv/hyphen_ated), [Cyber_1](http://www.twitch.tv/cyber_1), [Ou_J](http://www.twitch.tv/ou_j), [HauntedQuest](http://www.twitch.tv/hauntedquest), and [Dea1h](http://www.twitch.tv/dea1h).
+* Thanks to all of the racers who have given me feedback, including [Hyphen-ated](http://www.twitch.tv/Hyphen_ated), [Cyber_1](http://www.twitch.tv/Cyber_1), [Ou_J](http://www.twitch.tv/Ou_J), [HauntedQuest](http://www.twitch.tv/HauntedQuest), [Dea1h](http://www.twitch.tv/Dea1h), [Krakenos](http://www.twitch.tv/Krakenos), and [nicoluwu](https://www.twitch.tv/nicoluwu).
 * [Dan](https://moddingofisaac.com/user/255) created [the Fogless! mod](https://moddingofisaac.com/mod/950/fogless), which is included in the Jud6s mod.
 * [Gromfalloon](http://www.twitch.tv/gromfalloon) originally created the Dark Room graphics.
 * [Ipn](https://github.com/lpn) created the Windows installation script.
@@ -405,6 +405,28 @@ The changed room is as follows:
 
 <br />
 
+### Technology Soft-lock Fix
+
+Certain rooms that require the player to angle their shots can make a Technology build with no bombs soft-lock. The rooms are fixed by replacing some rocks with poops.
+
+The changed rooms are as follows:
+* Catacombs: #328
+* Depths: #226
+* Necropolis: #226
+
+### Low Range Soft-lock Fix
+
+
+The changed rooms are as follows:
+* Caves: #226, #305
+* Catacombs: #305
+* Depths: #226
+* Necropolis: #226
+* Womb: #458, #459
+* Utero: #458, #459
+
+<br />
+
 ### Card Room Fix
 
 The rooms with a bugged Magician / High Priestess card are fixed to be a random card.
@@ -593,6 +615,9 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 
 ## Version History
 
+* *1.23* - Unreleased
+  * Fixed some rooms that soft-locked Technology builds.
+  * Fixed some rooms that soft-lock low-range builds.
 * *1.22* - April 18th
   * Removed the Basement/Cellar puzzle room with the red fires along the sides, as it is sometimes unavoidable damage.
   * Removed the Karma trinket from the game, since all Donation Machines are removed on the BLCK CNDL seed.
