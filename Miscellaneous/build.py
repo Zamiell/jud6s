@@ -7,7 +7,7 @@ import zipfile
 from PIL import Image, ImageFont, ImageDraw
 
 # Configuration
-version = 'v1.22'
+version = 'v1.23'
 title_screen_text = 'Jud6s Mod ' + version
 ruleset1 = 'Ruleset 1 - Normal'
 ruleset2 = 'Ruleset 2 - Seeded'
