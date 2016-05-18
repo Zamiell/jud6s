@@ -576,7 +576,7 @@ The removed rooms are as follows:
 * Cellar: #39
 * Caves: #170
 * Depths: #378, #428
-* Sheol: #89
+* Sheol: #73, #89, #255
 * Cathedral: #57, #89
 * Chest: #42
 
@@ -625,6 +625,7 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 * *1.23* - Unreleased
   * Fixed 3 rooms that soft-locked Technology builds.
   * Fixed 9 rooms that soft-lock low-range builds.
+  * Removed 2 empty rooms from Sheol.
   * Removed Book of Sin from the seeded rulesets.
 * *1.22* - April 18th
   * Removed the Basement/Cellar puzzle room with the red fires along the sides, as it is sometimes unavoidable damage.
