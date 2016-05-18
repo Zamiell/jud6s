@@ -81,12 +81,17 @@ If don't already have one, you can [download a save file from Speedrun.com](http
 #### Extra Changes in "Seeded Mode"
 * All characters start with The Compass in addition to their other items.
 * Angel statues are replaced with either Uriel or Gabriel. Key Piece 1 has been placed in each Angel Room.
-* Pandora's Box, Teleport!, and Undefined are removed from all item pools.
+* Pandora's Box, Teleport!, Undefined, and Book of Sin are removed from all item pools.
 * The Cain's Eye trinket is removed from the game.
 
 #### Extra Changes for "Dark Room Mode"
 * 4 golden chests will now spawn at the beginning of the Dark Room (instead of red chests).
 * We Need To Go Deeper! is removed from all item pools.
+
+#### Extra Changes for "The Lost Child Open Loser's Bracket Mode"
+* The changes from the "Dark Room Mode" are included in this ruleset.
+* Judas starts with Judas' Shadow in addition to his other items.
+* Judas starts with 0 health.
 
 <br />
 
@@ -617,8 +622,9 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 ## Version History
 
 * *1.23* - Unreleased
-  * Fixed some rooms that soft-locked Technology builds.
-  * Fixed some rooms that soft-lock low-range builds.
+  * Fixed 3 rooms that soft-locked Technology builds.
+  * Fixed 9 rooms that soft-lock low-range builds.
+  * Removed Book of Sin from the seeded rulesets.
 * *1.22* - April 18th
   * Removed the Basement/Cellar puzzle room with the red fires along the sides, as it is sometimes unavoidable damage.
   * Removed the Karma trinket from the game, since all Donation Machines are removed on the BLCK CNDL seed.
