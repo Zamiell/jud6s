@@ -70,13 +70,13 @@ If don't already have one, you can [download a save file from Speedrun.com](http
 6. Some death animations are shortened:
   * Boss death animations that are longer than 1 frame are set to 1 frame.
   * The Satan death animation is set to 30 frames.
-  * Krampus, Uriel, and Gabriel are unchanged.
+  * Krampus, Uriel, Gabriel, and It Lives are unchanged.
 7. Some bug fixes:
   * Charge animations with transformations now work.
-  * Many rooms with unavoidable damage or bugs have been fixed. Full documentation can be found below.
+  * Many rooms with unavoidable damage or bugs have been fixed or deleted. Full documentation can be found below.
 8. Lag reduction:
   * Fog has been removed to help eliminate lag on slower computers and make the game clearer to see.
-  * A [config.ini file](https://steamcommunity.com/app/250900/discussions/0/613941122558099449/) has been included to disable some graphical effects, such as the water on Flooded Caves. It will only be installed if you install the mod with the provided installer script. If you already have a config.ini in your resources directory, then the installer script will not bother copying anything over. If you don't like the way that the config.ini makes the game look, simply delete the file from your resources directory or make the contents completely blank.
+  * A [config.ini file](https://steamcommunity.com/app/250900/discussions/0/613941122558099449/) has been included to disable some graphical effects, such as the water on Flooded Caves. It will only be installed if you install the mod with the provided installer script. If you already have a config.ini in your resources directory, then the installer script will not bother copying one over. If you don't like the way that the config.ini makes the game look, simply delete the file from your resources directory or make the contents completely blank.
 
 #### Extra Changes in "Seeded Mode"
 * All characters start with The Compass in addition to their other items.
@@ -87,6 +87,7 @@ If don't already have one, you can [download a save file from Speedrun.com](http
 #### Extra Changes for "Dark Room Mode"
 * 4 golden chests will now spawn at the beginning of the Dark Room (instead of red chests).
 * We Need To Go Deeper! is removed from all item pools.
+* There are special graphics for The Polaroid, The Negative, and the beam of light that takes you to the Cathedral.
 
 #### Extra Changes for "The Lost Child Open Loser's Bracket Mode"
 * The changes from the "Dark Room Mode" are included in this ruleset.
