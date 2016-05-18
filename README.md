@@ -416,6 +416,7 @@ The changed rooms are as follows:
 
 ### Low Range Soft-lock Fix
 
+Low range builds soft-lock in certain rooms. The rooms are fixed by moving the enemies closer.
 
 The changed rooms are as follows:
 * Caves: #226, #305
