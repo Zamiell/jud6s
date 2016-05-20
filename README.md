@@ -1,11 +1,11 @@
-# The Jud6s Mod v1.22
+# The Jud6s Mod v1.23
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
 
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.22/jud6s.v1.22.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.23/jud6s.v1.23.zip)
 
 <br />
 
@@ -622,12 +622,13 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 
 ## Version History
 
-* *1.23* - Unreleased
+* *1.23* - May 20th
   * Fixed 3 rooms that soft-locked Technology builds.
   * Fixed 9 rooms that soft-lock low-range builds.
   * Removed 2 empty rooms from Sheol.
   * Removed Book of Sin from the seeded rulesets.
   * Fixed the bug with the Utero turret room with retractable spikes. (I made the Womb version of the symmetrical, but forgot to make the Utero version symmetrical.)
+  * Fixed the bug where the It Lives death animation was improperly taken out of the Lost Child Open ruleset.
 * *1.22* - April 18th
   * Removed the Basement/Cellar puzzle room with the red fires along the sides, as it is sometimes unavoidable damage.
   * Removed the Karma trinket from the game, since all Donation Machines are removed on the BLCK CNDL seed.
