@@ -627,6 +627,7 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
   * Fixed 9 rooms that soft-lock low-range builds.
   * Removed 2 empty rooms from Sheol.
   * Removed Book of Sin from the seeded rulesets.
+  * Fixed the bug with the Utero turret room with retractable spikes. (I made the Womb version of the symmetrical, but forgot to make the Utero version symmetrical.)
 * *1.22* - April 18th
   * Removed the Basement/Cellar puzzle room with the red fires along the sides, as it is sometimes unavoidable damage.
   * Removed the Karma trinket from the game, since all Donation Machines are removed on the BLCK CNDL seed.
