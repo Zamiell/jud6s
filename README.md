@@ -78,19 +78,23 @@ If don't already have one, you can [download a save file from Speedrun.com](http
   * Fog has been removed to help eliminate lag on slower computers and make the game clearer to see.
   * A [config.ini file](https://steamcommunity.com/app/250900/discussions/0/613941122558099449/) has been included to disable some graphical effects, such as the water on Flooded Caves. It will only be installed if you install the mod with the provided installer script. If you already have a config.ini in your resources directory, then the installer script will not bother copying one over. If you don't like the way that the config.ini makes the game look, simply delete the file from your resources directory or make the contents completely blank.
 
+#### Extra Changes in the "Seeded" ruleset
 * All characters start with The Compass in addition to their other items.
 * Angel statues are replaced with either Uriel or Gabriel. Key Piece 1 has been placed in each Angel Room.
 * Pandora's Box, Teleport!, Undefined, and Book of Sin are removed from all item pools.
 * The Cain's Eye trinket is removed from the game.
 
+#### Extra Changes in the "Dark Room" ruleset
 * 4 golden chests will now spawn at the beginning of the Dark Room (instead of red chests).
 * We Need To Go Deeper! is removed from all item pools.
 * There are special graphics for The Polaroid, The Negative, and the beam of light that takes you to the Cathedral.
 
+#### Extra Changes in "The Lost Child Open Loser's Bracket" ruleset
 * The changes from the "Dark Room" ruleset are included in this ruleset.
 * Judas starts with Judas' Shadow in addition to his other items.
 * Judas starts with 0 health.
 
+### Extra Changes in the "Mega Satan" ruleset
 * Pedestals for Key Piece 1 and Key Piece 2 are placed next to the Mega Satan door.
 
 <br />
