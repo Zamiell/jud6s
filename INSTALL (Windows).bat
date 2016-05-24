@@ -65,8 +65,8 @@ echo Choose a ruleset:
 echo   1) Normal
 echo   2) Seeded
 echo   3) Dark Room
-echo   4) Seeded Dark Room
-echo   5) The Lost Child Open Loser's Bracket
+echo   4) The Lost Child Open Loser's Bracket
+echo   5) Mega Satan
 echo.
 echo Or:
 echo   6) Uninstall all mods (except for config.ini)
@@ -111,8 +111,8 @@ rem Copy the files over (the /S flag is to include folders and the /Q flag is to
 if [%id%] == [1] xcopy /S /Q "%~dp0Ruleset 1 - Normal" "%ResourcesFolder%"
 if [%id%] == [2] xcopy /S /Q "%~dp0Ruleset 2 - Seeded" "%ResourcesFolder%"
 if [%id%] == [3] xcopy /S /Q "%~dp0Ruleset 3 - Dark Room" "%ResourcesFolder%"
-if [%id%] == [4] xcopy /S /Q "%~dp0Ruleset 4 - Seeded Dark Room" "%ResourcesFolder%"
-if [%id%] == [5] xcopy /S /Q "%~dp0Ruleset 5 - LCO Loser's Bracket" "%ResourcesFolder%"
+if [%id%] == [4] xcopy /S /Q "%~dp0Ruleset 4 - LCO Loser's Bracket" "%ResourcesFolder%"
+if [%id%] == [5] xcopy /S /Q "%~dp0Ruleset 5 - Mega Satan" "%ResourcesFolder%"
 if [%id%] == [6] echo All mods have been uninstalled.
 
 rem All done.

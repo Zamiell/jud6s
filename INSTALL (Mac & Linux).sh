@@ -43,15 +43,15 @@ get_user_choice() {
     echo "^+-------------------------------------------------------------^+"
     echo ""
     echo "Choose a ruleset:"
-    echo "  1: Normal"
-    echo "  2: More Options"
-    echo "  3: Seeded"
-    echo "  4: Dark Room"
-    echo "  5: Seeded Dark Room"
+    echo "  1) Normal"
+    echo "  2) Seeded"
+    echo "  3) Dark Room"
+    echo "  4) LCO Loser's Bracket"
+    echo "  5) Mega Satan"
     echo ""
     echo "Or:"
-    echo "  6: Uninstall all mods"
-    echo "  0 or nothing: exit the script"
+    echo "  6) Uninstall all mods"
+    echo "  7) Do nothing and exit"
     echo ""
     done=false
     while [ "$done" = false ];
@@ -70,8 +70,8 @@ get_user_choice() {
             esac
         else
             echo "Nothing selected"
-            # 0 means exit
-            user_choice="0"
+            # 7 means exit
+            user_choice="7"
             done=true
         fi
     done
@@ -142,12 +142,12 @@ fi
 
 get_user_choice
 
-if [ "$user_choice" -eq "0" ]; then
+if [ "$user_choice" -eq "7" ]; then
     echo "Doing nothing and exiting."
     exit 0
 elif [ "$user_choice" -eq "6" ]; then
     remove_all_mods
-    echo "Done, exiting"
+    echo "Done, exiting."
     exit 0
 else
     # get_user_choice has validated the input
@@ -156,8 +156,8 @@ else
         echo "Ruleset successfully installed, exiting"
         exit 0
     else
-        echo "An error has occured during the installation,"
-        echo "please retry or fill a bug report"
+        echo "An error has occurred during the installation,"
+        echo "please retry or fill a bug report."
         exit 1
     fi
 fi
