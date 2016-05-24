@@ -629,7 +629,7 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 * *1.24* - May 24th
   * Added a Mega Satan ruleset that includes both key pieces next to the Mega Satan door.
   * Deleted the Seeded Dark Room ruleset.
-  * Fixed a L-shaped Womb room where a Blastocyst spawned too close to the door.
+  * Fixed a near-unavoidable L-shaped Womb room where a Blastocyst spawned too close to the door.
   * Removed an empty room from the Cathedral.
 * *1.23* - May 20th
   * Fixed 3 rooms that soft-locked Technology builds.
