@@ -503,7 +503,7 @@
 	<trinket achievement="72" description="Payment received " gfx="trinket_056_judastongue.png" id="56" name="Judas' Tongue" />
 	<trinket achievement="73" cache="familiars" description="Imaginary friend" gfx="trinket_057_qmarkssoul.png" id="57" name="???'s Soul" />
 	<trinket achievement="74" cache="damage" description="Your rage grows" gfx="trinket_058_samsonslock.png" id="58" name="Samson's Lock" />
-	<trinket achievement="0" description="May you see your destination" gfx="trinket_059_cainseye.png" id="59" name="Cain's Eye" />
+	<trinket achievement="75" description="May you see your destination" gfx="trinket_059_cainseye.png" id="59" name="Cain's Eye" />
 	<trinket achievement="76" cache="familiars" description="Revenge from beyond" gfx="trinket_060_evesbirdfoot.png" id="60" name="Eve's Bird Foot" />
 	<trinket achievement="77" description="The left-hand path reaps dark rewards" gfx="trinket_061_thelefthand.png" id="61" name="The Left Hand" />
 	

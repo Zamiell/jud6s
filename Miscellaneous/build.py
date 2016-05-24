@@ -7,44 +7,75 @@ import zipfile
 from PIL import Image, ImageFont, ImageDraw
 
 # Configuration
-version = 'v1.23'
+version = 'v1.24'
 title_screen_text = 'Jud6s Mod ' + version
 ruleset1 = 'Ruleset 1 - Normal'
 ruleset2 = 'Ruleset 2 - Seeded'
 ruleset3 = 'Ruleset 3 - Dark Room'
-ruleset4 = 'Ruleset 4 - Seeded Dark Room'
-ruleset5 = 'Ruleset 5 - LCO Loser\'s Bracket'
+ruleset4 = 'Ruleset 4 - LCO Loser\'s Bracket'
+ruleset5 = 'Ruleset 5 - Mega Satan'
 
-# Draw the version number on the title menu graphic
+# Draw the version number on the title menu graphic x5
 print('Drawing "' + title_screen_text + '" on the title screens...')
 large_font = ImageFont.truetype('IsaacSans.ttf', 19)
+
+# Ruleset 1
 title_img = Image.open('titlemenu-base.png')
 title_draw = ImageDraw.Draw(title_img)
-title_draw.text((345, 247), title_screen_text, (134, 86, 86), font=large_font)
+title_draw.text((345, 239), title_screen_text, (134, 86, 86), font=large_font)
+title_draw.text((345, 253), ruleset1, (134, 86, 86), font=ImageFont.truetype('IsaacSans.ttf', 15))
 title_img.save('../' + ruleset1 + '/gfx/ui/main menu/titlemenu.png')
-title_img.save('../' + ruleset2 + '/gfx/ui/main menu/titlemenu.png')
-title_img.save('../' + ruleset3 + '/gfx/ui/main menu/titlemenu.png')
-title_img.save('../' + ruleset4 + '/gfx/ui/main menu/titlemenu.png')
-title_img.save('../' + ruleset5 + '/gfx/ui/main menu/titlemenu.png')
+title_img.save('titlemenu-ruleset1.png')
 
-# Copy the rooms files from ruleset 1 (but not the special rooms because of the Angel Room change)
+# Ruleset 2
+title_img = Image.open('titlemenu-base.png')
+title_draw = ImageDraw.Draw(title_img)
+title_draw.text((345, 239), title_screen_text, (134, 86, 86), font=large_font)
+title_draw.text((342, 253), ruleset2, (134, 86, 86), font=ImageFont.truetype('IsaacSans.ttf', 15))
+title_img.save('../' + ruleset2 + '/gfx/ui/main menu/titlemenu.png')
+title_img.save('titlemenu-ruleset2.png')
+
+# Ruleset 3
+title_img = Image.open('titlemenu-base.png')
+title_draw = ImageDraw.Draw(title_img)
+title_draw.text((345, 239), title_screen_text, (134, 86, 86), font=large_font)
+title_draw.text((333, 253), ruleset3, (134, 86, 86), font=ImageFont.truetype('IsaacSans.ttf', 15))
+title_img.save('../' + ruleset3 + '/gfx/ui/main menu/titlemenu.png')
+title_img.save('titlemenu-ruleset3.png')
+
+# Ruleset 4
+title_img = Image.open('titlemenu-base.png')
+title_draw = ImageDraw.Draw(title_img)
+title_draw.text((345, 239), title_screen_text, (134, 86, 86), font=large_font)
+title_draw.text((342, 253), 'LCO Loser\'s Bracket', (134, 86, 86), font=ImageFont.truetype('IsaacSans.ttf', 15))
+title_img.save('../' + ruleset4 + '/gfx/ui/main menu/titlemenu.png')
+title_img.save('titlemenu-ruleset4.png')
+
+# Ruleset 5
+title_img = Image.open('titlemenu-base.png')
+title_draw = ImageDraw.Draw(title_img)
+title_draw.text((345, 239), title_screen_text, (134, 86, 86), font=large_font)
+title_draw.text((320, 253), ruleset5, (134, 86, 86), font=ImageFont.truetype('IsaacSans.ttf', 15))
+title_img.save('../' + ruleset5 + '/gfx/ui/main menu/titlemenu.png')
+title_img.save('titlemenu-ruleset5.png')
+
+# Copy the rooms files from ruleset 1
 print('Copying the rooms files...')
 for file_name in os.listdir('../' + ruleset1 + '/rooms'):
-    if (file_name == '00.special rooms.stb'):
-        continue
     file_full_path = os.path.join('../' + ruleset1 + '/rooms', file_name)
 
-    shutil.copyfile(file_full_path, '../' + ruleset2 + '/rooms/' + file_name)
+    if (file_name != '00.special rooms.stb'): # Don't copy the special rooms because of the Angel Room change
+        shutil.copyfile(file_full_path, '../' + ruleset2 + '/rooms/' + file_name)
     shutil.copyfile(file_full_path, '../' + ruleset3 + '/rooms/' + file_name)
     shutil.copyfile(file_full_path, '../' + ruleset4 + '/rooms/' + file_name)
-    shutil.copyfile(file_full_path, '../' + ruleset5 + '/rooms/' + file_name)
+    if (file_name != '16.dark room.stb' and file_name != '17.chest.stb'): # Don't copy The Chest or Dark Room because of the key pieces change
+        shutil.copyfile(file_full_path, '../' + ruleset5 + '/rooms/' + file_name)
 
-# Copy the "00.special rooms.stb" file from ruleset 1 to the non-seeded rulesets
-shutil.copyfile('../' + ruleset1 + '/rooms/00.special rooms.stb', '../' + ruleset3 + '/rooms/00.special rooms.stb')
-shutil.copyfile('../' + ruleset1 + '/rooms/00.special rooms.stb', '../' + ruleset5 + '/rooms/00.special rooms.stb')
+# Special rooms must be manually updated in ruleset 2
+pass
 
-# Copy the "00.special rooms.stb" file from ruleset 2 to the seeded rulesets
-shutil.copyfile('../' + ruleset2 + '/rooms/00.special rooms.stb', '../' + ruleset4 + '/rooms/00.special rooms.stb')
+# The Chest and Dark Room must be manually updated in ruleset 5
+pass
 
 # Rename README.md to README.txt extension so that noobs are less confused
 shutil.move('../README.md', '../README.txt')

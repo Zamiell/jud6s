@@ -1,11 +1,11 @@
-# The Jud6s Mod v1.23
+# The Jud6s Mod v1.24
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
 
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.23/jud6s.v1.23.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.24/jud6s.v1.24.zip)
 
 <br />
 
@@ -78,21 +78,20 @@ If don't already have one, you can [download a save file from Speedrun.com](http
   * Fog has been removed to help eliminate lag on slower computers and make the game clearer to see.
   * A [config.ini file](https://steamcommunity.com/app/250900/discussions/0/613941122558099449/) has been included to disable some graphical effects, such as the water on Flooded Caves. It will only be installed if you install the mod with the provided installer script. If you already have a config.ini in your resources directory, then the installer script will not bother copying one over. If you don't like the way that the config.ini makes the game look, simply delete the file from your resources directory or make the contents completely blank.
 
-#### Extra Changes in "Seeded Mode"
 * All characters start with The Compass in addition to their other items.
 * Angel statues are replaced with either Uriel or Gabriel. Key Piece 1 has been placed in each Angel Room.
 * Pandora's Box, Teleport!, Undefined, and Book of Sin are removed from all item pools.
 * The Cain's Eye trinket is removed from the game.
 
-#### Extra Changes for "Dark Room Mode"
 * 4 golden chests will now spawn at the beginning of the Dark Room (instead of red chests).
 * We Need To Go Deeper! is removed from all item pools.
 * There are special graphics for The Polaroid, The Negative, and the beam of light that takes you to the Cathedral.
 
-#### Extra Changes for "The Lost Child Open Loser's Bracket Mode"
-* The changes from the "Dark Room Mode" are included in this ruleset.
+* The changes from the "Dark Room" ruleset are included in this ruleset.
 * Judas starts with Judas' Shadow in addition to his other items.
 * Judas starts with 0 health.
+
+* Pedestals for Key Piece 1 and Key Piece 2 are placed next to the Mega Satan door.
 
 <br />
 
@@ -340,6 +339,7 @@ In certain rooms with Blastocyst near a door, the player is not given enough tim
 
 The changed room is as follows:
 * Boss: #2042
+* Womb: #507
 * Chest: #54
 
 <br />
@@ -577,7 +577,7 @@ The removed rooms are as follows:
 * Caves: #170
 * Depths: #378, #428
 * Sheol: #73, #89, #255
-* Cathedral: #57, #89
+* Cathedral: #57, #73, #89
 * Chest: #42
 
 <br />
@@ -622,6 +622,11 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 
 ## Version History
 
+* *1.24* - May 24th
+  * Added a Mega Satan ruleset that includes both key pieces next to the Mega Satan door.
+  * Deleted the Seeded Dark Room ruleset.
+  * Fixed a L-shaped Womb room where a Blastocyst spawned too close to the door.
+  * Removed an empty room from the Cathedral.
 * *1.23* - May 20th
   * Fixed 3 rooms that soft-locked Technology builds.
   * Fixed 9 rooms that soft-lock low-range builds.

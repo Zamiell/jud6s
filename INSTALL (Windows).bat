@@ -70,6 +70,7 @@ echo   5) The Lost Child Open Loser's Bracket
 echo.
 echo Or:
 echo   6) Uninstall all mods (except for config.ini)
+echo   7) Do nothing and exit
 echo.
 set /p id="Enter your choice: "
 echo.
@@ -81,6 +82,7 @@ if [%id%] == [3] goto :start
 if [%id%] == [4] goto :start
 if [%id%] == [5] goto :start
 if [%id%] == [6] goto :start
+if [%id%] == [7] exit /B
 echo You did not enter a valid choice. Exiting...
 pause
 exit /B
