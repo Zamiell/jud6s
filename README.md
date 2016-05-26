@@ -626,6 +626,8 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 
 ## Version History
 
+* *1.25* - Unreleased
+  * Fixed the key pieces on The Chest on the Mega Satan ruleset.
 * *1.24* - May 24th
   * Added a Mega Satan ruleset that includes both key pieces next to the Mega Satan door.
   * Deleted the Seeded Dark Room ruleset.

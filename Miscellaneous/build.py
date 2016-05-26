@@ -18,12 +18,19 @@ ruleset5 = 'Ruleset 5 - Mega Satan'
 # Draw the version number on the title menu graphic x5
 print('Drawing "' + title_screen_text + '" on the title screens...')
 large_font = ImageFont.truetype('IsaacSans.ttf', 19)
+small_font = ImageFont.truetype('IsaacSans.ttf', 15)
+
+# No ruleset
+title_img = Image.open('titlemenu-base.png')
+title_draw = ImageDraw.Draw(title_img)
+title_draw.text((345, 239), title_screen_text, (134, 86, 86), font=large_font)
+title_img.save('titlemenu-noruleset.png')
 
 # Ruleset 1
 title_img = Image.open('titlemenu-base.png')
 title_draw = ImageDraw.Draw(title_img)
 title_draw.text((345, 239), title_screen_text, (134, 86, 86), font=large_font)
-title_draw.text((345, 256), ruleset1, (134, 86, 86), font=ImageFont.truetype('IsaacSans.ttf', 15))
+title_draw.text((345, 256), ruleset1, (134, 86, 86), font=small_font)
 title_img.save('../' + ruleset1 + '/gfx/ui/main menu/titlemenu.png')
 title_img.save('titlemenu-ruleset1.png')
 
@@ -31,7 +38,7 @@ title_img.save('titlemenu-ruleset1.png')
 title_img = Image.open('titlemenu-base.png')
 title_draw = ImageDraw.Draw(title_img)
 title_draw.text((345, 239), title_screen_text, (134, 86, 86), font=large_font)
-title_draw.text((342, 256), ruleset2, (134, 86, 86), font=ImageFont.truetype('IsaacSans.ttf', 15))
+title_draw.text((342, 256), ruleset2, (134, 86, 86), font=small_font)
 title_img.save('../' + ruleset2 + '/gfx/ui/main menu/titlemenu.png')
 title_img.save('titlemenu-ruleset2.png')
 
@@ -39,7 +46,7 @@ title_img.save('titlemenu-ruleset2.png')
 title_img = Image.open('titlemenu-base.png')
 title_draw = ImageDraw.Draw(title_img)
 title_draw.text((345, 239), title_screen_text, (134, 86, 86), font=large_font)
-title_draw.text((333, 256), ruleset3, (134, 86, 86), font=ImageFont.truetype('IsaacSans.ttf', 15))
+title_draw.text((333, 256), ruleset3, (134, 86, 86), font=small_font)
 title_img.save('../' + ruleset3 + '/gfx/ui/main menu/titlemenu.png')
 title_img.save('titlemenu-ruleset3.png')
 
@@ -47,7 +54,7 @@ title_img.save('titlemenu-ruleset3.png')
 title_img = Image.open('titlemenu-base.png')
 title_draw = ImageDraw.Draw(title_img)
 title_draw.text((345, 239), title_screen_text, (134, 86, 86), font=large_font)
-title_draw.text((342, 256), 'LCO Loser\'s Bracket', (134, 86, 86), font=ImageFont.truetype('IsaacSans.ttf', 15))
+title_draw.text((342, 256), 'LCO Loser\'s Bracket', (134, 86, 86), font=small_font)
 title_img.save('../' + ruleset4 + '/gfx/ui/main menu/titlemenu.png')
 title_img.save('titlemenu-ruleset4.png')
 
@@ -55,7 +62,7 @@ title_img.save('titlemenu-ruleset4.png')
 title_img = Image.open('titlemenu-base.png')
 title_draw = ImageDraw.Draw(title_img)
 title_draw.text((345, 239), title_screen_text, (134, 86, 86), font=large_font)
-title_draw.text((322, 256), ruleset5, (134, 86, 86), font=ImageFont.truetype('IsaacSans.ttf', 15))
+title_draw.text((322, 256), ruleset5, (134, 86, 86), font=small_font)
 title_img.save('../' + ruleset5 + '/gfx/ui/main menu/titlemenu.png')
 title_img.save('titlemenu-ruleset5.png')
 
