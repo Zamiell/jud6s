@@ -1,4 +1,4 @@
-#! C:\Python34\python.exe
+#! C:\Python35\python.exe
 
 # Imports
 import os
@@ -7,13 +7,25 @@ import zipfile
 from PIL import Image, ImageFont, ImageDraw
 
 # Configuration
-version = 'v1.24'
-title_screen_text = 'Jud6s Mod ' + version
+version = '1.25'
+title_screen_text = 'Jud6s Mod v' + version
 ruleset1 = 'Ruleset 1 - Normal'
 ruleset2 = 'Ruleset 2 - Seeded'
 ruleset3 = 'Ruleset 3 - Dark Room'
 ruleset4 = 'Ruleset 4 - LCO Loser\'s Bracket'
 ruleset5 = 'Ruleset 5 - Mega Satan'
+
+# Make a "jud6s_version.txt" file in each of the ruleset directories
+with open('../' + ruleset1 + '/jud6s_version.txt', 'w') as f:
+    f.write(version)
+with open('../' + ruleset2 + '/jud6s_version.txt', 'w') as f:
+    f.write(version)
+with open('../' + ruleset3 + '/jud6s_version.txt', 'w') as f:
+    f.write(version)
+with open('../' + ruleset4 + '/jud6s_version.txt', 'w') as f:
+    f.write(version)
+with open('../' + ruleset5 + '/jud6s_version.txt', 'w') as f:
+    f.write(version)
 
 # Draw the version number on the title menu graphic x5
 print('Drawing "' + title_screen_text + '" on the title screens...')
@@ -89,18 +101,18 @@ shutil.move('../README.md', '../README.txt')
 
 # Make the zip file
 print('Making a zip file...')
-shutil.make_archive('../../jud6s ' + version, 'zip', '..')
+shutil.make_archive('../../jud6s-v' + version, 'zip', '..')
 
 # Remove the .git directory from the zip file
-zip_in = zipfile.ZipFile ('../../jud6s ' + version + '.zip', 'r')
-zip_out = zipfile.ZipFile ('../../jud6s ' + version + '.zip2', 'w')
+zip_in = zipfile.ZipFile ('../../jud6s-v' + version + '.zip', 'r')
+zip_out = zipfile.ZipFile ('../../jud6s-v' + version + '.zip2', 'w')
 for item in zip_in.infolist():
     buffer = zip_in.read(item.filename)
     if ('.git' not in item.filename):
         zip_out.writestr(item, buffer)
 zip_in.close()
 zip_out.close()
-shutil.move('../../jud6s ' + version + '.zip2', '../../jud6s ' + version + '.zip')
+shutil.move('../../jud6s-v' + version + '.zip2', '../../jud6s-v' + version + '.zip')
 
 # Rename README.txt back to the way it was
 shutil.move('../README.txt', '../README.md')

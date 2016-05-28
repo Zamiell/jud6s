@@ -1,11 +1,11 @@
-# The Jud6s Mod v1.24
+# The Jud6s Mod v1.25
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
 
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/download/v1.24/jud6s.v1.24.zip)
+[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/)
 
 <br />
 
@@ -112,7 +112,7 @@ If don't already have one, you can [download a save file from Speedrun.com](http
 
 ## Feedback
 
-The changes in this mod are not set in stone. You can discuss the mod with me by contacting me [on Twitch](http://www.twitch.tv/zamiell) or in the [#isaac SpeedRunsLive IRC channel](http://www.speedrunslive.com/channel/).
+The changes in this mod are not set in stone. You can discuss the mod with me by contacting me [on Twitch](http://www.twitch.tv/Zamiell).
 
 <br />
 
@@ -169,7 +169,7 @@ The changed rooms are as follows:
 * Chest: #43, #69 (Monstro)
 * Chest: #14, #56 (Gurdy Jr.)
 * Chest: #34 (Cage)
-* The Dark Room: #14 (Cage)
+* The Dark Room: #14, #83 (Cage)
 * The Dark Room: #34 (Monstro)
 
 <br />
@@ -626,8 +626,9 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 
 ## Version History
 
-* *1.25* - Unreleased
-  * Fixed the key pieces on The Chest on the Mega Satan ruleset.
+* *1.25* - May 28th
+  * Fixed the key pieces on The Chest in the Mega Satan ruleset.
+  * Fixed the unavoidable damage Dark Room room with 3 Cages.
 * *1.24* - May 24th
   * Added a Mega Satan ruleset that includes both key pieces next to the Mega Satan door.
   * Deleted the Seeded Dark Room ruleset.
