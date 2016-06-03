@@ -1,11 +1,12 @@
-# The Jud6s Mod v1.25
+# The Jud6s Mod v1.26
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
 
 ## Download
 
-[Download the latest version here.](https://github.com/Zamiell/jud6s/releases/)
+* [Download the Isaac Racing Mods package.](https://github.com/Zamiell/isaac-racing-mods/releases/)
+* Or, [download only the Jud6s mod.](https://github.com/Zamiell/jud6s/releases/)
 
 <br />
 
@@ -21,19 +22,17 @@ This mod is commonly used while racing on [SpeedRunsLive](http://www.speedrunsli
 
 #### Windows
 
-Double click on the "INSTALL (Windows)" script. It will take care of everything for you. (This script can also be used to uninstall the mod.)
+After unzipping the zip file to a new directory, double click on the "INSTALL (Windows)" script. It will take care of everything for you. (This script can also be used to uninstall the mod.)
 
-Alternatively, you can manually install the mod by going into the subdirectory that corresponds with the ruleset that you want to play and then copying all of the files to:
+Alternatively, you can manually install the mod by copying all of the files in the "resources" directory to:
 
 `C:\Program Files (x86)\Steam\steamapps\common\The Binding of Isaac Rebirth\resources\`
 
-To go back to an un-modded game, delete everything in the folder except for the "packed" directory.
+To go back to an unmodded game, delete everything in the resources folder except for the "packed" directory.
 
 #### Mac & Linux
 
-Run the `INSTALL (Mac & Linux).sh` script. It should automatically detect your `resources` folder location. The script will prompt for confirmation before deleting anything.
-
-Alternatively, you can manually install the mod by going into the subdirectory that corresponds with the ruleset that you want to play and then copying all of the files to the `resources` folder.
+After unzipping the mod files, you should see a "resources" subdirectory. Install the mod by copying all of the contents of that "resources" folder into your Isaac resources folder. On Mac, this is typically `/Users/[your-user-name]/Library/Application Support/Steam/SteamApps/common/the binding of isaac/The Binding Of Isaac.app/Content/Resources/resources/`
 
 <br />
 
@@ -78,24 +77,11 @@ If don't already have one, you can [download a save file from Speedrun.com](http
   * Fog has been removed to help eliminate lag on slower computers and make the game clearer to see.
   * A [config.ini file](https://steamcommunity.com/app/250900/discussions/0/613941122558099449/) has been included to disable some graphical effects, such as the water on Flooded Caves. It will only be installed if you install the mod with the provided installer script. If you already have a config.ini in your resources directory, then the installer script will not bother copying one over. If you don't like the way that the config.ini makes the game look, simply delete the file from your resources directory or make the contents completely blank.
 
-#### Extra Changes in the "Seeded" ruleset
-* All characters start with The Compass in addition to their other items.
-* Angel statues are replaced with either Uriel or Gabriel. Key Piece 1 has been placed in each Angel Room.
-* Pandora's Box, Teleport!, Undefined, and Book of Sin are removed from all item pools.
-* The Cain's Eye trinket is removed from the game.
+<br />
 
-#### Extra Changes in the "Dark Room" ruleset
-* 4 golden chests will now spawn at the beginning of the Dark Room (instead of red chests).
-* We Need To Go Deeper! is removed from all item pools.
-* There are special graphics for The Polaroid, The Negative, and the beam of light that takes you to the Cathedral.
+## Modified Rulesets
 
-#### Extra Changes in "The Lost Child Open Loser's Bracket" ruleset
-* The changes from the "Dark Room" ruleset are included in this ruleset.
-* Judas starts with Judas' Shadow in addition to his other items.
-* Judas starts with 0 health.
-
-### Extra Changes in the "Mega Satan" ruleset
-* Pedestals for Key Piece 1 and Key Piece 2 are placed next to the Mega Satan door.
+Occasionally, modified rulesets are used for different types of racing (like seeded racing). In these rulesets, there are additional changes beyond what is listed in the previous section. These changes are documented on [the GitHub page for the Isaac Racing Mods](https://github.com/Zamiell/isaac-racing-mods).
 
 <br />
 
@@ -166,9 +152,10 @@ Some rooms have Monstros, Gurdy Jr.'s, or Cages that spawn near an entrance. If 
 The changed rooms are as follows:
 * Utero: #133 (Gurdy Jr.)
 * Sheol: #212 (Cage)
-* Chest: #43, #69 (Monstro)
 * Chest: #14, #56 (Gurdy Jr.)
 * Chest: #34 (Cage)
+* Chest: #43, #69 (Monstro)
+* Chest: #301 (Gurglings)
 * The Dark Room: #14, #83 (Cage)
 * The Dark Room: #34 (Monstro)
 
@@ -626,9 +613,12 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 
 ## Version History
 
+* *1.26* - June 2nd
+  * Deleted all of the modified rulesets from the standalone Jud6s release; these can now be found in the Isaac Racing Mods package.
+  * Fixed an unavoidable damage room in the Chest with 7 Gurglings.
 * *1.25* - May 28th
   * Fixed the key pieces on The Chest in the Mega Satan ruleset.
-  * Fixed the unavoidable damage Dark Room room with 3 Cages.
+  * Fixed an unavoidable damage Dark Room room with 3 Cages.
 * *1.24* - May 24th
   * Added a Mega Satan ruleset that includes both key pieces next to the Mega Satan door.
   * Deleted the Seeded Dark Room ruleset.

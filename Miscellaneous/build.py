@@ -1,4 +1,4 @@
-#! C:\Python35\python.exe
+#! C:\Python34\python.exe
 
 # Imports
 import os
@@ -7,27 +7,14 @@ import zipfile
 from PIL import Image, ImageFont, ImageDraw
 
 # Configuration
-version = '1.25'
+version = '1.26'
 title_screen_text = 'Jud6s Mod v' + version
-ruleset1 = 'Ruleset 1 - Normal'
-ruleset2 = 'Ruleset 2 - Seeded'
-ruleset3 = 'Ruleset 3 - Dark Room'
-ruleset4 = 'Ruleset 4 - LCO Loser\'s Bracket'
-ruleset5 = 'Ruleset 5 - Mega Satan'
 
-# Make a "jud6s_version.txt" file in each of the ruleset directories
-with open('../' + ruleset1 + '/jud6s_version.txt', 'w') as f:
-    f.write(version)
-with open('../' + ruleset2 + '/jud6s_version.txt', 'w') as f:
-    f.write(version)
-with open('../' + ruleset3 + '/jud6s_version.txt', 'w') as f:
-    f.write(version)
-with open('../' + ruleset4 + '/jud6s_version.txt', 'w') as f:
-    f.write(version)
-with open('../' + ruleset5 + '/jud6s_version.txt', 'w') as f:
+# Make a "jud6s_version.txt" file
+with open('../resources/jud6s_version.txt', 'w') as f:
     f.write(version)
 
-# Draw the version number on the title menu graphic x5
+# Draw the version number on the title menu graphic
 print('Drawing "' + title_screen_text + '" on the title screens...')
 large_font = ImageFont.truetype('IsaacSans.ttf', 19)
 small_font = ImageFont.truetype('IsaacSans.ttf', 15)
@@ -35,66 +22,20 @@ small_font = ImageFont.truetype('IsaacSans.ttf', 15)
 # No ruleset
 title_img = Image.open('titlemenu-base.png')
 title_draw = ImageDraw.Draw(title_img)
-title_draw.text((345, 239), title_screen_text, (134, 86, 86), font=large_font)
+w, h = title_draw.textsize(title_screen_text, font=large_font)
+title_draw.text((405 - w / 2, 239), title_screen_text, (134, 86, 86), font=large_font)
 title_img.save('titlemenu-noruleset.png')
 
 # Ruleset 1
 title_img = Image.open('titlemenu-base.png')
 title_draw = ImageDraw.Draw(title_img)
-title_draw.text((345, 239), title_screen_text, (134, 86, 86), font=large_font)
-title_draw.text((345, 256), ruleset1, (134, 86, 86), font=small_font)
-title_img.save('../' + ruleset1 + '/gfx/ui/main menu/titlemenu.png')
+w, h = title_draw.textsize(title_screen_text, font=large_font)
+title_draw.text((405 - w / 2, 239), title_screen_text, (134, 86, 86), font=large_font)
+ruleset_name = 'Ruleset 1 - Unseeded'
+w, h = title_draw.textsize(ruleset_name, font=small_font)
+title_draw.text((405 - w / 2, 256), ruleset_name, (134, 86, 86), font=small_font)
+title_img.save('../resources/gfx/ui/main menu/titlemenu.png')
 title_img.save('titlemenu-ruleset1.png')
-
-# Ruleset 2
-title_img = Image.open('titlemenu-base.png')
-title_draw = ImageDraw.Draw(title_img)
-title_draw.text((345, 239), title_screen_text, (134, 86, 86), font=large_font)
-title_draw.text((342, 256), ruleset2, (134, 86, 86), font=small_font)
-title_img.save('../' + ruleset2 + '/gfx/ui/main menu/titlemenu.png')
-title_img.save('titlemenu-ruleset2.png')
-
-# Ruleset 3
-title_img = Image.open('titlemenu-base.png')
-title_draw = ImageDraw.Draw(title_img)
-title_draw.text((345, 239), title_screen_text, (134, 86, 86), font=large_font)
-title_draw.text((333, 256), ruleset3, (134, 86, 86), font=small_font)
-title_img.save('../' + ruleset3 + '/gfx/ui/main menu/titlemenu.png')
-title_img.save('titlemenu-ruleset3.png')
-
-# Ruleset 4
-title_img = Image.open('titlemenu-base.png')
-title_draw = ImageDraw.Draw(title_img)
-title_draw.text((345, 239), title_screen_text, (134, 86, 86), font=large_font)
-title_draw.text((342, 256), 'LCO Loser\'s Bracket', (134, 86, 86), font=small_font)
-title_img.save('../' + ruleset4 + '/gfx/ui/main menu/titlemenu.png')
-title_img.save('titlemenu-ruleset4.png')
-
-# Ruleset 5
-title_img = Image.open('titlemenu-base.png')
-title_draw = ImageDraw.Draw(title_img)
-title_draw.text((345, 239), title_screen_text, (134, 86, 86), font=large_font)
-title_draw.text((322, 256), ruleset5, (134, 86, 86), font=small_font)
-title_img.save('../' + ruleset5 + '/gfx/ui/main menu/titlemenu.png')
-title_img.save('titlemenu-ruleset5.png')
-
-# Copy the rooms files from ruleset 1
-print('Copying the rooms files...')
-for file_name in os.listdir('../' + ruleset1 + '/rooms'):
-    file_full_path = os.path.join('../' + ruleset1 + '/rooms', file_name)
-
-    if (file_name != '00.special rooms.stb'): # Don't copy the special rooms because of the Angel Room change
-        shutil.copyfile(file_full_path, '../' + ruleset2 + '/rooms/' + file_name)
-    shutil.copyfile(file_full_path, '../' + ruleset3 + '/rooms/' + file_name)
-    shutil.copyfile(file_full_path, '../' + ruleset4 + '/rooms/' + file_name)
-    if (file_name != '16.dark room.stb' and file_name != '17.chest.stb'): # Don't copy The Chest or Dark Room because of the key pieces change
-        shutil.copyfile(file_full_path, '../' + ruleset5 + '/rooms/' + file_name)
-
-# Special rooms must be manually updated in ruleset 2
-pass
-
-# The Chest and Dark Room must be manually updated in ruleset 5
-pass
 
 # Rename README.md to README.txt extension so that noobs are less confused
 shutil.move('../README.md', '../README.txt')

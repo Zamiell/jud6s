@@ -62,15 +62,11 @@ echo ^|          is not what you want, close this window now.       ^|
 echo ^+-------------------------------------------------------------^+
 echo.
 echo Choose a ruleset:
-echo   1) Normal
-echo   2) Seeded
-echo   3) Dark Room
-echo   4) The Lost Child Open Loser's Bracket
-echo   5) Mega Satan
+echo   1) Normal / Unseeded
 echo.
 echo Or:
-echo   6) Uninstall all mods (except for config.ini)
-echo   7) Do nothing and exit
+echo   2) Uninstall all mods (except for config.ini)
+echo   3) Do nothing and exit
 echo.
 set /p id="Enter your choice: "
 echo.
@@ -78,11 +74,7 @@ echo.
 rem Validate user input (the brackets are needed to test for an empty input)
 if [%id%] == [1] goto :start
 if [%id%] == [2] goto :start
-if [%id%] == [3] goto :start
-if [%id%] == [4] goto :start
-if [%id%] == [5] goto :start
-if [%id%] == [6] goto :start
-if [%id%] == [7] exit /B
+if [%id%] == [3] exit /B
 echo You did not enter a valid choice. Exiting...
 pause
 exit /B
@@ -108,12 +100,8 @@ if not [%id%] == [6] (
 )
 
 rem Copy the files over (the /S flag is to include folders and the /Q flag is to make it be quiet)
-if [%id%] == [1] xcopy /S /Q "%~dp0Ruleset 1 - Normal" "%ResourcesFolder%"
-if [%id%] == [2] xcopy /S /Q "%~dp0Ruleset 2 - Seeded" "%ResourcesFolder%"
-if [%id%] == [3] xcopy /S /Q "%~dp0Ruleset 3 - Dark Room" "%ResourcesFolder%"
-if [%id%] == [4] xcopy /S /Q "%~dp0Ruleset 4 - LCO Loser's Bracket" "%ResourcesFolder%"
-if [%id%] == [5] xcopy /S /Q "%~dp0Ruleset 5 - Mega Satan" "%ResourcesFolder%"
-if [%id%] == [6] echo All mods have been uninstalled.
+if [%id%] == [1] xcopy /S /Q "%~dp0resources" "%ResourcesFolder%"
+if [%id%] == [2] echo All mods have been uninstalled.
 
 rem All done.
 echo.
