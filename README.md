@@ -5,8 +5,8 @@
 
 ## Download
 
-* [Download the Isaac Racing Mods package.](https://github.com/Zamiell/isaac-racing-mods/releases/)
-* Or, [download only the Jud6s mod.](https://github.com/Zamiell/jud6s/releases/)
+* Download [the Isaac Racing Mods package](https://github.com/Zamiell/isaac-racing-mods/releases/).
+* Or, download [only the Jud6s mod](https://github.com/Zamiell/jud6s/releases/).
 
 <br />
 
