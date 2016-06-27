@@ -1,4 +1,4 @@
-# The Jud6s Mod v1.26
+# The Jud6s Mod v1.27
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
@@ -28,11 +28,11 @@ Alternatively, you can manually install the mod by copying all of the files in t
 
 `C:\Program Files (x86)\Steam\steamapps\common\The Binding of Isaac Rebirth\resources\`
 
-To go back to an unmodded game, delete everything in the resources folder except for the "packed" directory.
+To go back to an unmodded game, delete everything in the resources directory except for the "packed" directory.
 
 #### Mac & Linux
 
-After unzipping the mod files, you should see a "resources" subdirectory. Install the mod by copying all of the contents of that "resources" folder into your Isaac resources folder. On Mac, this is typically `/Users/[your-user-name]/Library/Application Support/Steam/SteamApps/common/the binding of isaac/The Binding Of Isaac.app/Content/Resources/resources/`
+After unzipping the mod files, you should see a "resources" subdirectory. Install the mod by copying the contents of that directory into your Isaac resources directory. On Mac, this is typically `/Users/[your-user-name]/Library/Application Support/Steam/SteamApps/common/the binding of isaac/The Binding Of Isaac.app/Content/Resources/resources/`
 
 <br />
 
@@ -589,6 +589,7 @@ Rooms with entities out of bounds have been placed in bounds. This does not affe
 Certain rooms in the game were meant to be symmetrical, but one entity or tile was incorrectly placed. This is fixed.
 
 * Basement/Cellar: #772
+* Basement: #581
 * Caves: #28, #120, #416
 * Womb/Utero: #705
 
@@ -613,6 +614,8 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 
 ## Version History
 
+* *1.27* - June 27th
+  * Basement room #581 was made symmetrical.
 * *1.26* - June 2nd
   * Deleted all of the modified rulesets from the standalone Jud6s release; these can now be found in the Isaac Racing Mods package.
   * Fixed an unavoidable damage room in the Chest with 7 Gurglings.
