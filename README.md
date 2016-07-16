@@ -609,7 +609,7 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 * Mama Gurdy - In Afterbirth, you have more time to dodge the spikes before the hitbox appears.
 * Daddy Long Legs - In Afterbirth, the multiple stomp attack no longer damages you before the animation begins.
 * The Forsaken - Before doing the Brimstone attack, he moves to the center of the room, giving you enough space to dodge, even in a narrow room.
-* Pride (narrow room) - Sometimes, the bombs spawn in such a way that it is unavoidable damage, but this is relatively rare.
+* Pride (narrow room) - Sometimes, the bombs spawn in such a way that it is unavoidable damage, but this is rare.
 
 <br />
 
