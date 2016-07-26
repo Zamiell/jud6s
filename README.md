@@ -616,7 +616,7 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 ## Version History
 
 * *1.28* - July 26th
-  * Delete the L-shaped room with a Forsaken in The Chest.
+  * Deleted the L-shaped room with a Forsaken in The Chest.
 * *1.27* - June 27th
   * Basement room #581 was made symmetrical.
 * *1.26* - June 2nd
