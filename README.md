@@ -1,4 +1,4 @@
-# The Jud6s Mod v1.27
+# The Jud6s Mod v1.28
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
@@ -161,12 +161,12 @@ The changed rooms are as follows:
 
 <br />
 
-### Double Forsaken Fix
+### Forsaken Fix
 
-If one Forsaken does a Brimstone attack in a clockwise direction and the other Forsaken does a Brimstone attack in a counter-clockwise direction, it is impossible to dodge.
+If a Forsaken does a Brimstone attack in the middle of a L-shaped room, it can sometimes be unavoidable.
 
-The deleted room is as follows:
-* Chest: #296
+The deleted rooms are as follows:
+* Chest: #295, #296
 
 <br />
 
@@ -615,6 +615,8 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 
 ## Version History
 
+* *1.28* - July 26th
+  * Delete the L-shaped room with a Forsaken in The Chest.
 * *1.27* - June 27th
   * Basement room #581 was made symmetrical.
 * *1.26* - June 2nd
