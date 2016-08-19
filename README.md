@@ -1,4 +1,4 @@
-# The Jud6s Mod v1.28
+# The Jud6s Mod v1.29
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
@@ -615,6 +615,8 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 
 ## Version History
 
+* *1.29* - August 19th
+  * Added the D6 to Eve and Keeper for people who are using custom save files.
 * *1.28* - July 26th
   * Deleted the L-shaped room with a Forsaken in The Chest.
 * *1.27* - June 27th
