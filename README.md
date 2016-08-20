@@ -1,4 +1,4 @@
-# The Jud6s Mod v1.29
+# The Jud6s Mod v1.30
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
@@ -186,6 +186,7 @@ The changed rooms are as follows:
 * Catacombs: #46, #440, #518 (Boom Fly)
 * Catacombs: #548 (Drowned Hive)
 * Depths: #11 (Boom Fly)
+* Depths: #16 (Brain)
 * Womb/Utero: #203 (Lump)
 * Womb: #333 (Fistula)
 * Womb: #410 (Sucker)
@@ -615,6 +616,8 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 
 ## Version History
 
+* *1.30* - August 20th
+  * Fixed an unavoidable damage room in the Depths with a champion Brain.
 * *1.29* - August 19th
   * Added the D6 to Eve and Keeper for people who are using custom save files.
 * *1.28* - July 26th
