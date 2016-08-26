@@ -1,4 +1,4 @@
-# The Jud6s Mod v1.30
+# The Jud6s Mod v1.31
 ##### A racing mod for The Binding of Isaac: Afterbirth
 
 <br /><br />
@@ -616,6 +616,8 @@ Certain rooms in the game were meant to be symmetrical, but one entity or tile w
 
 ## Version History
 
+* *1.31* - August 26th
+  * Changed the "EnableColorCorrection" and "EnableFilter" values in the default "config.ini" to 0. (They were mistakenly set to 1.)
 * *1.30* - August 20th
   * Fixed an unavoidable damage room in the Depths with a champion Brain.
 * *1.29* - August 19th
