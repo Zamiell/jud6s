@@ -1,5 +1,4 @@
-# The Jud6s Mod
-#### Version History
+# Version History
 
 * *1.32* - Unreleased
   * The documentation for the mod was moved from the README file (and [the GitHub repository page](https://github.com/Zamiell/jud6s)) to [a new website](http://zamiell.github.io/jud6s/).

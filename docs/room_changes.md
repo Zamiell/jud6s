@@ -1,5 +1,4 @@
-# The Jud6s Mod
-#### Room Changes
+# Room Changes
 
 The technical details of all of the room changes in the mod are listed here for those who want to know the specifics.
 
