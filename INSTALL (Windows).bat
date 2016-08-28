@@ -95,7 +95,7 @@ for /D %%i in ("%ResourcesFolder%\*") do (
 rem If we are not uninstalling all mods, copy over config.ini if it doesn't already exist
 if not [%id%] == [6] (
 	if not exist "%ResourcesFolder%\config.ini" (
-		xcopy /Q "%~dp0Miscellaneous\config.ini" "%ResourcesFolder%"
+		xcopy /Q "%~dp0miscellaneous\config.ini" "%ResourcesFolder%"
 	)
 )
 
