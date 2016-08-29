@@ -1,8 +1,9 @@
 # Version History
 
-* *1.32* - Unreleased
+* *1.32* - August 28th
   * The documentation for the mod was moved from the README file (and [the GitHub repository page](https://github.com/Zamiell/jud6s)) to [a new website](http://zamiell.github.io/jud6s/).
   * Added [the GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.en.html) to the project.
+  * Changed "EnableColorCorrection" in the default "config.ini" back to 1, since it makes the game look too dark without actually increasing performance. (Thanks to Krakenos for this.)
 * *1.31* - August 26th
   * Changed the "EnableColorCorrection" and "EnableFilter" values in the default "config.ini" to 0. (They were mistakenly set to 1.)
 * *1.30* - August 20th
