@@ -1,5 +1,7 @@
 # Version History
 
+* *1.33* - October 18th
+  * Fixed the bug where Lilith did not start with the D6 properly.
 * *1.32* - August 28th
   * The documentation for the mod was moved from the README file (and [the GitHub repository page](https://github.com/Zamiell/jud6s)) to [a new website](http://zamiell.github.io/jud6s/).
   * Added [the GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.en.html) to the project.
