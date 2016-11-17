@@ -315,8 +315,8 @@ Low range builds soft-lock in certain rooms. The rooms are fixed by moving the e
 The changed rooms are as follows:
 * Caves: #226, #305
 * Catacombs: #305
-* Depths: #226
-* Necropolis: #226
+* Depths: #226, #417
+* Necropolis: #226, #417
 * Womb: #458, #459
 * Utero: #458, #459
 
