@@ -1,5 +1,7 @@
 # Version History
 
+* *1.35* - November 18th
+  * Fixed the bug with Azazel where his charge animation was overwritten by Monstro's Lung, Leviathan, and so forth. (This bug is also present in vanilla.)
 * *1.34* - November 17th 
   * Fixed the 2x2 Blind Creep low-range softlock room in the Depths and Necropolis. Thanks to Hikarichan for reporting this.
 * *1.33* - October 18th

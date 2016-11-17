@@ -9,13 +9,13 @@
 	<costume anm2path="Character_003_cainsEyepatch.anm2" id="8" priority="99" type="none" />
 	<costume anm2path="Character_004_JudasFez.anm2" id="9" priority="99" type="none" />
 	<costume anm2path="Character_005_EveHead.anm2" id="10" priority="99" type="none" />
-	<costume anm2path="Character_008_AzazelHead.anm2" id="11" isFlying="true" overwriteColor="true" priority="23" skinColor="1" type="none" />
+	<costume anm2path="Character_008_AzazelHead.anm2" id="11" isFlying="true" overwriteColor="true" priority="205" skinColor="1" type="none" />
 	<costume anm2path="Character_009_EdenHair1.anm2" id="12" priority="99" type="none" />
 	<costume anm2path="Character_007_SamsonHead.anm2" id="13" priority="99" type="none" />
 	<costume anm2path="n014_Blindfold.anm2" id="14" priority="101" type="none" />
 	<costume anm2path="n015_blank.anm2" hasSkinAlt="true" id="15" priority="100" type="none" />
 	<costume anm2path="n016_Christmas.anm2" id="16" type="none" />
-	
+
 	<costume anm2path="n017_Purity Glow.anm2" id="17" priority="2" type="none" />
 	<costume anm2path="n018_Empty Vessel.anm2" id="18" isFlying="true" overwriteColor="true" skinColor="1" type="none" />
 	<costume anm2path="n019_MawMark.anm2" id="19" priority="2" type="none" />
@@ -261,7 +261,7 @@
 	</costume>
 	<costume anm2path="198_box.anm2" id="198" type="passive">
 	</costume>
-	
+
 	<costume anm2path="199_Moms Key.anm2" id="199" type="passive" />
 	<costume anm2path="200_momseyeshadow.anm2" id="200" type="passive" />
 	<costume anm2path="201_ironbar.anm2" id="201" type="passive" />
@@ -295,7 +295,7 @@
 	<costume anm2path="232_stopwatch.anm2" id="232" type="passive" />
 	<costume anm2path="233_tiny planet.anm2" id="233" type="passive" />
 	<costume anm2path="234_infestation2.anm2" id="234" type="passive" />
-	
+
 	<costume anm2path="236_ecoli.anm2" id="236" type="passive" />
 	<costume anm2path="237_deathstouch.anm2" id="237" type="passive" />
 	<costume anm2path="240_experimentaltreatment.anm2" hasSkinAlt="true" id="240" type="passive" />
@@ -332,14 +332,14 @@
 	<costume anm2path="308_aquarius.anm2" id="308" type="passive" />
 	<costume anm2path="309_pisces.anm2" hasSkinAlt="true" id="309" type="passive" />
 	<costume anm2path="310_evesmascara.anm2" id="310" type="passive" />
-	
+
 	<costume anm2path="312_maggysbow.anm2" id="312" type="passive" />
 	<costume anm2path="313_holymantle.anm2" id="313" type="passive" />
 	<costume anm2path="314_thunderthighs.anm2" hasSkinAlt="true" id="314" type="passive" />
 	<costume anm2path="315_strangeattractor.anm2" id="315" type="passive" />
 	<costume anm2path="316_cursedeye.anm2" id="316" priority="202" type="passive" />
 	<costume anm2path="317_mysteriousliquid.anm2" id="317" type="passive" />
-	
+
 	<costume anm2path="327_thepolaroid.anm2" id="327" type="passive" />
 	<costume anm2path="328_thenegative.anm2" id="328" type="passive" />
 	<costume anm2path="329_TheLudovicoTreatment.anm2" id="329" type="passive" />
@@ -358,7 +358,7 @@
 	<costume anm2path="343_LatchKey.anm2" id="343" type="passive" />
 	<costume anm2path="344_matchbook.anm2" id="344" type="passive" />
 	<costume anm2path="345_Synthoil.anm2" id="345" type="passive" />
-	
+
 	<costume anm2path="350_ToxicShock.anm2" id="350" type="passive" />
 	<costume anm2path="353_bomberboy.anm2" id="353" type="passive" />
 	<costume anm2path="354_crackerjacks.anm2" id="354" type="passive" />	
@@ -397,7 +397,7 @@
 	<costume anm2path="412_cambionconception.anm2" id="412" overwriteColor="true" skinColor="1" type="passive" />	
 	<costume anm2path="413_immaculateconception.anm2" id="413" type="passive" />	
 	<costume anm2path="414_moreoptions.anm2" id="414" type="passive" />	
-	
+
 	<costume anm2path="418_FruitCake.anm2" hasSkinAlt="true" id="418" type="passive" />
 	<costume anm2path="420_BlackPowder.anm2" id="420" type="passive" />
 	<costume anm2path="424_SackHead.anm2" id="424" type="passive" />
@@ -407,6 +407,6 @@
 	<costume anm2path="432_glitterbombs.anm2" hasOverlay="true" id="432" type="passive" />
 	<costume anm2path="433_MyShadow.anm2" id="433" type="passive" />
 	<costume anm2path="438_Binky.anm2" id="438" type="passive" />
-	
+
 	<costume anm2path="t53_Tick.anm2" id="53" type="trinket" />
 </costumes>
