@@ -101,7 +101,7 @@
 	</costume>
 	<costume anm2path="055_Moms Eye.anm2" hasSkinAlt="true" id="55" type="passive">
 	</costume>
-	<costume anm2path="058_Book of Shadows.anm2" id="58" isFlying="true" priority="101" type="active">
+	<costume anm2path="058_Book of Shadows.anm2" id="58" isFlying="true" priority="206" type="active">
 	</costume>
 	<costume anm2path="062_Charm of the Vampire.anm2" hasSkinAlt="true" id="62" type="passive">
 	</costume>

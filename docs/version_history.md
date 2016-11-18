@@ -1,5 +1,7 @@
 # Version History
 
+* *1.36* - November 18th
+  * Set shields to the highest priority, which should fix the issue with Azazel from the last patch.
 * *1.35* - November 18th
   * Fixed the bug with Azazel where his charge animation was overwritten by Monstro's Lung, Leviathan, and so forth. (This bug is also present in vanilla.) Thanks to Cyber_1 for reporting this.
 * *1.34* - November 17th 
