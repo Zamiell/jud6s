@@ -1,6 +1,6 @@
-# Room Changes
+# Room Changes - Balance
 
-The technical details of all of the room changes in the mod are listed here for those who want to know the specifics.
+Some rooms were purely changed for balance reasons.
 
 <br />
 
@@ -26,6 +26,12 @@ The deleted rooms are as follows:
 * #7 (1 eternal heart and 4 soul hearts)
 * #4 (2 eternal hearts)
 * #3 (3 soul hearts)
+
+<br />
+
+# Room Changes - Bug Fixes
+
+The Jud6s mod tries to fix as many bugs as possible. The technical details of all of the room changes in the mod are listed here for those who want to know the specifics.
 
 <br />
 
