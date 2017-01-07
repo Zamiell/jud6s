@@ -29,6 +29,24 @@ The deleted rooms are as follows:
 
 <br />
 
+### Treasure Room Fix for Judas
+
+The Treasure Room with two pedestals and spikes has been slightly tweaked so that Judas can use a bomb to get the item without spending a soul heart.
+
+The changed room is as follows:
+* Treasure Room: #21
+
+<br />
+
+### Trapdoor Room
+
+On Sheol, there exists a room with a trapdoor that takes you directly to the Dark Room without having to fight Satan. This puts too much of an extreme lower bound on the clear time of the floor.
+
+The removed room is as follows:
+* Sheol: #290
+
+<br />
+
 # Room Changes - Bug Fixes
 
 The Jud6s mod tries to fix as many bugs as possible. The technical details of all of the room changes in the mod are listed here for those who want to know the specifics.
@@ -434,27 +452,9 @@ The removed room is as follows:
 
 <br />
 
-### Trapdoor Room
-
-On Sheol, there exists a room with a trapdoor that takes you directly to the Dark Room without having to fight Satan. This puts too much of an extreme lower bound on the clear time of the floor.
-
-The removed room is as follows:
-* Sheol: #290
-
-<br />
-
-### Treasure Room Fix for Judas
-
-The Treasure Room with two pedestals and spikes has been slightly tweaked so that Judas can use a bomb to get the item without spending a soul heart.
-
-The changed room is as follows:
-* Treasure Room: #21
-
-<br />
-
 ### Donation Machine Room Removal
 
-One room in the Necropolis has a donation machine in it. With donation machines removed from the game, this room is largely useless.
+One room in the Necropolis has a donation machine in it. Since using the BLCK CNDL seed removes donation machines from the game, this room is largely useless.
 
 The removed room is as follows:
 * Necropolis: #469
