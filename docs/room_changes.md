@@ -1,6 +1,6 @@
 # Room Changes - Balance
 
-Some rooms were purely changed for balance reasons.
+Some rooms were purely changed for balance (racing) reasons. Rooms with bug fixes are below in a different section.
 
 <br />
 
