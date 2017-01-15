@@ -1,5 +1,16 @@
 # Version History
 
+* *2.00* - Unreleased
+  * Updated the mod for Afterbirth+. Install it by [subscribing to the mod on Steam](http://steamcommunity.com/workshop/filedetails/?id=842735484). Next, toggle it on by using the in-game mod menu. There's tons of interesting things that I wanted to do in Afterbirth+, like add two active item slots so that a player could always have the D6, but what is possible is extremely limited.
+  * Eve and Eden now always start with the D6 (thanks to some new Afterbirth+ hacks).
+  * Apollyon now starts with the D6.
+  * Keeper still starts with the Wooden Penny over the D6. However, he now also starts with Duality, which makes racing him more consistent.
+  * Judas now starts with a half filled red heart container.
+  * Blue Baby now starts with 3 and a half soul hearts.
+  * The mod no longer includes a "config.ini", since that can't be bundled with a mod. If you want to use a "config.ini" file, just keep one in your resources directory.
+  * Afterbirth+ fixed charge animations with Azazel/transformations, so the Jud6s mod no longer includes fixes for that.
+  * Removed the "Teleport up" animation, which is fairly useless. (It plays when using Hermit card, and so forth.)
+  * Lengthened all shortened death animations from 1 frame to 4 frames.
 * *1.36* - November 18th
   * Set shields to the highest priority, which should fix the issue with Azazel from the last patch.
 * *1.35* - November 18th
