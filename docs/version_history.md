@@ -1,19 +1,19 @@
 # Version History
 
+* *4.0.2* - January 15th, 2017
+  * Azazel now starts with the same health that Judas does. (This is a better solution than giving him an extra half black heart or half soul heart.)
 * *4.0.1* - January 15th, 2017
   * Keeper starts with the D6, Greed's Gullet, Duality, and 25 cents. This should make racing him more consistent.
 * *4.0.0* - January 14th, 2017
-  * Updated the mod for Afterbirth+. There's many interesting things that I wanted to do in Afterbirth+, like automatically remove curses so that you don't have to type in BLCK CNDL every time, but what is possible is extremely limited.
-  * Install it by:
-    * [Subscribe to the mod on Steam](http://steamcommunity.com/workshop/filedetails/?id=842735484).
-    * Toggle it on by using the in-game "Mod" option in the menu.
-    * Completely restart the game.
-    * You should see the bottom right hand corner of the title screen change.
+  * Updated the mod for Afterbirth+. I was hoping to do some simple things, like automatically remove curses so that you don't have to type in BLCK CNDL every time. However, the Lua API is extremely limited, so this is impossible (at the current time).
+  * You can install the mod by following the instructions on [the Steam workshop page for the mod](http://steamcommunity.com/workshop/filedetails/?id=842735484).
+  * The version number is changed to be in the [Semantic Versioning 2.0.0](http://semver.org/) format. It is also bumped up pto 4.0.0 so that it will be in-line with the Isaac Racing Mods (which is currently unreleased).
   * There is no unavoidable room changes yet. However, Devil/Angel rooms are fixed, along with the starting room of the Dark Room.
   * Eve and Eden now always start with the D6 (thanks to some new Afterbirth+ hacks).
   * Apollyon now starts with the D6.
-  * Judas now starts with a half filled red heart container.
-  * Blue Baby now starts with 3 and a half soul hearts.
+  * Judas now starts with a half filled red heart container. (This was the way it was originally intended to be, but was impossible to do until now.)
+  * Blue Baby now starts with 3 and a half soul hearts. (This is from [community consensus](http://www.speedrun.com/afterbirth/thread/p82nh).)
+  * The "No Achievements" icon has been replaced by Judas' fez to signify that you are playing on the Jud6s mod.
   * The mod no longer includes a "config.ini", since that can't be bundled with a mod. If you want to use a "config.ini" file, just keep one in your resources directory.
   * Afterbirth+ fixed charge animations with Azazel/transformations, so the Jud6s mod no longer includes fixes for that.
   * Removed the "Teleport up" animation, which is fairly useless. (It plays when using Hermit card, and so forth.)
