@@ -7,7 +7,7 @@ import zipfile
 from PIL import Image, ImageFont, ImageDraw
 
 # Configuration
-version = '4.0.0'
+version = '4.0.1'
 title_screen_text = 'Jud6s Mod v' + version
 
 # Make a "jud6s_version.txt" file
@@ -35,7 +35,7 @@ ruleset_name = 'Ruleset 1 - Unseeded'
 w, h = title_draw.textsize(ruleset_name, font=small_font)
 title_draw.text((405 - w / 2, 256), ruleset_name, (134, 86, 86), font=small_font)
 title_img.save('../resources/gfx/ui/main menu/titlemenu.png')
-#title_img.save('titlemenu-ruleset1.png')
+title_img.save('titlemenu-ruleset1.png')
 
 # Make the zip file
 print('Making a zip file...')

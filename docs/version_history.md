@@ -1,67 +1,74 @@
 # Version History
 
-* *2.00* - Unreleased
-  * Updated the mod for Afterbirth+. Install it by [subscribing to the mod on Steam](http://steamcommunity.com/workshop/filedetails/?id=842735484). Next, toggle it on by using the in-game mod menu. There's tons of interesting things that I wanted to do in Afterbirth+, like add two active item slots so that a player could always have the D6, but what is possible is extremely limited.
+* *4.0.1* - January 15th, 2017
+  * Keeper starts with the D6, Greed's Gullet, Duality, and 25 cents. This should make racing him more consistent.
+* *4.0.0* - January 14th, 2017
+  * Updated the mod for Afterbirth+. There's many interesting things that I wanted to do in Afterbirth+, like automatically remove curses so that you don't have to type in BLCK CNDL every time, but what is possible is extremely limited.
+  * Install it by:
+    * [Subscribe to the mod on Steam](http://steamcommunity.com/workshop/filedetails/?id=842735484).
+    * Toggle it on by using the in-game "Mod" option in the menu.
+    * Completely restart the game.
+    * You should see the bottom right hand corner of the title screen change.
+  * There is no unavoidable room changes yet. However, Devil/Angel rooms are fixed, along with the starting room of the Dark Room.
   * Eve and Eden now always start with the D6 (thanks to some new Afterbirth+ hacks).
   * Apollyon now starts with the D6.
-  * Keeper still starts with the Wooden Penny over the D6. However, he now also starts with Duality, which makes racing him more consistent.
   * Judas now starts with a half filled red heart container.
   * Blue Baby now starts with 3 and a half soul hearts.
   * The mod no longer includes a "config.ini", since that can't be bundled with a mod. If you want to use a "config.ini" file, just keep one in your resources directory.
   * Afterbirth+ fixed charge animations with Azazel/transformations, so the Jud6s mod no longer includes fixes for that.
   * Removed the "Teleport up" animation, which is fairly useless. (It plays when using Hermit card, and so forth.)
   * Lengthened all shortened death animations from 1 frame to 4 frames.
-* *1.36* - November 18th
+* *1.36* - November 18th, 2016
   * Set shields to the highest priority, which should fix the issue with Azazel from the last patch.
-* *1.35* - November 18th
+* *1.35* - November 18th, 2016
   * Fixed the bug with Azazel where his charge animation was overwritten by Monstro's Lung, Leviathan, and so forth. (This bug is also present in vanilla.) Thanks to Cyber_1 for reporting this.
-* *1.34* - November 17th 
+* *1.34* - November 17th, 2016
   * Fixed the 2x2 Blind Creep low-range softlock room in the Depths and Necropolis. Thanks to Hikarichan for reporting this.
-* *1.33* - October 18th
+* *1.33* - October 18th, 2016
   * Fixed the bug where Lilith did not start with the D6 properly.
-* *1.32* - August 28th
+* *1.32* - August 28th, 2016
   * The documentation for the mod was moved from the README file (and [the GitHub repository page](https://github.com/Zamiell/jud6s)) to [a new website](http://zamiell.github.io/jud6s/).
   * Added [the GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.en.html) to the project.
   * Changed "EnableColorCorrection" in the default "config.ini" back to 1, since it makes the game look too dark without actually increasing performance. (Thanks to Krakenos for this.)
-* *1.31* - August 26th
+* *1.31* - August 26th, 2016
   * Changed the "EnableColorCorrection" and "EnableFilter" values in the default "config.ini" to 0. (They were mistakenly set to 1.)
-* *1.30* - August 20th
+* *1.30* - August 20th, 2016
   * Fixed an unavoidable damage room in the Depths with a champion Brain.
-* *1.29* - August 19th
+* *1.29* - August 19th, 2016
   * Added the D6 to Eve and Keeper for people who are using custom save files.
-* *1.28* - July 26th
+* *1.28* - July 26th, 2016
   * Deleted the L-shaped room with a Forsaken in The Chest.
-* *1.27* - June 27th
+* *1.27* - June 27th, 2016
   * Basement room #581 was made symmetrical.
-* *1.26* - June 2nd
+* *1.26* - June 2nd, 2016
   * Deleted all of the modified rulesets from the standalone Jud6s release; these can now be found in the Isaac Racing Mods package.
   * Fixed an unavoidable damage room in the Chest with 7 Gurglings.
-* *1.25* - May 28th
+* *1.25* - May 28th, 2016
   * Fixed the key pieces on The Chest in the Mega Satan ruleset.
   * Fixed an unavoidable damage Dark Room room with 3 Cages.
-* *1.24* - May 24th
+* *1.24* - May 24th, 2016
   * Added a Mega Satan ruleset that includes both key pieces next to the Mega Satan door.
   * Deleted the Seeded Dark Room ruleset.
   * Fixed a near-unavoidable L-shaped Womb room where a Blastocyst spawned too close to the door.
   * Removed an empty room from the Cathedral.
-* *1.23* - May 20th
+* *1.23* - May 20th, 2016
   * Fixed 3 rooms that soft-locked Technology builds.
   * Fixed 9 rooms that soft-lock low-range builds.
   * Removed 2 empty rooms from Sheol.
   * Removed Book of Sin from the seeded rulesets.
   * Fixed the bug with the Utero turret room with retractable spikes. (I made the Womb version of the symmetrical, but forgot to make the Utero version symmetrical.)
   * Fixed the bug where the It Lives death animation was improperly taken out of the Lost Child Open ruleset.
-* *1.22* - April 18th
+* *1.22* - April 18th, 2016
   * Removed the Basement/Cellar puzzle room with the red fires along the sides, as it is sometimes unavoidable damage.
   * Removed the Karma trinket from the game, since all Donation Machines are removed on the BLCK CNDL seed.
   * Removed the Amnesia and ??? pill from the game, since all curses are removed on the BLCK CNDL seed.
   * Removed the Cain's Eye trinket from the game on the seeded rulesets, since starting with The Compass makes it have no effect.
-* *1.21* - April 13th
+* *1.21* - April 13th, 2016
   * Set the the Satan death animation to 30 frames; note that the 3rd phase of the fight will happen a lot quicker now, so be prepared for the stomps.
   * Set The Lamb death animation to 1 frame.
   * Integrated the "Fogless! v1.1" graphics mod by Dan (https://moddingofisaac.com/mod/950/fogless) into the Jud6s mod. This helps eliminate lag on slower computers and makes the game clearer to see.
   * Integrated a config.ini file (https://steamcommunity.com/app/250900/discussions/0/613941122558099449/) into the Jud6s mod. It will only be installed if you install the mod with the provided installer script. This file tells the game to disable certain graphical effects, such as the water on Flooded Caves. This helps eliminate lag on slower computers and makes the game clearer to see. If you already have a config.ini in your resources directory, then the installer script will not bother copying anything over. If you don't like the way that the config.ini makes the game look, simply delete the file from your resources directory.
-* *1.20* - April 11th
+* *1.20* - April 11th, 2016
   * Removed the More Options mode, since nobody uses it anymore.
   * Reverted the skull change in the Depths/Necropolis bomb puzzle room, as it doesn't actually stop spikes from spawning on Dank Depths. If you get spikes spawning on a critical path and you don't have flying, you are pretty much screwed.
   * Fixed a soft-lock in one of the Turdling boss rooms.
@@ -72,24 +79,24 @@
   * Deleted an unavoidable damage room on the Dark Room with 5 Nulls.
   * Fixed an unavoidable damage room with explosive champion Bone Knights in the Dark Room.
   * Fixed an unavoidable damage room with chunky poop in the Basement. (The Gushers in the room were also moved to address unavoidable damage on Ipecac builds.)
-* *1.19* - March 9th
+* *1.19* - March 9th, 2016
   * Fixed an unavoidable damage room with double Gurdy in Utero.
   * Fixed a soft-lock that occurs in the Womb/Utero room with 4 turrets and very large tears.
-* *1.18* - February 22nd
+* *1.18* - February 22nd, 2016
   * Reverted the death animation removal for It Lives, which fixes the bug with the death tears.
   * Fixed an unavoidable damage room with a Mulligan in the Basement.
   * Fixed an unavoidable damage room with a Maggot in the Caves.
   * Removed the useless room with the donation machine in Necropolis.
   * Made Womb/Utero room #705 and Caves room #28 symmetrical.
-* *1.17* - February 9th
+* *1.17* - February 9th, 2016
   * Fixed the bug where shields would not show if the player was using the Pony or the White Pony.
   * Changed The Lost Child Open loser's bracket ruleset:
     * The previous changes have been reverted.
     * Judas now starts with Judas' Shadow and 0 HP.
-* *1.16* - February 8th
+* *1.16* - February 8th, 2016
   * Removed the 2x1 Adversary room in the Dark Room.
   * Fixed the Black Bonies on Depths/Necropolis room #668.
-* *1.15* - February 7th
+* *1.15* - February 7th, 2016
   * The installer script will no longer delete config.ini.
   * Reorganized the ruleset numbers.
   * Fixed the door on Basement/Cellar room #772.
@@ -97,15 +104,15 @@
   * Added a new ruleset for The Lost Child Open loser's bracket:
     * Blue Baby now starts with a bomb and an extra half soul heart.
     * Judas Shadow and Lazarus' Rags are removed from all pools.
-* *1.14* - January 24th
+* *1.14* - January 24th, 2016
   * Teleport! and Undefined have been removed from all pools in the seeded mode.
-* *1.13* - January 21st
+* *1.13* - January 21st, 2016
   * The Windows installation script will now attempt to automatically find your "resources" directory using Steam, which means it will now work if you have Isaac installed in a non-standard place. (Thanks to Ipn for this.)
   * Fixed a 2x1 Chest room by moving the Blastocysts slightly away from the doors.
-* *1.12* - January 16th 
+* *1.12* - January 16th, 2016
   * Deleted a Basement/Cellar L-shaped Pooter room.
   * Changed some Basement rooms to fix the Pooter soft-lock.
-* *1.11* - January 15th
+* *1.11* - January 15th, 2016
   * Deleted the Chest narrow double Headless Horseman room.
   * Deleted the Chest narrow Mega Maw room.
   * Deleted the Chest narrow Gurdy Jr. room.
