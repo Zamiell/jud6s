@@ -3,7 +3,7 @@
 * *4.0.3* - January 19th, 2017
   * Chronometrics figured out a way via Lua code to emulate Wrath of the Lamb room clear style (doors opening on the beginning of the death animation instead of the end). Subsequently, all boss death animations have been reverted back to their vanilla length. A huge thanks goes to him! This is now the biggest feature of the Jud6s mod.
   * Chronometrics also figured out a way to stop all of the Void Portals from spawning. No more run ending portals!
-  * Note that when using the Jud6s mod, certain characters items will appear buggy in the [Rebirth Item Tracker](https://github.com/Hyphen-ated/RebirthItemTracker/releases) unless you have the latest version (v1.2.3 or later).
+  * Note that when using the Jud6s mod, certain characters items will appear buggy in the [Rebirth Item Tracker](https://github.com/Hyphen-ated/RebirthItemTracker/releases) unless you have the latest version of the tracker (v1.2.3 or later).
   * Jud6s still does not contain all of the room fixes. I'll do that later.
 * *4.0.2* - January 15th, 2017
   * Azazel now starts with the same health that Judas does. (This is a better solution than giving him an extra half black heart or half soul heart.)
