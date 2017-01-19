@@ -1,5 +1,9 @@
 # Version History
 
+* *4.0.5* - Unreleased
+  * Changed the new Devil Rooms and Angel Rooms to 1.0 weight (the same as all of the other rooms).
+* *4.0.4* - January 19th, 2017
+  * Fixed active item charges not accumulating properly.
 * *4.0.3* - January 19th, 2017
   * Chronometrics figured out a way via Lua code to emulate Wrath of the Lamb room clear style (doors opening on the beginning of the death animation instead of the end). Subsequently, all boss death animations have been reverted back to their vanilla length. A huge thanks goes to him! This is now the biggest feature of the Jud6s mod.
   * Chronometrics also figured out a way to stop all of the Void Portals from spawning. No more run ending portals!
@@ -12,7 +16,7 @@
 * *4.0.0* - January 14th, 2017
   * Updated the mod for Afterbirth+. I was hoping to do some simple things, like automatically remove curses so that you don't have to type in BLCK CNDL every time. However, the Lua API is extremely limited, so this is impossible (at the current time).
   * You can install the mod by following the instructions on [the Steam workshop page for the mod](http://steamcommunity.com/workshop/filedetails/?id=842735484).
-  * The version number is changed to be in the [Semantic Versioning 2.0.0](http://semver.org/) format. It is also bumped up pto 4.0.0 so that it will be in-line with the Isaac Racing Mods (which is currently unreleased).
+  * The version number is changed to be in the [Semantic Versioning 2.0.0](http://semver.org/) format. It is also bumped up to 4.0.0 so that it will be in-line with the Isaac Racing Mods (which is currently unreleased).
   * There is no unavoidable room changes yet. However, Devil/Angel rooms are fixed, along with the starting room of the Dark Room.
   * Eve and Eden now always start with the D6 (thanks to some new Afterbirth+ hacks).
   * Apollyon now starts with the D6.
