@@ -1,5 +1,10 @@
 # Version History
 
+* *4.0.3* - January 19th, 2017
+  * Chronometrics figured out a way via Lua code to emulate Wrath of the Lamb room clear style (doors opening on the beginning of the death animation instead of the end). Subsequently, all boss death animations have been reverted back to their vanilla length. A huge thanks goes to him! This is now the biggest feature of the Jud6s mod.
+  * Chronometrics also figured out a way to stop all of the Void Portals from spawning. No more run ending portals!
+  * Note that when using the Jud6s mod, certain characters items will appear buggy in the [Rebirth Item Tracker](https://github.com/Hyphen-ated/RebirthItemTracker/releases) unless you have the latest version (v1.2.3 or later).
+  * Jud6s still does not contain all of the room fixes. I'll do that later.
 * *4.0.2* - January 15th, 2017
   * Azazel now starts with the same health that Judas does. (This is a better solution than giving him an extra half black heart or half soul heart.)
 * *4.0.1* - January 15th, 2017
@@ -16,7 +21,7 @@
   * The "No Achievements" icon has been replaced by Judas' fez to signify that you are playing on the Jud6s mod.
   * The mod no longer includes a "config.ini", since that can't be bundled with a mod. If you want to use a "config.ini" file, just keep one in your resources directory.
   * Afterbirth+ fixed charge animations with Azazel/transformations, so the Jud6s mod no longer includes fixes for that.
-  * Removed the "Teleport up" animation, which is fairly useless. (It plays when using Hermit card, and so forth.)
+  * Removed the "Teleport up" animation, which is fairly useless. (It plays when using a Hermit card, and so forth.)
   * Lengthened all shortened death animations from 1 frame to 4 frames.
 * *1.36* - November 18th, 2016
   * Set shields to the highest priority, which should fix the issue with Azazel from the last patch.
