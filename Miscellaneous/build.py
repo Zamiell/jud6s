@@ -8,7 +8,7 @@ import zipfile
 from PIL import Image, ImageFont, ImageDraw
 
 # Configuration
-version = '4.0.4'
+version = '4.0.5'
 title_screen_text = 'Jud6s Mod v' + version
 
 # Make a "jud6s_version.txt" file

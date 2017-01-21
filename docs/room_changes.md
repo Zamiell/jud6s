@@ -55,7 +55,7 @@ The Jud6s mod tries to fix as many bugs as possible. The technical details of al
 
 ### Dople & Evil Twin Fix
 
-When holding down the tear fire button and entering a room with a Dople or Evil Twin, the player is hit with an unavoidable tear. This bug is fixed by changing all the spawn points of the enemies to be near the corner of the room. Once the room is loaded, the enemy will snap back to where they are supposed to be, but the initial buggy tear will not be in line with the player.
+When shooting in a forward direction and entering a room with a Dople or Evil Twin, the player can be with an unavoidable tear. This bug is fixed by changing all the spawn points of the enemies to be near the corner of the room. Once the room is loaded, the enemy will snap back to where they are supposed to be, but the initial buggy tear will not be in line with the player.
 
 The changed rooms are as follows:
 * Womb: #56-#62, #114-#118, #259-#261, #289, #301, #598, #605, #624, #646, #661 

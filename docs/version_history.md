@@ -1,7 +1,8 @@
 # Version History
 
-* *4.0.5* - Unreleased
+* *4.0.5* - January 21st, 2017
   * Changed the new Devil Rooms and Angel Rooms to 1.0 weight (the same as all of the other rooms).
+  * Fixed the Boss Rush door not properly opening. (It was related to the WotL-style room clear.)
 * *4.0.4* - January 19th, 2017
   * Fixed active item charges not accumulating properly.
 * *4.0.3* - January 19th, 2017
