@@ -1,5 +1,10 @@
 # Version History
 
+* *4.0.7* - January 26th, 2017
+  * Changed the way room clearing works to fix a bug where the doors would if the last enemy remaining spawned children.
+* *4.0.6* - January 25th, 2017
+  * Fixed a bug with rooms clearing incorrectly.
+  * Fixed a bug with characters not consistently getting their starting items.
 * *4.0.5* - January 21st, 2017
   * Changed the new Devil Rooms and Angel Rooms to 1.0 weight (the same as all of the other rooms).
   * Fixed the Boss Rush door not properly opening. (It was related to the WotL-style room clear.)
