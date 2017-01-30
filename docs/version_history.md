@@ -1,6 +1,8 @@
 # Version History
 
-* *4.0.9* - Unreleased
+* *4.0.10* - Unreleased
+  * Fixed BFFs with Sack of Pennies.
+* *4.0.9* - January 29th
   * The 10 "bag" items now work with the Jud6s mod.
   * Fixed the bug where Mystery Sack would not generate actual random consumables (half soul heart, etc.).
   * Made Lil Chest seeded. (In vanilla, it is based on time elapsed.)
