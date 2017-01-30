@@ -1,5 +1,17 @@
 # Version History
 
+* *4.0.9* - Unreleased
+  * The 10 "bag" items now work with the Jud6s mod.
+  * Fixed the bug where Mystery Sack would not generate actual random consumables (half soul heart, etc.).
+  * Made Lil Chest seeded. (In vanilla, it is based on time elapsed.)
+  * Fixed the bug where the "items.xml" file was on an older patch.
+  * Added a fast-clear exception for Squirts.
+  * Added a fast-clear exception for all non-boss champions.
+  * Added a fast-clear exception for puzzle rooms.
+* *4.0.8* - January 26th, 2017
+  * Changed the way room clearing works again to hopefully be better.
+  * There is now an fast-clear exception for Fistula, Teratoma, and Meatball.
+  * Fixed the spelling of Humbling Bundle.
 * *4.0.7* - January 26th, 2017
   * Changed the way room clearing works to fix a bug where the doors would if the last enemy remaining spawned children.
 * *4.0.6* - January 25th, 2017
