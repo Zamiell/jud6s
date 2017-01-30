@@ -1,10 +1,21 @@
 # Version History
 
-* *4.0.10* - Unreleased
-  * Fixed BFFs with Sack of Pennies.
+* *4.0.10* - January 30th
+  * Implemented a "runGoal" variable that you can set at the top of the "main.lua" file. Possible values are "Blue Baby", "The Lamb" and "Mega Satan". It is "Blue Baby" by default.
+  * Implemented a "runFormat" variable that you can set at the top of the "main.lua" file. Possible values are "Unseeded", "Seeded", "Diveristy", and "Custom". It is "Unseeded" by default.
+  * Implemented item bans for races. Because the Lua bindings suck, I had to do a hacky solution that swaps the items in-place. When this occurs, there will be a fart effect so that it is obvious as to what is going on.
+  * It is not currently possible to seed Teleport and Undefined, so they have been banned from races with "Seeded" as a goal.
+  * Implemented The Polaroid / The Negative removal depending on your "runGoal". By default, it will remove The Negative.
+  * Implemented W2 trap door / beam of light removal depending on your "runGoal". By default, it will remove the trap door.
+  * Fixed seed incrementation from touching active pedestal items. (The code also automatically fixes Key Pieces and Pandora's Box items being unseeded.)
+  * Book of Sin is now seeded.
+  * Fixed the bug where Book of Sin would not generate actual random pickups (half soul heart, etc.).
+  * Fixed Juicy Sack with BFFs!
+  * Fixed Sack of Pennies with BFFs!
+  * Fixed Lil Chest with BFFs!
 * *4.0.9* - January 29th
   * The 10 "bag" items now work with the Jud6s mod.
-  * Fixed the bug where Mystery Sack would not generate actual random consumables (half soul heart, etc.).
+  * Fixed the bug where Mystery Sack would not generate actual random pickups (half soul heart, etc.).
   * Made Lil Chest seeded. (In vanilla, it is based on time elapsed.)
   * Fixed the bug where the "items.xml" file was on an older patch.
   * Added a fast-clear exception for Squirts.
