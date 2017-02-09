@@ -3,4 +3,6 @@
 
 <br />
 
-For more information, please visit [the website for the Jud6s mod](https://zamiell.github.io/jud6s/).
+The Jud6s mod is now renamed to the Racing+ mod. You can find more information about it at [the official website](https://isaacracing.net).
+
+If you want to view the old, outdated website, you can find it [here](https://zamiell.github.io/jud6s/).

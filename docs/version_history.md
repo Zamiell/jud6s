@@ -1,5 +1,7 @@
 # Version History
 
+* February 8th
+  * The Jud6s mod is now renamed to the Racing+ mod. You can find more information about it at [the official website](https://isaacracing.net).
 * *4.0.10* - January 30th
   * Implemented a "runGoal" variable that you can set at the top of the "main.lua" file. Possible values are "Blue Baby", "The Lamb" and "Mega Satan". It is "Blue Baby" by default.
   * Implemented a "runFormat" variable that you can set at the top of the "main.lua" file. Possible values are "Unseeded", "Seeded", "Diveristy", and "Custom". It is "Unseeded" by default.
